@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type="text/xsl" href="apk-analyser-result.xsl"?>
-<apks datetime="2015-02-05 16:39:34">
-  <apk id="com.eg.android.AlipayGphone" note="Top apps downloaded from wandoujia.com. Decompile failed for QQ and Sogou IME apps.">
+<apks datetime="2015-02-05 16:39:34" note="Top apps downloaded from wandoujia.com. Decompile failed for QQ and Sogou IME apps.">
+  <apk id="com.eg.android.AlipayGphone">
     <crosswalk iscrosswalk="" mode="" architecture="" webview="yes webkit" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="支付宝钱包" file="b1e3f5f8abc03f29793dec24b49aaf4e.apk" size="32.4MB" launchableactivity="com.eg.android.AlipayGphone.AlipayLogin" versioncode="73" versionname="8.5.3.012601" sdkversion="9" targetsdkversion="19"/>
     <smali>android</smali>
