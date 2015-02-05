@@ -150,6 +150,9 @@
             <xsl:when test="@webview = 'yes'">
              <td class="rt limw"><xsl:value-of select="@webview"/></td>
             </xsl:when>
+            <xsl:when test="@webview = 'yes webkit'">
+             <td class="rt limw"><xsl:value-of select="@webview"/></td>
+            </xsl:when>
             <xsl:otherwise>
               <td class="limw"><xsl:value-of select="@webview"/></td>
             </xsl:otherwise>
