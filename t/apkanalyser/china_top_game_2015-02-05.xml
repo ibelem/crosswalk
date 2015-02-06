@@ -1,57 +1,154 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type="text/xsl" href="apk-analyser-result.xsl"?>
-<apks datetime="2015-02-05 15:00:32">
+<apks datetime="2015-02-06 16:33:12">
   <apk id="cn.mobage.g12000128.wdj">
-    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a crosswalk based app."/>
+    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="航海王 启航" file="086ce7d75e7d2a0dd4d2e29b26d47c96.apk" size="162.1MB" launchableactivity="org.cocos2dx.javascript.AppActivity" versioncode="20150119" versionname="1.28" sdkversion="9" targetsdkversion=""/>
     <smali>android/support/v4</smali>
+    <smali>android/support/v4/view</smali>
+    <smali>android/support/v4/database</smali>
+    <smali>android/support/v4/content</smali>
+    <smali>android/support/v4/app</smali>
+    <smali>android/support/v4/net</smali>
+    <smali>android/support/v4/util</smali>
+    <smali>android/support/v4/widget</smali>
+    <smali>android/support/v4/accessibilityservice</smali>
+    <smali>android/support/v4/os</smali>
     <smali>android/net/http</smali>
     <smali>gnu/trove/decorator</smali>
     <smali>at/spardat/xma</smali>
+    <smali>at/spardat/xma/xdelta</smali>
     <smali>cn/mobage/g12000128</smali>
+    <smali>cn/mobage/g12000128/wdj</smali>
     <smali>com/denachina/allianceutils</smali>
     <smali>com/denachina/advertise</smali>
+    <smali>com/denachina/advertise/utils</smali>
     <smali>com/denachina/wdj</smali>
     <smali>com/denachina/alliance</smali>
+    <smali>com/denachina/alliance/utils</smali>
     <smali>com/android/vending</smali>
+    <smali>com/android/vending/billing</smali>
     <smali>com/android/volley</smali>
+    <smali>com/android/volley/toolbox</smali>
     <smali>com/dena/utility</smali>
     <smali>com/weibo/sdk</smali>
+    <smali>com/weibo/sdk/android</smali>
     <smali>com/google/gson</smali>
+    <smali>com/google/gson/reflect</smali>
+    <smali>com/google/gson/annotations</smali>
+    <smali>com/google/gson/stream</smali>
+    <smali>com/google/gson/internal</smali>
     <smali>com/sina/sso</smali>
     <smali>com/testin/agent</smali>
+    <smali>com/testin/agent/cache</smali>
+    <smali>com/testin/agent/common</smali>
+    <smali>com/testin/agent/nativecrash</smali>
+    <smali>com/testin/agent/utils</smali>
+    <smali>com/testin/agent/entry</smali>
+    <smali>com/testin/agent/db</smali>
+    <smali>com/testin/agent/javacrash</smali>
+    <smali>com/testin/agent/base</smali>
     <smali>com/jakewharton/disklrucache</smali>
     <smali>com/loopj/android</smali>
+    <smali>com/loopj/android/http</smali>
     <smali>com/wandoujia/mariosdk</smali>
+    <smali>com/wandoujia/mariosdk/plugin</smali>
     <smali>com/wandoujia/pluginframework</smali>
+    <smali>com/wandoujia/pluginframework/config</smali>
+    <smali>com/wandoujia/pluginframework/a</smali>
     <smali>com/db4o/config</smali>
+    <smali>com/db4o/config/encoding</smali>
+    <smali>com/db4o/config/annotations</smali>
     <smali>com/db4o/ta</smali>
     <smali>com/db4o/types</smali>
     <smali>com/db4o/qlin</smali>
     <smali>com/db4o/events</smali>
     <smali>com/db4o/foundation</smali>
+    <smali>com/db4o/foundation/io</smali>
     <smali>com/db4o/reflect</smali>
+    <smali>com/db4o/reflect/generic</smali>
+    <smali>com/db4o/reflect/core</smali>
+    <smali>com/db4o/reflect/jdk</smali>
     <smali>com/db4o/diagnostic</smali>
     <smali>com/db4o/marshall</smali>
     <smali>com/db4o/messaging</smali>
     <smali>com/db4o/internal</smali>
+    <smali>com/db4o/internal/config</smali>
+    <smali>com/db4o/internal/threading</smali>
+    <smali>com/db4o/internal/weakref</smali>
+    <smali>com/db4o/internal/convert</smali>
+    <smali>com/db4o/internal/classindex</smali>
+    <smali>com/db4o/internal/callbacks</smali>
+    <smali>com/db4o/internal/qlin</smali>
+    <smali>com/db4o/internal/events</smali>
+    <smali>com/db4o/internal/encoding</smali>
+    <smali>com/db4o/internal/replication</smali>
+    <smali>com/db4o/internal/slots</smali>
+    <smali>com/db4o/internal/references</smali>
+    <smali>com/db4o/internal/reflect</smali>
+    <smali>com/db4o/internal/metadata</smali>
+    <smali>com/db4o/internal/fieldindex</smali>
+    <smali>com/db4o/internal/diagnostic</smali>
+    <smali>com/db4o/internal/caching</smali>
+    <smali>com/db4o/internal/marshall</smali>
+    <smali>com/db4o/internal/ids</smali>
+    <smali>com/db4o/internal/btree</smali>
+    <smali>com/db4o/internal/fileheader</smali>
+    <smali>com/db4o/internal/freespace</smali>
+    <smali>com/db4o/internal/io</smali>
+    <smali>com/db4o/internal/handlers</smali>
+    <smali>com/db4o/internal/activation</smali>
+    <smali>com/db4o/internal/delete</smali>
+    <smali>com/db4o/internal/collections</smali>
+    <smali>com/db4o/internal/transactionlog</smali>
+    <smali>com/db4o/internal/query</smali>
+    <smali>com/db4o/internal/mapping</smali>
     <smali>com/db4o/defragment</smali>
     <smali>com/db4o/typehandlers</smali>
+    <smali>com/db4o/typehandlers/internal</smali>
     <smali>com/db4o/ext</smali>
     <smali>com/db4o/constraints</smali>
     <smali>com/db4o/drs</smali>
+    <smali>com/db4o/drs/db4o</smali>
     <smali>com/db4o/io</smali>
     <smali>com/db4o/activation</smali>
     <smali>com/db4o/collections</smali>
     <smali>com/db4o/query</smali>
     <smali>com/nothome/delta</smali>
+    <smali>com/nothome/delta/text</smali>
     <smali>com/sim/core</smali>
     <smali>com/mobage/global</smali>
+    <smali>com/mobage/global/android</smali>
     <smali>com/mobage/android</smali>
+    <smali>com/mobage/android/social</smali>
+    <smali>com/mobage/android/cn</smali>
+    <smali>com/mobage/android/http</smali>
+    <smali>com/mobage/android/localapi</smali>
+    <smali>com/mobage/android/bank</smali>
+    <smali>com/mobage/android/jp</smali>
+    <smali>com/mobage/android/notification</smali>
+    <smali>com/mobage/android/mobagenativesdklib</smali>
+    <smali>com/mobage/android/utils</smali>
+    <smali>com/mobage/android/us</smali>
+    <smali>com/mobage/android/iab</smali>
+    <smali>com/mobage/android/lang</smali>
     <smali>com/mobage/mobagexpromotion</smali>
+    <smali>com/mobage/mobagexpromotion/view</smali>
+    <smali>com/mobage/mobagexpromotion/http</smali>
+    <smali>com/mobage/mobagexpromotion/net</smali>
+    <smali>com/mobage/mobagexpromotion/data</smali>
+    <smali>com/mobage/mobagexpromotion/exception</smali>
+    <smali>com/mobage/mobagexpromotion/utils</smali>
+    <smali>com/mobage/mobagexpromotion/webview</smali>
+    <smali>com/mobage/mobagexpromotion/entity</smali>
+    <smali>com/mobage/mobagexpromotion/asynctask</smali>
+    <smali>com/mobage/mobagexpromotion/db</smali>
     <smali>jp/dena/mobage</smali>
+    <smali>jp/dena/mobage/android</smali>
     <smali>org/apache/http</smali>
+    <smali>org/apache/http/entity</smali>
     <smali>org/acra/jraf</smali>
+    <smali>org/acra/jraf/android</smali>
     <smali>org/acra/util</smali>
     <smali>org/acra/collector</smali>
     <smali>org/acra/annotation</smali>
@@ -2403,45 +2500,163 @@
     <asset>numberwhite.fnt</asset>
   </apk>
   <apk id="com.boyaa.lordland.wdj">
-    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a crosswalk based app."/>
+    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="玩玩斗地主" file="aaab8bc27ab2462b419dc93517d53055.apk" size="13.2MB" launchableactivity="com.boyaa.lordland.sina.LoginAcitivity" versioncode="1527" versionname="2.1.1" sdkversion="8" targetsdkversion="8"/>
     <smali>android/support/v4</smali>
+    <smali>android/support/v4/view</smali>
+    <smali>android/support/v4/database</smali>
+    <smali>android/support/v4/text</smali>
+    <smali>android/support/v4/content</smali>
+    <smali>android/support/v4/app</smali>
+    <smali>android/support/v4/net</smali>
+    <smali>android/support/v4/util</smali>
+    <smali>android/support/v4/widget</smali>
+    <smali>android/support/v4/accessibilityservice</smali>
+    <smali>android/support/v4/internal</smali>
+    <smali>android/support/v4/os</smali>
+    <smali>android/support/v4/hardware</smali>
+    <smali>android/support/v4/media</smali>
+    <smali>android/support/v4/graphics</smali>
     <smali>android/net/http</smali>
     <smali>gnu/trove/a</smali>
     <smali>cn/egame/terminal</smali>
+    <smali>cn/egame/terminal/paysdk</smali>
     <smali>com/android/volley</smali>
+    <smali>com/android/volley/toolbox</smali>
     <smali>com/android/internal</smali>
+    <smali>com/android/internal/telephony</smali>
     <smali>com/weibo/sdk</smali>
+    <smali>com/weibo/sdk/android</smali>
     <smali>com/tencent/mm</smali>
+    <smali>com/tencent/mm/a</smali>
+    <smali>com/tencent/mm/sdk</smali>
     <smali>com/google/zxing</smali>
+    <smali>com/google/zxing/qrcode</smali>
+    <smali>com/google/zxing/common</smali>
+    <smali>com/google/zxing/multi</smali>
+    <smali>com/google/zxing/client</smali>
+    <smali>com/google/zxing/oned</smali>
+    <smali>com/google/zxing/datamatrix</smali>
     <smali>com/sina/sso</smali>
     <smali>com/sms/purchasesdk</smali>
+    <smali>com/sms/purchasesdk/view</smali>
     <smali>com/squareup/wire</smali>
     <smali>com/jakewharton/disklrucache</smali>
     <smali>com/igexin/a</smali>
+    <smali>com/igexin/a/h</smali>
+    <smali>com/igexin/a/e</smali>
+    <smali>com/igexin/a/a</smali>
+    <smali>com/igexin/a/d</smali>
+    <smali>com/igexin/a/g</smali>
+    <smali>com/igexin/a/c</smali>
+    <smali>com/igexin/a/b</smali>
+    <smali>com/igexin/a/f</smali>
     <smali>com/igexin/getuiext</smali>
+    <smali>com/igexin/getuiext/view</smali>
+    <smali>com/igexin/getuiext/service</smali>
+    <smali>com/igexin/getuiext/a</smali>
+    <smali>com/igexin/getuiext/util</smali>
+    <smali>com/igexin/getuiext/data</smali>
+    <smali>com/igexin/getuiext/activity</smali>
     <smali>com/igexin/sdk</smali>
+    <smali>com/igexin/sdk/aidl</smali>
     <smali>com/igexin/download</smali>
     <smali>com/igexin/b</smali>
+    <smali>com/igexin/b/a</smali>
+    <smali>com/igexin/b/b</smali>
     <smali>com/umeng/common</smali>
+    <smali>com/umeng/common/a</smali>
+    <smali>com/umeng/common/net</smali>
+    <smali>com/umeng/common/b</smali>
     <smali>com/umeng/analytics</smali>
     <smali>com/wandoujia/image</smali>
+    <smali>com/wandoujia/image/view</smali>
+    <smali>com/wandoujia/image/a</smali>
+    <smali>com/wandoujia/image/b</smali>
     <smali>com/wandoujia/message</smali>
     <smali>com/wandoujia/rpc</smali>
+    <smali>com/wandoujia/rpc/http</smali>
     <smali>com/wandoujia/a</smali>
+    <smali>com/wandoujia/a/a</smali>
     <smali>com/wandoujia/contacts</smali>
+    <smali>com/wandoujia/contacts/service</smali>
+    <smali>com/wandoujia/contacts/a</smali>
+    <smali>com/wandoujia/contacts/d</smali>
+    <smali>com/wandoujia/contacts/c</smali>
+    <smali>com/wandoujia/contacts/model</smali>
+    <smali>com/wandoujia/contacts/b</smali>
     <smali>com/wandoujia/udid</smali>
     <smali>com/wandoujia/payment</smali>
     <smali>com/wandoujia/sdk</smali>
+    <smali>com/wandoujia/sdk/plugin</smali>
     <smali>com/wandoujia/wandoujiapaymentplugin</smali>
+    <smali>com/wandoujia/wandoujiapaymentplugin/utils</smali>
+    <smali>com/wandoujia/wandoujiapaymentplugin/api</smali>
     <smali>com/wandoujia/cloud</smali>
+    <smali>com/wandoujia/cloud/protocol</smali>
+    <smali>com/wandoujia/cloud/a</smali>
+    <smali>com/wandoujia/cloud/b</smali>
     <smali>com/wandoujia/gson</smali>
+    <smali>com/wandoujia/gson/reflect</smali>
+    <smali>com/wandoujia/gson/annotations</smali>
+    <smali>com/wandoujia/gson/stream</smali>
+    <smali>com/wandoujia/gson/internal</smali>
     <smali>com/wandoujia/mariosdk</smali>
+    <smali>com/wandoujia/mariosdk/view</smali>
+    <smali>com/wandoujia/mariosdk/task</smali>
+    <smali>com/wandoujia/mariosdk/e</smali>
+    <smali>com/wandoujia/mariosdk/service</smali>
+    <smali>com/wandoujia/mariosdk/a</smali>
+    <smali>com/wandoujia/mariosdk/d</smali>
+    <smali>com/wandoujia/mariosdk/g</smali>
+    <smali>com/wandoujia/mariosdk/contacts</smali>
+    <smali>com/wandoujia/mariosdk/net</smali>
+    <smali>com/wandoujia/mariosdk/fragment</smali>
+    <smali>com/wandoujia/mariosdk/c</smali>
+    <smali>com/wandoujia/mariosdk/pay</smali>
+    <smali>com/wandoujia/mariosdk/utils</smali>
+    <smali>com/wandoujia/mariosdk/activity</smali>
+    <smali>com/wandoujia/mariosdk/lib</smali>
+    <smali>com/wandoujia/mariosdk/manager</smali>
+    <smali>com/wandoujia/mariosdk/push</smali>
+    <smali>com/wandoujia/mariosdk/model</smali>
+    <smali>com/wandoujia/mariosdk/b</smali>
+    <smali>com/wandoujia/mariosdk/api</smali>
+    <smali>com/wandoujia/mariosdk/f</smali>
     <smali>com/wandoujia/push</smali>
+    <smali>com/wandoujia/push/protocol</smali>
+    <smali>com/wandoujia/push/a</smali>
+    <smali>com/wandoujia/push/handler</smali>
     <smali>com/wandoujia/log</smali>
+    <smali>com/wandoujia/log/toolkit</smali>
     <smali>com/wandoujia/account</smali>
+    <smali>com/wandoujia/account/activities</smali>
+    <smali>com/wandoujia/account/h</smali>
+    <smali>com/wandoujia/account/e</smali>
+    <smali>com/wandoujia/account/a</smali>
+    <smali>com/wandoujia/account/d</smali>
+    <smali>com/wandoujia/account/g</smali>
+    <smali>com/wandoujia/account/dto</smali>
+    <smali>com/wandoujia/account/constants</smali>
+    <smali>com/wandoujia/account/widget</smali>
+    <smali>com/wandoujia/account/fragment</smali>
+    <smali>com/wandoujia/account/i</smali>
+    <smali>com/wandoujia/account/c</smali>
+    <smali>com/wandoujia/account/storage</smali>
+    <smali>com/wandoujia/account/b</smali>
+    <smali>com/wandoujia/account/listener</smali>
+    <smali>com/wandoujia/account/f</smali>
     <smali>com/wandoujia/base</smali>
+    <smali>com/wandoujia/base/view</smali>
+    <smali>com/wandoujia/base/a</smali>
+    <smali>com/wandoujia/base/services</smali>
+    <smali>com/wandoujia/base/c</smali>
+    <smali>com/wandoujia/base/utils</smali>
+    <smali>com/wandoujia/base/storage</smali>
+    <smali>com/wandoujia/base/b</smali>
     <smali>com/wandoujia/comm</smali>
+    <smali>com/wandoujia/comm/tcp</smali>
+    <smali>com/wandoujia/comm/ftp</smali>
     <smali>com/boyaa/zxing</smali>
     <smali>com/boyaa/wx</smali>
     <smali>com/boyaa/net</smali>
@@ -2449,21 +2664,51 @@
     <smali>com/boyaa/zxinglib</smali>
     <smali>com/boyaa/widget</smali>
     <smali>com/boyaa/lordland</smali>
+    <smali>com/boyaa/lordland/sina</smali>
+    <smali>com/boyaa/lordland/wdj</smali>
     <smali>com/boyaa/zinglib</smali>
     <smali>com/boyaa/made</smali>
     <smali>com/boyaa/entry</smali>
+    <smali>com/boyaa/entry/guest</smali>
+    <smali>com/boyaa/entry/wandoujia</smali>
     <smali>com/boyaa/download</smali>
     <smali>com/boyaa/application</smali>
     <smali>com/boyaa/iap</smali>
+    <smali>com/boyaa/iap/smspay</smali>
+    <smali>com/boyaa/iap/wdjpay</smali>
     <smali>com/boyaa/thirdpart</smali>
     <smali>com/boyaa/entity</smali>
+    <smali>com/boyaa/entity/file</smali>
+    <smali>com/boyaa/entity/core</smali>
+    <smali>com/boyaa/entity/common</smali>
+    <smali>com/boyaa/entity/resdown</smali>
+    <smali>com/boyaa/entity/php</smali>
+    <smali>com/boyaa/entity/images</smali>
+    <smali>com/boyaa/entity/sysInfo</smali>
+    <smali>com/boyaa/entity/update</smali>
     <smali>com/boyaa/push</smali>
+    <smali>com/boyaa/push/receiver</smali>
     <smali>com/nothome/delta</smali>
     <smali>com/sim/core</smali>
     <smali>com/unicom/dcLoader</smali>
     <smali>com/org/apache</smali>
+    <smali>com/org/apache/http</smali>
     <smali>mm/sms/purchasesdk</smali>
+    <smali>mm/sms/purchasesdk/fingerprint</smali>
+    <smali>mm/sms/purchasesdk/e</smali>
+    <smali>mm/sms/purchasesdk/a</smali>
+    <smali>mm/sms/purchasesdk/d</smali>
+    <smali>mm/sms/purchasesdk/c</smali>
+    <smali>mm/sms/purchasesdk/sms</smali>
+    <smali>mm/sms/purchasesdk/b</smali>
+    <smali>mm/sms/purchasesdk/f</smali>
     <smali>org/jboss/netty</smali>
+    <smali>org/jboss/netty/a</smali>
+    <smali>org/jboss/netty/logging</smali>
+    <smali>org/jboss/netty/util</smali>
+    <smali>org/jboss/netty/channel</smali>
+    <smali>org/jboss/netty/handler</smali>
+    <smali>org/jboss/netty/b</smali>
     <asset>termsofservice1.html</asset>
     <asset>classes.jar</asset>
     <asset>help.html</asset>
@@ -3231,23 +3476,51 @@
     <asset>ROOMLISTGZ</asset>
   </apk>
   <apk id="com.Raytheon.feijihd">
-    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a crosswalk based app."/>
+    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="雷神战机HD" file="6579874829872d992a0de92d1f276140.apk" size="13.2MB" launchableactivity="com.bjlxtech.airplane.AirPlaneBattle" versioncode="2255" versionname="2.2.5.5" sdkversion="8" targetsdkversion=""/>
     <smali>cn/egame/terminal</smali>
+    <smali>cn/egame/terminal/paysdk</smali>
     <smali>com/mmwpay/android</smali>
+    <smali>com/mmwpay/android/inf</smali>
     <smali>com/a/a</smali>
+    <smali>com/a/a/a</smali>
     <smali>com/telpay/android</smali>
+    <smali>com/telpay/android/inf</smali>
     <smali>com/alipay/android</smali>
+    <smali>com/alipay/android/app</smali>
     <smali>com/sms/purchasesdk</smali>
+    <smali>com/sms/purchasesdk/view</smali>
     <smali>com/wow/shell</smali>
     <smali>com/unipay/android</smali>
+    <smali>com/unipay/android/inf</smali>
     <smali>com/unicom/dcLoader</smali>
     <smali>com/bjlxtech/airplane</smali>
     <smali>com/bjlxtech/utils</smali>
+    <smali>com/bjlxtech/utils/string</smali>
+    <smali>com/bjlxtech/utils/http</smali>
+    <smali>com/bjlxtech/utils/common</smali>
+    <smali>com/bjlxtech/utils/data</smali>
+    <smali>com/bjlxtech/utils/toast</smali>
+    <smali>com/bjlxtech/utils/bean</smali>
+    <smali>com/bjlxtech/utils/log</smali>
+    <smali>com/bjlxtech/utils/upgrade</smali>
     <smali>com/bjlxtech/download</smali>
     <smali>com/dle/psdk</smali>
+    <smali>com/dle/psdk/recv</smali>
+    <smali>com/dle/psdk/a</smali>
+    <smali>com/dle/psdk/inf</smali>
+    <smali>com/dle/psdk/svc</smali>
     <smali>mm/sms/purchasesdk</smali>
+    <smali>mm/sms/purchasesdk/fingerprint</smali>
+    <smali>mm/sms/purchasesdk/e</smali>
+    <smali>mm/sms/purchasesdk/a</smali>
+    <smali>mm/sms/purchasesdk/d</smali>
+    <smali>mm/sms/purchasesdk/c</smali>
+    <smali>mm/sms/purchasesdk/sms</smali>
+    <smali>mm/sms/purchasesdk/b</smali>
+    <smali>mm/sms/purchasesdk/f</smali>
     <smali>egame/terminal/feesmslib</smali>
+    <smali>egame/terminal/feesmslib/jni</smali>
     <smali>org/cocos2dx/lib</smali>
     <asset>classes.jar</asset>
     <asset>cfgResSec.dat</asset>
@@ -4368,45 +4641,116 @@
     <app name="保卫萝卜2" file="9c899008b75ff868a035b1b90d98f6d5.apk" size="64.3MB" launchableactivity="com.carrot.iceworld.CarrotFantasy" versioncode="200" versionname="1.3.0" sdkversion="8" targetsdkversion=""/>
   </apk>
   <apk id="com.crisisfire.android.wdj">
-    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a crosswalk based app."/>
+    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="全民枪战" file="f465f4677f61ff37f34cb95dda11e263.apk" size="124.5MB" launchableactivity="com.crisisfire.android.wdj.UnityPlayerNativeActivity" versioncode="8" versionname="1.7.1" sdkversion="9" targetsdkversion="18"/>
     <smali>android/support/v13</smali>
+    <smali>android/support/v13/app</smali>
     <smali>android/support/v4</smali>
+    <smali>android/support/v4/view</smali>
+    <smali>android/support/v4/database</smali>
+    <smali>android/support/v4/content</smali>
+    <smali>android/support/v4/app</smali>
+    <smali>android/support/v4/net</smali>
+    <smali>android/support/v4/util</smali>
+    <smali>android/support/v4/widget</smali>
+    <smali>android/support/v4/accessibilityservice</smali>
+    <smali>android/support/v4/os</smali>
     <smali>android/net/http</smali>
     <smali>gnu/trove/decorator</smali>
     <smali>at/spardat/xma</smali>
+    <smali>at/spardat/xma/xdelta</smali>
     <smali>com/qq/jce</smali>
+    <smali>com/qq/jce/wup</smali>
     <smali>com/qq/taf</smali>
+    <smali>com/qq/taf/jce</smali>
     <smali>com/tendcloud/tenddata</smali>
+    <smali>com/tendcloud/tenddata/game</smali>
     <smali>com/weibo/sdk</smali>
+    <smali>com/weibo/sdk/android</smali>
     <smali>com/socialsdk/service</smali>
     <smali>com/socialsdk/interfaces</smali>
     <smali>com/socialsdk/correspondence</smali>
+    <smali>com/socialsdk/correspondence/a</smali>
+    <smali>com/socialsdk/correspondence/interfaces</smali>
+    <smali>com/socialsdk/correspondence/client</smali>
+    <smali>com/socialsdk/correspondence/utils</smali>
+    <smali>com/socialsdk/correspondence/b</smali>
     <smali>com/socialsdk/online</smali>
+    <smali>com/socialsdk/online/broadcast</smali>
+    <smali>com/socialsdk/online/database</smali>
+    <smali>com/socialsdk/online/a</smali>
+    <smali>com/socialsdk/online/widget</smali>
+    <smali>com/socialsdk/online/fragment</smali>
+    <smali>com/socialsdk/online/c</smali>
+    <smali>com/socialsdk/online/utils</smali>
+    <smali>com/socialsdk/online/type</smali>
+    <smali>com/socialsdk/online/extendlib</smali>
+    <smali>com/socialsdk/online/domain</smali>
+    <smali>com/socialsdk/online/b</smali>
     <smali>com/socialsdk/libs</smali>
+    <smali>com/socialsdk/libs/gif</smali>
     <smali>com/socialsdk/activity</smali>
     <smali>com/idk/a</smali>
+    <smali>com/idk/a/a</smali>
     <smali>com/idk/sdk</smali>
     <smali>com/tencent/android</smali>
+    <smali>com/tencent/android/tpush</smali>
     <smali>com/tencent/mm</smali>
+    <smali>com/tencent/mm/a</smali>
+    <smali>com/tencent/mm/sdk</smali>
     <smali>com/tencent/mid</smali>
+    <smali>com/tencent/mid/a</smali>
+    <smali>com/tencent/mid/util</smali>
+    <smali>com/tencent/mid/b</smali>
+    <smali>com/tencent/mid/api</smali>
     <smali>com/sina/sso</smali>
     <smali>com/testin/agent</smali>
+    <smali>com/testin/agent/e</smali>
+    <smali>com/testin/agent/a</smali>
+    <smali>com/testin/agent/d</smali>
+    <smali>com/testin/agent/c</smali>
+    <smali>com/testin/agent/nativecrash</smali>
+    <smali>com/testin/agent/b</smali>
+    <smali>com/testin/agent/base</smali>
+    <smali>com/testin/agent/f</smali>
     <smali>com/jakewharton/disklrucache</smali>
     <smali>com/crisisfire/android</smali>
+    <smali>com/crisisfire/android/wdj</smali>
     <smali>com/crisisfire/cmge</smali>
     <smali>com/crisisfire/updater</smali>
     <smali>com/unity3d/player</smali>
     <smali>com/oakenshield/alipayresource2</smali>
     <smali>com/oakenshield/alipayresource</smali>
+    <smali>com/oakenshield/alipayresource/alipay_lib_resource2</smali>
     <smali>com/umeng/socialize</smali>
+    <smali>com/umeng/socialize/view</smali>
+    <smali>com/umeng/socialize/location</smali>
+    <smali>com/umeng/socialize/net</smali>
+    <smali>com/umeng/socialize/common</smali>
+    <smali>com/umeng/socialize/exception</smali>
+    <smali>com/umeng/socialize/utils</smali>
+    <smali>com/umeng/socialize/bean</smali>
+    <smali>com/umeng/socialize/weixin</smali>
+    <smali>com/umeng/socialize/sso</smali>
+    <smali>com/umeng/socialize/media</smali>
+    <smali>com/umeng/socialize/controller</smali>
     <smali>com/umeng/common</smali>
+    <smali>com/umeng/common/a</smali>
+    <smali>com/umeng/common/net</smali>
+    <smali>com/umeng/common/util</smali>
     <smali>com/umeng/analytics</smali>
+    <smali>com/umeng/analytics/a</smali>
+    <smali>com/umeng/analytics/onlineconfig</smali>
     <smali>com/wandoujia/mariosdk</smali>
+    <smali>com/wandoujia/mariosdk/plugin</smali>
     <smali>com/wandoujia/pluginframework</smali>
+    <smali>com/wandoujia/pluginframework/config</smali>
+    <smali>com/wandoujia/pluginframework/a</smali>
     <smali>com/nothome/delta</smali>
+    <smali>com/nothome/delta/text</smali>
     <smali>com/sim/core</smali>
     <smali>org/apache/http</smali>
+    <smali>org/apache/http/entity</smali>
     <asset>wdjsdk.inf</asset>
     <asset>MainUI.unity3d</asset>
     <asset>mario-sdk-plugin.apk</asset>
@@ -6391,14 +6735,36 @@
     <asset>CH_M001.assetBundle</asset>
   </apk>
   <apk id="com.fingersoft.hillclimb">
-    <crosswalk iscrosswalk="" mode="" architecture="" webview="" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a crosswalk based app."/>
+    <crosswalk iscrosswalk="" mode="" architecture="" webview="" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="登山赛车" file="cc10c93aa8de9839bdcaa0865cabb245.apk" size="24.6MB" launchableactivity="com.mygamez.common.MyStartActivity" versioncode="53" versionname="1.25.4" sdkversion="8" targetsdkversion="16"/>
     <smali>android/support/v4</smali>
+    <smali>android/support/v4/view</smali>
+    <smali>android/support/v4/database</smali>
+    <smali>android/support/v4/text</smali>
+    <smali>android/support/v4/content</smali>
+    <smali>android/support/v4/app</smali>
+    <smali>android/support/v4/net</smali>
+    <smali>android/support/v4/util</smali>
+    <smali>android/support/v4/widget</smali>
+    <smali>android/support/v4/accessibilityservice</smali>
+    <smali>android/support/v4/internal</smali>
+    <smali>android/support/v4/os</smali>
+    <smali>android/support/v4/print</smali>
+    <smali>android/support/v4/hardware</smali>
+    <smali>android/support/v4/media</smali>
+    <smali>android/support/v4/graphics</smali>
     <smali>cn/play/dserv</smali>
     <smali>cn/egame/terminal</smali>
+    <smali>cn/egame/terminal/paysdk</smali>
+    <smali>cn/egame/terminal/sdk</smali>
     <smali>com/bda/controller</smali>
     <smali>com/alipay/android</smali>
+    <smali>com/alipay/android/app</smali>
     <smali>com/google/gson</smali>
+    <smali>com/google/gson/reflect</smali>
+    <smali>com/google/gson/annotations</smali>
+    <smali>com/google/gson/stream</smali>
+    <smali>com/google/gson/internal</smali>
     <smali>com/fingersoft/hillclimbMG</smali>
     <smali>com/fingersoft/game</smali>
     <smali>com/fingersoft/hillclimb</smali>
@@ -6506,26 +6872,63 @@
     <asset>car-hippievan-lowres.plist</asset>
   </apk>
   <apk id="com.cmge.xyykp">
-    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a crosswalk based app."/>
+    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="喜羊羊快跑" file="d9372653724973dd548eaed1a3c7353a.apk" size="33.5MB" launchableactivity="com.cmge.xyykp.MyProxy" versioncode="4" versionname="V1.1.3" sdkversion="9" targetsdkversion="17"/>
     <smali>android/support/v4</smali>
+    <smali>android/support/v4/view</smali>
+    <smali>android/support/v4/database</smali>
+    <smali>android/support/v4/text</smali>
+    <smali>android/support/v4/content</smali>
+    <smali>android/support/v4/app</smali>
+    <smali>android/support/v4/net</smali>
+    <smali>android/support/v4/util</smali>
+    <smali>android/support/v4/widget</smali>
+    <smali>android/support/v4/accessibilityservice</smali>
+    <smali>android/support/v4/internal</smali>
+    <smali>android/support/v4/os</smali>
+    <smali>android/support/v4/print</smali>
+    <smali>android/support/v4/hardware</smali>
+    <smali>android/support/v4/media</smali>
+    <smali>android/support/v4/graphics</smali>
     <smali>cn/egame/terminal</smali>
+    <smali>cn/egame/terminal/paysdk</smali>
     <smali>com/tencent/a</smali>
+    <smali>com/tencent/a/a</smali>
     <smali>com/tencent/wxop</smali>
+    <smali>com/tencent/wxop/stat</smali>
     <smali>com/tencent/mm</smali>
+    <smali>com/tencent/mm/a</smali>
+    <smali>com/tencent/mm/sdk</smali>
     <smali>com/cmge/xyykp</smali>
+    <smali>com/cmge/xyykp/wxapi</smali>
     <smali>com/dataeye/a</smali>
     <smali>com/dataeye/c</smali>
     <smali>com/dataeye/plugin</smali>
     <smali>com/dataeye/b</smali>
     <smali>com/sms/purchasesdk</smali>
+    <smali>com/sms/purchasesdk/view</smali>
     <smali>com/unity3d/player</smali>
     <smali>com/wow/shell</smali>
     <smali>com/team/pay</smali>
+    <smali>com/team/pay/a</smali>
+    <smali>com/team/pay/d</smali>
+    <smali>com/team/pay/c</smali>
+    <smali>com/team/pay/sms</smali>
+    <smali>com/team/pay/notify</smali>
+    <smali>com/team/pay/b</smali>
     <smali>com/a3game/sdk</smali>
     <smali>com/unicom/dcLoader</smali>
     <smali>mm/sms/purchasesdk</smali>
+    <smali>mm/sms/purchasesdk/fingerprint</smali>
+    <smali>mm/sms/purchasesdk/e</smali>
+    <smali>mm/sms/purchasesdk/a</smali>
+    <smali>mm/sms/purchasesdk/d</smali>
+    <smali>mm/sms/purchasesdk/c</smali>
+    <smali>mm/sms/purchasesdk/sms</smali>
+    <smali>mm/sms/purchasesdk/b</smali>
+    <smali>mm/sms/purchasesdk/f</smali>
     <smali>org/apache/commons</smali>
+    <smali>org/apache/commons/codec</smali>
     <asset>egame_ds.dat</asset>
     <asset>classes.jar</asset>
     <asset>feeInfo.dat</asset>
@@ -7908,9 +8311,10 @@
     <asset>EGAME_103.dat</asset>
   </apk>
   <apk id="com.happyelements.AndroidAnimal.wdj">
-    <crosswalk iscrosswalk="" mode="" architecture="" webview="" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a crosswalk based app."/>
+    <crosswalk iscrosswalk="" mode="" architecture="" webview="" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="开心消消乐" file="a40115db3f1afbd1bac91d9d5bcfa187.apk" size="41.5MB" launchableactivity="com.happyelements.hellolua.MainActivity" versioncode="20" versionname="1.20" sdkversion="8" targetsdkversion="19"/>
     <smali>com/happyelements/security</smali>
+    <smali>com/happyelements/security/shellguard</smali>
     <asset>egame_ds.dat</asset>
     <asset>Config.xml</asset>
     <asset>d_data_store.dat</asset>
@@ -9556,24 +9960,54 @@
     <asset>EGAME_103.dat</asset>
   </apk>
   <apk id="com.gameloft.android.ANMP.GloftDMCN">
-    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a crosswalk based app."/>
+    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="小黄人快跑" file="68ca2c8e195b695aa34034ab9c0fc1f8.apk" size="71.0MB" launchableactivity="com.gameloft.android.ANMP.GloftDMCN.Game" versioncode="3180000" versionname="3.1.8" sdkversion="9" targetsdkversion="19"/>
     <smali>android/support/v4</smali>
+    <smali>android/support/v4/view</smali>
+    <smali>android/support/v4/database</smali>
+    <smali>android/support/v4/text</smali>
+    <smali>android/support/v4/content</smali>
+    <smali>android/support/v4/a</smali>
+    <smali>android/support/v4/app</smali>
+    <smali>android/support/v4/net</smali>
+    <smali>android/support/v4/util</smali>
+    <smali>android/support/v4/widget</smali>
+    <smali>android/support/v4/accessibilityservice</smali>
+    <smali>android/support/v4/os</smali>
+    <smali>android/support/v4/print</smali>
+    <smali>android/support/v4/hardware</smali>
+    <smali>android/support/v4/media</smali>
+    <smali>android/support/v4/graphics</smali>
     <smali>cn/play/dserv</smali>
     <smali>cn/egame/terminal</smali>
+    <smali>cn/egame/terminal/paysdk</smali>
+    <smali>cn/egame/terminal/sdk</smali>
     <smali>com/tencent/mm</smali>
+    <smali>com/tencent/mm/algorithm</smali>
+    <smali>com/tencent/mm/sdk</smali>
     <smali>com/google/android</smali>
+    <smali>com/google/android/gcm</smali>
     <smali>com/gameloft/android</smali>
+    <smali>com/gameloft/android/hdidfv</smali>
+    <smali>com/gameloft/android/ANMP</smali>
     <smali>com/gameloft/GLSocialLib</smali>
     <smali>com/gameloft/glot</smali>
     <smali>com/gameloft/redeemcode</smali>
     <smali>com/gameloft/glotv3</smali>
     <smali>com/wow/shell</smali>
     <smali>com/gl/billing</smali>
+    <smali>com/gl/billing/tracking</smali>
+    <smali>com/gl/billing/tools</smali>
+    <smali>com/gl/billing/a</smali>
     <smali>com/gl/mul</smali>
+    <smali>com/gl/mul/billing</smali>
     <smali>com/gl/bw</smali>
+    <smali>com/gl/bw/jscmcc</smali>
+    <smali>com/gl/bw/a</smali>
+    <smali>com/gl/bw/telecom</smali>
     <smali>com/unicom/dcLoader</smali>
     <smali>org/acra/jraf</smali>
+    <smali>org/acra/jraf/android</smali>
     <smali>org/acra/a</smali>
     <smali>org/acra/util</smali>
     <smali>org/acra/collector</smali>
@@ -9610,19 +10044,37 @@
     <asset>EGAME_103.dat</asset>
   </apk>
   <apk id="com.firemaplegames.thelostcity">
-    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a crosswalk based app."/>
+    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="失落之城" file="shiluozhicheng_1.apk" size="44.3MB" launchableactivity="com.ansca.corona.CoronaActivity" versioncode="1" versionname="1.0" sdkversion="8" targetsdkversion=""/>
     <smali>android/opengl/derived</smali>
     <smali>com/adknowledge/superrewards</smali>
+    <smali>com/adknowledge/superrewards/tracking</smali>
+    <smali>com/adknowledge/superrewards/web</smali>
+    <smali>com/adknowledge/superrewards/ui</smali>
+    <smali>com/adknowledge/superrewards/model</smali>
+    <smali>com/adknowledge/superrewards/xml</smali>
     <smali>com/openfeint/internal</smali>
+    <smali>com/openfeint/internal/request</smali>
+    <smali>com/openfeint/internal/offline</smali>
+    <smali>com/openfeint/internal/resource</smali>
+    <smali>com/openfeint/internal/notifications</smali>
+    <smali>com/openfeint/internal/ui</smali>
+    <smali>com/openfeint/internal/db</smali>
     <smali>com/openfeint/api</smali>
+    <smali>com/openfeint/api/resource</smali>
+    <smali>com/openfeint/api/ui</smali>
     <smali>com/inmobi/androidsdk</smali>
+    <smali>com/inmobi/androidsdk/impl</smali>
     <smali>com/facebook/android</smali>
     <smali>com/inneractive/api</smali>
+    <smali>com/inneractive/api/ads</smali>
     <smali>com/google/i18n</smali>
+    <smali>com/google/i18n/phonenumbers</smali>
     <smali>com/google/api</smali>
+    <smali>com/google/api/client</smali>
     <smali>com/flurry/android</smali>
     <smali>com/loopj/android</smali>
+    <smali>com/loopj/android/http</smali>
     <smali>com/papaya/view</smali>
     <smali>com/papaya/social</smali>
     <smali>com/papaya/service</smali>
@@ -9635,9 +10087,19 @@
     <smali>com/papaya/purchase</smali>
     <smali>com/papaya/base</smali>
     <smali>com/zong/android</smali>
+    <smali>com/zong/android/engine</smali>
     <smali>com/ansca/corona</smali>
+    <smali>com/ansca/corona/version</smali>
+    <smali>com/ansca/corona/events</smali>
     <smali>org/apache/commons</smali>
+    <smali>org/apache/commons/codec</smali>
     <smali>org/codehaus/jackson</smali>
+    <smali>org/codehaus/jackson/util</smali>
+    <smali>org/codehaus/jackson/sym</smali>
+    <smali>org/codehaus/jackson/type</smali>
+    <smali>org/codehaus/jackson/io</smali>
+    <smali>org/codehaus/jackson/annotate</smali>
+    <smali>org/codehaus/jackson/impl</smali>
     <asset>web-resources.lst</asset>
     <asset>com.papaya.socialsdk.corona.171.webpage.db.bin</asset>
     <asset>resource.car</asset>
@@ -9652,54 +10114,172 @@
     <asset>ppy12.js</asset>
   </apk>
   <apk id="com.idreamsky.runningman">
-    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a crosswalk based app."/>
+    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="奔跑吧兄弟：跑男来了" file="09d85363673cb6a67d9c00df2b41e6fb.apk" size="31.9MB" launchableactivity="com.skynetpay.android.impl.ui.SkynetSplashActivity" versioncode="1001" versionname="1.0.1" sdkversion="8" targetsdkversion="20"/>
     <smali>android/support/v4</smali>
+    <smali>android/support/v4/view</smali>
+    <smali>android/support/v4/database</smali>
+    <smali>android/support/v4/text</smali>
+    <smali>android/support/v4/content</smali>
+    <smali>android/support/v4/app</smali>
+    <smali>android/support/v4/net</smali>
+    <smali>android/support/v4/util</smali>
+    <smali>android/support/v4/widget</smali>
+    <smali>android/support/v4/accessibilityservice</smali>
+    <smali>android/support/v4/internal</smali>
+    <smali>android/support/v4/os</smali>
+    <smali>android/support/v4/print</smali>
+    <smali>android/support/v4/hardware</smali>
+    <smali>android/support/v4/media</smali>
+    <smali>android/support/v4/graphics</smali>
     <smali>cn/play/dserv</smali>
     <smali>cn/egame/terminal</smali>
+    <smali>cn/egame/terminal/paysdk</smali>
+    <smali>cn/egame/terminal/sdk</smali>
     <smali>com/s1/a</smali>
+    <smali>com/s1/a/a</smali>
     <smali>com/s1/d</smali>
+    <smali>com/s1/d/a</smali>
     <smali>com/s1/c</smali>
     <smali>com/s1/lib</smali>
+    <smali>com/s1/lib/config</smali>
+    <smali>com/s1/lib/a</smali>
+    <smali>com/s1/lib/d</smali>
+    <smali>com/s1/lib/c</smali>
+    <smali>com/s1/lib/internal</smali>
+    <smali>com/s1/lib/plugin</smali>
+    <smali>com/s1/lib/b</smali>
     <smali>com/s1/b</smali>
+    <smali>com/s1/b/a</smali>
     <smali>com/cmsc/cmmusic</smali>
+    <smali>com/cmsc/cmmusic/init</smali>
     <smali>com/qq/jce</smali>
+    <smali>com/qq/jce/wup</smali>
     <smali>com/qq/taf</smali>
+    <smali>com/qq/taf/jce</smali>
     <smali>com/ta/utdid2</smali>
+    <smali>com/ta/utdid2/device</smali>
+    <smali>com/ta/utdid2/android</smali>
+    <smali>com/ta/utdid2/core</smali>
     <smali>com/tencent/android</smali>
+    <smali>com/tencent/android/tpush</smali>
     <smali>com/tencent/a</smali>
+    <smali>com/tencent/a/a</smali>
+    <smali>com/tencent/a/c</smali>
+    <smali>com/tencent/a/b</smali>
     <smali>com/tencent/connect</smali>
+    <smali>com/tencent/connect/auth</smali>
+    <smali>com/tencent/connect/a</smali>
+    <smali>com/tencent/connect/avatar</smali>
+    <smali>com/tencent/connect/common</smali>
+    <smali>com/tencent/connect/dataprovider</smali>
+    <smali>com/tencent/connect/share</smali>
     <smali>com/tencent/open</smali>
+    <smali>com/tencent/open/a</smali>
+    <smali>com/tencent/open/b</smali>
     <smali>com/tencent/stat</smali>
+    <smali>com/tencent/stat/a</smali>
+    <smali>com/tencent/stat/common</smali>
     <smali>com/tencent/weiyun</smali>
     <smali>com/tencent/tauth</smali>
     <smali>com/tencent/mm</smali>
+    <smali>com/tencent/mm/a</smali>
+    <smali>com/tencent/mm/sdk</smali>
     <smali>com/tencent/utils</smali>
     <smali>com/tencent/wpa</smali>
     <smali>com/tencent/t</smali>
     <smali>com/tencent/mid</smali>
+    <smali>com/tencent/mid/a</smali>
+    <smali>com/tencent/mid/util</smali>
+    <smali>com/tencent/mid/b</smali>
+    <smali>com/tencent/mid/api</smali>
     <smali>com/tencent/qzone</smali>
     <smali>com/dsstate/a</smali>
     <smali>com/dsstate/v2</smali>
+    <smali>com/dsstate/v2/config</smali>
+    <smali>com/dsstate/v2/error</smali>
+    <smali>com/dsstate/v2/vo</smali>
+    <smali>com/dsstate/v2/annotation</smali>
+    <smali>com/dsstate/v2/utils</smali>
+    <smali>com/dsstate/v2/bean</smali>
     <smali>com/dsstate/track</smali>
+    <smali>com/dsstate/track/a</smali>
+    <smali>com/dsstate/track/b</smali>
     <smali>com/alipay/android</smali>
+    <smali>com/alipay/android/app</smali>
     <smali>com/alipay/sdk</smali>
+    <smali>com/alipay/sdk/protocol</smali>
+    <smali>com/alipay/sdk/auth</smali>
+    <smali>com/alipay/sdk/app</smali>
+    <smali>com/alipay/sdk/net</smali>
+    <smali>com/alipay/sdk/util</smali>
+    <smali>com/alipay/sdk/widget</smali>
+    <smali>com/alipay/sdk/data</smali>
+    <smali>com/alipay/sdk/exception</smali>
+    <smali>com/alipay/sdk/sys</smali>
+    <smali>com/alipay/sdk/cons</smali>
+    <smali>com/alipay/sdk/encrypt</smali>
+    <smali>com/alipay/sdk/tid</smali>
     <smali>com/alipay/mobilesecuritysdk</smali>
+    <smali>com/alipay/mobilesecuritysdk/datainfo</smali>
+    <smali>com/alipay/mobilesecuritysdk/util</smali>
+    <smali>com/alipay/mobilesecuritysdk/face</smali>
+    <smali>com/alipay/mobilesecuritysdk/deviceID</smali>
+    <smali>com/alipay/mobilesecuritysdk/constant</smali>
+    <smali>com/alipay/mobilesecuritysdk/model</smali>
     <smali>com/ut/device</smali>
     <smali>com/skynetpay/android</smali>
+    <smali>com/skynetpay/android/payment</smali>
+    <smali>com/skynetpay/android/standard</smali>
+    <smali>com/skynetpay/android/impl</smali>
     <smali>com/skynetpay/a</smali>
+    <smali>com/skynetpay/a/a</smali>
     <smali>com/skynetpay/d</smali>
+    <smali>com/skynetpay/d/a</smali>
     <smali>com/skynetpay/c</smali>
     <smali>com/skynetpay/lib</smali>
+    <smali>com/skynetpay/lib/config</smali>
+    <smali>com/skynetpay/lib/e</smali>
+    <smali>com/skynetpay/lib/a</smali>
+    <smali>com/skynetpay/lib/d</smali>
+    <smali>com/skynetpay/lib/c</smali>
+    <smali>com/skynetpay/lib/internal</smali>
+    <smali>com/skynetpay/lib/bean</smali>
+    <smali>com/skynetpay/lib/plugin</smali>
+    <smali>com/skynetpay/lib/b</smali>
     <smali>com/skynetpay/b</smali>
+    <smali>com/skynetpay/b/a</smali>
     <smali>com/sms/purchasesdk</smali>
+    <smali>com/sms/purchasesdk/view</smali>
     <smali>com/skynet/android</smali>
+    <smali>com/skynet/android/sns</smali>
+    <smali>com/skynet/android/dk</smali>
+    <smali>com/skynet/android/tencent</smali>
+    <smali>com/skynet/android/user</smali>
+    <smali>com/skynet/android/report</smali>
+    <smali>com/skynet/android/payment</smali>
+    <smali>com/skynet/android/activity</smali>
+    <smali>com/skynet/android/weixin</smali>
+    <smali>com/skynet/android/notice</smali>
+    <smali>com/skynet/android/game</smali>
+    <smali>com/skynet/android/qihoo</smali>
+    <smali>com/skynet/android/impl</smali>
     <smali>com/unity3d/player</smali>
     <smali>com/wow/shell</smali>
     <smali>com/idreamsky/runningman</smali>
+    <smali>com/idreamsky/runningman/wxapi</smali>
     <smali>com/unicom/dcLoader</smali>
     <smali>mm/sms/purchasesdk</smali>
+    <smali>mm/sms/purchasesdk/fingerprint</smali>
+    <smali>mm/sms/purchasesdk/e</smali>
+    <smali>mm/sms/purchasesdk/a</smali>
+    <smali>mm/sms/purchasesdk/d</smali>
+    <smali>mm/sms/purchasesdk/c</smali>
+    <smali>mm/sms/purchasesdk/sms</smali>
+    <smali>mm/sms/purchasesdk/b</smali>
+    <smali>mm/sms/purchasesdk/f</smali>
     <smali>org/agoo/ut</smali>
+    <smali>org/agoo/ut/device</smali>
     <asset>egame_ds.dat</asset>
     <asset>classes.jar</asset>
     <asset>plugins.xml</asset>
@@ -11489,71 +12069,218 @@
     <asset>EGAME_103.dat</asset>
   </apk>
   <apk id="com.imangi.templerun2">
-    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a crosswalk based app."/>
+    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="神庙逃亡2" file="com.imangi.templerun2_4526_1.12.3_635585007652183582.apk" size="37.2MB" launchableactivity="com.skynetpay.android.impl.ui.SkynetSplashActivity" versioncode="4526" versionname="1.12.3" sdkversion="8" targetsdkversion="17"/>
     <smali>android/support/v4</smali>
+    <smali>android/support/v4/view</smali>
+    <smali>android/support/v4/database</smali>
+    <smali>android/support/v4/content</smali>
+    <smali>android/support/v4/app</smali>
+    <smali>android/support/v4/net</smali>
+    <smali>android/support/v4/util</smali>
+    <smali>android/support/v4/widget</smali>
+    <smali>android/support/v4/accessibilityservice</smali>
+    <smali>android/support/v4/os</smali>
     <smali>cn/play/dserv</smali>
     <smali>cn/egame/terminal</smali>
+    <smali>cn/egame/terminal/paysdk</smali>
+    <smali>cn/egame/terminal/sdk</smali>
     <smali>net/zl/tsz</smali>
+    <smali>net/zl/tsz/afinal</smali>
     <smali>com/s1/a</smali>
+    <smali>com/s1/a/a</smali>
     <smali>com/s1/d</smali>
+    <smali>com/s1/d/a</smali>
     <smali>com/s1/c</smali>
     <smali>com/s1/lib</smali>
+    <smali>com/s1/lib/config</smali>
+    <smali>com/s1/lib/a</smali>
+    <smali>com/s1/lib/d</smali>
+    <smali>com/s1/lib/c</smali>
+    <smali>com/s1/lib/internal</smali>
+    <smali>com/s1/lib/plugin</smali>
+    <smali>com/s1/lib/b</smali>
     <smali>com/s1/b</smali>
+    <smali>com/s1/b/a</smali>
     <smali>com/cmsc/cmmusic</smali>
+    <smali>com/cmsc/cmmusic/init</smali>
     <smali>com/tendcloud/tenddata</smali>
+    <smali>com/tendcloud/tenddata/game</smali>
     <smali>com/ta/utdid2</smali>
+    <smali>com/ta/utdid2/device</smali>
+    <smali>com/ta/utdid2/android</smali>
+    <smali>com/ta/utdid2/core</smali>
     <smali>com/tencent/a</smali>
+    <smali>com/tencent/a/a</smali>
+    <smali>com/tencent/a/b</smali>
     <smali>com/tencent/connect</smali>
+    <smali>com/tencent/connect/auth</smali>
+    <smali>com/tencent/connect/a</smali>
+    <smali>com/tencent/connect/avatar</smali>
+    <smali>com/tencent/connect/common</smali>
+    <smali>com/tencent/connect/dataprovider</smali>
+    <smali>com/tencent/connect/share</smali>
     <smali>com/tencent/open</smali>
+    <smali>com/tencent/open/a</smali>
+    <smali>com/tencent/open/b</smali>
     <smali>com/tencent/stat</smali>
+    <smali>com/tencent/stat/a</smali>
+    <smali>com/tencent/stat/common</smali>
     <smali>com/tencent/weiyun</smali>
     <smali>com/tencent/tauth</smali>
     <smali>com/tencent/mm</smali>
+    <smali>com/tencent/mm/a</smali>
+    <smali>com/tencent/mm/sdk</smali>
     <smali>com/tencent/utils</smali>
     <smali>com/tencent/wpa</smali>
     <smali>com/tencent/t</smali>
     <smali>com/tencent/mid</smali>
+    <smali>com/tencent/mid/a</smali>
+    <smali>com/tencent/mid/util</smali>
+    <smali>com/tencent/mid/b</smali>
+    <smali>com/tencent/mid/api</smali>
     <smali>com/tencent/b</smali>
+    <smali>com/tencent/b/a</smali>
+    <smali>com/tencent/b/c</smali>
+    <smali>com/tencent/b/b</smali>
     <smali>com/tencent/qzone</smali>
     <smali>com/dsstate/a</smali>
     <smali>com/dsstate/v2</smali>
+    <smali>com/dsstate/v2/config</smali>
+    <smali>com/dsstate/v2/error</smali>
+    <smali>com/dsstate/v2/vo</smali>
+    <smali>com/dsstate/v2/annotation</smali>
+    <smali>com/dsstate/v2/utils</smali>
+    <smali>com/dsstate/v2/bean</smali>
     <smali>com/dsstate/track</smali>
+    <smali>com/dsstate/track/a</smali>
+    <smali>com/dsstate/track/b</smali>
     <smali>com/idswz/plugin</smali>
+    <smali>com/idswz/plugin/broadcast</smali>
+    <smali>com/idswz/plugin/e</smali>
+    <smali>com/idswz/plugin/service</smali>
+    <smali>com/idswz/plugin/a</smali>
+    <smali>com/idswz/plugin/d</smali>
+    <smali>com/idswz/plugin/app</smali>
+    <smali>com/idswz/plugin/c</smali>
+    <smali>com/idswz/plugin/b</smali>
     <smali>com/alipay/android</smali>
+    <smali>com/alipay/android/app</smali>
     <smali>com/alipay/sdk</smali>
+    <smali>com/alipay/sdk/protocol</smali>
+    <smali>com/alipay/sdk/auth</smali>
+    <smali>com/alipay/sdk/app</smali>
+    <smali>com/alipay/sdk/net</smali>
+    <smali>com/alipay/sdk/util</smali>
+    <smali>com/alipay/sdk/widget</smali>
+    <smali>com/alipay/sdk/data</smali>
+    <smali>com/alipay/sdk/exception</smali>
+    <smali>com/alipay/sdk/sys</smali>
+    <smali>com/alipay/sdk/cons</smali>
+    <smali>com/alipay/sdk/encrypt</smali>
+    <smali>com/alipay/sdk/tid</smali>
     <smali>com/alipay/mobilesecuritysdk</smali>
+    <smali>com/alipay/mobilesecuritysdk/datainfo</smali>
+    <smali>com/alipay/mobilesecuritysdk/util</smali>
+    <smali>com/alipay/mobilesecuritysdk/face</smali>
+    <smali>com/alipay/mobilesecuritysdk/deviceID</smali>
+    <smali>com/alipay/mobilesecuritysdk/constant</smali>
+    <smali>com/alipay/mobilesecuritysdk/model</smali>
     <smali>com/ut/device</smali>
     <smali>com/skynetpay/android</smali>
+    <smali>com/skynetpay/android/payment</smali>
+    <smali>com/skynetpay/android/standard</smali>
+    <smali>com/skynetpay/android/impl</smali>
     <smali>com/skynetpay/a</smali>
+    <smali>com/skynetpay/a/a</smali>
     <smali>com/skynetpay/d</smali>
+    <smali>com/skynetpay/d/a</smali>
     <smali>com/skynetpay/c</smali>
     <smali>com/skynetpay/lib</smali>
+    <smali>com/skynetpay/lib/config</smali>
+    <smali>com/skynetpay/lib/e</smali>
+    <smali>com/skynetpay/lib/a</smali>
+    <smali>com/skynetpay/lib/d</smali>
+    <smali>com/skynetpay/lib/c</smali>
+    <smali>com/skynetpay/lib/internal</smali>
+    <smali>com/skynetpay/lib/bean</smali>
+    <smali>com/skynetpay/lib/plugin</smali>
+    <smali>com/skynetpay/lib/b</smali>
     <smali>com/skynetpay/b</smali>
+    <smali>com/skynetpay/b/a</smali>
     <smali>com/sms/purchasesdk</smali>
+    <smali>com/sms/purchasesdk/view</smali>
     <smali>com/nostra13/universalimageloader</smali>
+    <smali>com/nostra13/universalimageloader/cache</smali>
+    <smali>com/nostra13/universalimageloader/core</smali>
+    <smali>com/nostra13/universalimageloader/utils</smali>
     <smali>com/umpay/huafubao</smali>
+    <smali>com/umpay/huafubao/e</smali>
+    <smali>com/umpay/huafubao/a</smali>
+    <smali>com/umpay/huafubao/d</smali>
+    <smali>com/umpay/huafubao/util</smali>
+    <smali>com/umpay/huafubao/c</smali>
+    <smali>com/umpay/huafubao/ui</smali>
+    <smali>com/umpay/huafubao/b</smali>
+    <smali>com/umpay/huafubao/receivers</smali>
     <smali>com/skynet/android</smali>
+    <smali>com/skynet/android/sns</smali>
+    <smali>com/skynet/android/dk</smali>
+    <smali>com/skynet/android/tencent</smali>
+    <smali>com/skynet/android/user</smali>
+    <smali>com/skynet/android/payment</smali>
+    <smali>com/skynet/android/activity</smali>
+    <smali>com/skynet/android/weixin</smali>
+    <smali>com/skynet/android/notice</smali>
+    <smali>com/skynet/android/game</smali>
+    <smali>com/skynet/android/qihoo</smali>
+    <smali>com/skynet/android/impl</smali>
     <smali>com/unity3d/player</smali>
     <smali>com/example/tr2plugin_pulic</smali>
     <smali>com/wow/shell</smali>
     <smali>com/imread/rdo</smali>
+    <smali>com/imread/rdo/utils</smali>
     <smali>com/imangi/templerun2</smali>
+    <smali>com/imangi/templerun2/wxapi</smali>
     <smali>com/baidu/android</smali>
+    <smali>com/baidu/android/pushservice</smali>
+    <smali>com/baidu/android/bba</smali>
+    <smali>com/baidu/android/silentupdate</smali>
     <smali>com/baidu/frontia</smali>
+    <smali>com/baidu/frontia/framework</smali>
+    <smali>com/baidu/frontia/api</smali>
     <smali>com/baidu/mtjstatsdk</smali>
+    <smali>com/baidu/mtjstatsdk/a</smali>
+    <smali>com/baidu/mtjstatsdk/game</smali>
+    <smali>com/baidu/mtjstatsdk/b</smali>
     <smali>com/baidu/mobstat</smali>
+    <smali>com/baidu/mobstat/a</smali>
     <smali>com/unicom/dcLoader</smali>
     <smali>com/zl/bulogame</smali>
+    <smali>com/zl/bulogame/game</smali>
     <smali>com/zl/nostra13</smali>
+    <smali>com/zl/nostra13/universalimageloader</smali>
     <smali>com/zl/loopj</smali>
+    <smali>com/zl/loopj/android</smali>
     <smali>com/zl/lidroid</smali>
+    <smali>com/zl/lidroid/xutils</smali>
     <smali>com/templerun2/config</smali>
     <smali>com/duoku/platform</smali>
+    <smali>com/duoku/platform/single</smali>
     <smali>com/duoku/game</smali>
     <smali>mm/sms/purchasesdk</smali>
+    <smali>mm/sms/purchasesdk/fingerprint</smali>
+    <smali>mm/sms/purchasesdk/e</smali>
+    <smali>mm/sms/purchasesdk/a</smali>
+    <smali>mm/sms/purchasesdk/d</smali>
+    <smali>mm/sms/purchasesdk/c</smali>
+    <smali>mm/sms/purchasesdk/sms</smali>
+    <smali>mm/sms/purchasesdk/b</smali>
+    <smali>mm/sms/purchasesdk/f</smali>
     <smali>org/agoo/ut</smali>
+    <smali>org/agoo/ut/device</smali>
     <smali>org/apache/commons</smali>
+    <smali>org/apache/commons/math3</smali>
     <asset>egame_ds.dat</asset>
     <asset>libmegbpp_02.02.09_01.so</asset>
     <asset>TR2Config.txt</asset>
@@ -13196,21 +13923,41 @@
     <asset>LocalizedFormats_fr.properties</asset>
   </apk>
   <apk id="com.brianbaek.popstar">
-    <crosswalk iscrosswalk="" mode="" architecture="" webview="" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a crosswalk based app."/>
+    <crosswalk iscrosswalk="" mode="" architecture="" webview="" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="PopStar！消灭星星官方正版" file="d9795abf7df46109aca37be438064735.apk" size="7.8MB" launchableactivity="com.zplay.android.sdk.pay.ZplayActivity" versioncode="410" versionname="4.1.0" sdkversion="9" targetsdkversion=""/>
     <smali>android/support/annotation</smali>
     <smali>android/support/v4</smali>
+    <smali>android/support/v4/view</smali>
+    <smali>android/support/v4/database</smali>
+    <smali>android/support/v4/text</smali>
+    <smali>android/support/v4/content</smali>
+    <smali>android/support/v4/app</smali>
+    <smali>android/support/v4/net</smali>
+    <smali>android/support/v4/util</smali>
+    <smali>android/support/v4/widget</smali>
+    <smali>android/support/v4/accessibilityservice</smali>
+    <smali>android/support/v4/internal</smali>
+    <smali>android/support/v4/os</smali>
+    <smali>android/support/v4/print</smali>
+    <smali>android/support/v4/hardware</smali>
+    <smali>android/support/v4/media</smali>
+    <smali>android/support/v4/graphics</smali>
     <smali>cn/egame/terminal</smali>
+    <smali>cn/egame/terminal/paysdk</smali>
     <smali>com/tendcloud/tenddata</smali>
     <smali>com/e7studio/android</smali>
+    <smali>com/e7studio/android/e7appsdk</smali>
     <smali>com/example/zplay</smali>
     <smali>com/example/guanzhu</smali>
     <smali>com/wow/shell</smali>
     <smali>com/brianbaek/popstar</smali>
     <smali>com/zplay/android</smali>
+    <smali>com/zplay/android/sdk</smali>
     <smali>com/zplay/iap</smali>
     <smali>com/unipay/secret</smali>
+    <smali>com/unipay/secret/jni</smali>
     <smali>com/unicom/wostore</smali>
+    <smali>com/unicom/wostore/unipay</smali>
     <smali>com/unicom/dcLoader</smali>
     <smali>org/cocos2dx/lib</smali>
     <asset>libmegbpp_02.02.09_01.so</asset>
@@ -13247,15 +13994,20 @@
     <asset>EGAME_101.dat</asset>
   </apk>
   <apk id="com.pk51.snk.kof97.wdj">
-    <crosswalk iscrosswalk="" mode="" architecture="" webview="" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a crosswalk based app."/>
+    <crosswalk iscrosswalk="" mode="" architecture="" webview="" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="拳皇97" file="58a41d142882c3d4747198bc23ccb267.apk" size="58.2MB" launchableactivity="org.cocos2dx.cpp.AppActivity" versioncode="233045" versionname="2.3.3045" sdkversion="10" targetsdkversion="10"/>
     <smali>cn/play/dserv</smali>
     <smali>com/wuyao/platform</smali>
+    <smali>com/wuyao/platform/fight</smali>
     <smali>com/pk51/snk</smali>
+    <smali>com/pk51/snk/kof97</smali>
     <smali>com/secneo/guard</smali>
     <smali>com/alipay/android</smali>
+    <smali>com/alipay/android/app</smali>
     <smali>com/wandoujia/mariosdk</smali>
+    <smali>com/wandoujia/mariosdk/plugin</smali>
     <smali>safiap/framework/logreport</smali>
+    <smali>safiap/framework/logreport/monitor</smali>
     <asset>bangcle_classes.jar</asset>
     <asset>com.pk51.snk.kof97.wdj.x86</asset>
     <asset>egame_ds.dat</asset>
@@ -13326,39 +14078,79 @@
     <asset>EGAME_104.jar</asset>
   </apk>
   <apk id="com.dw.fs.wdj">
-    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a crosswalk based app."/>
+    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="自由之战" file="3ab5053f0e383778a1686cd2b113b068.apk" size="160.7MB" launchableactivity="com.channel.sdk.Splash" versioncode="6" versionname="1.0.4.1" sdkversion="9" targetsdkversion="19"/>
     <smali>android/support/v4</smali>
+    <smali>android/support/v4/view</smali>
+    <smali>android/support/v4/database</smali>
+    <smali>android/support/v4/content</smali>
+    <smali>android/support/v4/app</smali>
+    <smali>android/support/v4/net</smali>
+    <smali>android/support/v4/util</smali>
+    <smali>android/support/v4/widget</smali>
+    <smali>android/support/v4/accessibilityservice</smali>
+    <smali>android/support/v4/os</smali>
     <smali>android/net/http</smali>
     <smali>gnu/trove/decorator</smali>
     <smali>at/spardat/xma</smali>
+    <smali>at/spardat/xma/xdelta</smali>
     <smali>com/dw/Unity</smali>
     <smali>com/dw/com</smali>
     <smali>com/dw/fs</smali>
+    <smali>com/dw/fs/wdj</smali>
     <smali>com/android/vending</smali>
+    <smali>com/android/vending/expansion</smali>
     <smali>com/weibo/sdk</smali>
+    <smali>com/weibo/sdk/android</smali>
     <smali>com/tencent/a</smali>
+    <smali>com/tencent/a/a</smali>
     <smali>com/tencent/wxop</smali>
+    <smali>com/tencent/wxop/stat</smali>
     <smali>com/tencent/mm</smali>
+    <smali>com/tencent/mm/a</smali>
+    <smali>com/tencent/mm/sdk</smali>
     <smali>com/mining/app</smali>
+    <smali>com/mining/app/zxing</smali>
     <smali>com/channel/sdk</smali>
     <smali>com/google/zxing</smali>
+    <smali>com/google/zxing/aztec</smali>
+    <smali>com/google/zxing/qrcode</smali>
+    <smali>com/google/zxing/common</smali>
+    <smali>com/google/zxing/multi</smali>
+    <smali>com/google/zxing/client</smali>
+    <smali>com/google/zxing/oned</smali>
+    <smali>com/google/zxing/datamatrix</smali>
+    <smali>com/google/zxing/maxicode</smali>
+    <smali>com/google/zxing/pdf417</smali>
     <smali>com/sina/sso</smali>
     <smali>com/jakewharton/disklrucache</smali>
     <smali>com/unity3d/player</smali>
     <smali>com/dewmobile/sdk</smali>
+    <smali>com/dewmobile/sdk/file</smali>
+    <smali>com/dewmobile/sdk/a</smali>
+    <smali>com/dewmobile/sdk/user</smali>
+    <smali>com/dewmobile/sdk/common</smali>
+    <smali>com/dewmobile/sdk/jni</smali>
+    <smali>com/dewmobile/sdk/connection</smali>
     <smali>com/dewmobile/library</smali>
+    <smali>com/dewmobile/library/plugin</smali>
     <smali>com/dewmobile/api</smali>
     <smali>com/oakenshield/alipayresource2</smali>
     <smali>com/oakenshield/alipayresource</smali>
+    <smali>com/oakenshield/alipayresource/alipay_lib_resource2</smali>
     <smali>com/wandoujia/mariosdk</smali>
+    <smali>com/wandoujia/mariosdk/plugin</smali>
     <smali>com/wandoujia/pluginframework</smali>
+    <smali>com/wandoujia/pluginframework/config</smali>
+    <smali>com/wandoujia/pluginframework/a</smali>
     <smali>com/ZapyaGame/Unity</smali>
     <smali>com/nothome/delta</smali>
+    <smali>com/nothome/delta/text</smali>
     <smali>com/game/data</smali>
     <smali>com/sim/core</smali>
     <smali>org/cocos2dx/lib</smali>
     <smali>org/eclipse/jdt</smali>
+    <smali>org/eclipse/jdt/internal</smali>
     <asset>Info.plist</asset>
     <asset>wdjsdk.inf</asset>
     <asset>mario-sdk-plugin.apk</asset>
@@ -15517,23 +16309,49 @@
     <asset>H_412.unity3d</asset>
   </apk>
   <apk id="com.yinhan.hunter.wandoujia">
-    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a crosswalk based app."/>
+    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="时空猎人" file="b7903f061404fe17ce7be79935b2a25a.apk" size="116.4MB" launchableactivity="com.yinhan.hunter.update.MainActivity" versioncode="111" versionname="5.1.096" sdkversion="3" targetsdkversion=""/>
     <smali>android/support/v4</smali>
+    <smali>android/support/v4/view</smali>
+    <smali>android/support/v4/database</smali>
+    <smali>android/support/v4/text</smali>
+    <smali>android/support/v4/content</smali>
+    <smali>android/support/v4/app</smali>
+    <smali>android/support/v4/net</smali>
+    <smali>android/support/v4/util</smali>
+    <smali>android/support/v4/widget</smali>
+    <smali>android/support/v4/accessibilityservice</smali>
+    <smali>android/support/v4/internal</smali>
+    <smali>android/support/v4/os</smali>
+    <smali>android/support/v4/hardware</smali>
+    <smali>android/support/v4/media</smali>
+    <smali>android/support/v4/graphics</smali>
     <smali>android/net/http</smali>
     <smali>gnu/trove/decorator</smali>
     <smali>at/spardat/xma</smali>
+    <smali>at/spardat/xma/xdelta</smali>
     <smali>com/weibo/sdk</smali>
+    <smali>com/weibo/sdk/android</smali>
     <smali>com/sina/sso</smali>
     <smali>com/jakewharton/disklrucache</smali>
     <smali>com/oakenshield/alipayresource2</smali>
     <smali>com/oakenshield/alipayresource</smali>
+    <smali>com/oakenshield/alipayresource/alipay_lib_resource</smali>
     <smali>com/wandoujia/mariosdk</smali>
+    <smali>com/wandoujia/mariosdk/plugin</smali>
     <smali>com/wandoujia/pluginframework</smali>
+    <smali>com/wandoujia/pluginframework/config</smali>
+    <smali>com/wandoujia/pluginframework/a</smali>
     <smali>com/nothome/delta</smali>
+    <smali>com/nothome/delta/text</smali>
     <smali>com/sim/core</smali>
     <smali>com/yinhan/lib</smali>
     <smali>com/yinhan/hunter</smali>
+    <smali>com/yinhan/hunter/wandoujia</smali>
+    <smali>com/yinhan/hunter/push</smali>
+    <smali>com/yinhan/hunter/log</smali>
+    <smali>com/yinhan/hunter/update</smali>
+    <smali>com/yinhan/hunter/patch</smali>
     <asset>jixing.xml</asset>
     <asset>MoreConfigs.xml</asset>
     <asset>configs.xml</asset>
@@ -15543,25 +16361,52 @@
     <asset>dimens.xml</asset>
   </apk>
   <apk id="com.popcap.pvz2cthdwdj">
-    <crosswalk iscrosswalk="" mode="" architecture="" webview="" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a crosswalk based app."/>
+    <crosswalk iscrosswalk="" mode="" architecture="" webview="" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="植物大战僵尸2高清版" file="e892510432c34aba4288aa09a4405b91.apk" size="91.2MB" launchableactivity="com.popcap.pvz2cthdwdj.SexyAppActivity" versioncode="665" versionname="1.3.4" sdkversion="9" targetsdkversion="12"/>
     <smali>android/support/v4</smali>
+    <smali>android/support/v4/view</smali>
+    <smali>android/support/v4/database</smali>
+    <smali>android/support/v4/content</smali>
+    <smali>android/support/v4/app</smali>
+    <smali>android/support/v4/net</smali>
+    <smali>android/support/v4/util</smali>
+    <smali>android/support/v4/widget</smali>
+    <smali>android/support/v4/accessibilityservice</smali>
+    <smali>android/support/v4/os</smali>
     <smali>cn/play/dserv</smali>
     <smali>cn/egame/terminal</smali>
+    <smali>cn/egame/terminal/paysdk</smali>
     <smali>com/tendcloud/tenddata</smali>
+    <smali>com/tendcloud/tenddata/game</smali>
     <smali>com/android/vending</smali>
+    <smali>com/android/vending/billing</smali>
     <smali>com/sms/purchasesdk</smali>
+    <smali>com/sms/purchasesdk/view</smali>
     <smali>com/wow/shell</smali>
     <smali>com/popcap/network</smali>
     <smali>com/popcap/pvz2cthdwdj</smali>
     <smali>com/popcap/events</smali>
+    <smali>com/popcap/events/RewardEvent</smali>
     <smali>com/popcap/util</smali>
     <smali>com/popcap/notifications</smali>
     <smali>com/popcap/SexyAppFramework</smali>
+    <smali>com/popcap/SexyAppFramework/utils</smali>
     <smali>com/popcap/log</smali>
     <smali>com/popcap/purchase</smali>
+    <smali>com/popcap/purchase/UnicomChannel</smali>
+    <smali>com/popcap/purchase/TelecomChannel</smali>
+    <smali>com/popcap/purchase/ChinaMobileMMChannel</smali>
+    <smali>com/popcap/purchase/ChinaMobileChannel</smali>
     <smali>com/unicom/dcLoader</smali>
     <smali>mm/sms/purchasesdk</smali>
+    <smali>mm/sms/purchasesdk/fingerprint</smali>
+    <smali>mm/sms/purchasesdk/e</smali>
+    <smali>mm/sms/purchasesdk/a</smali>
+    <smali>mm/sms/purchasesdk/d</smali>
+    <smali>mm/sms/purchasesdk/c</smali>
+    <smali>mm/sms/purchasesdk/sms</smali>
+    <smali>mm/sms/purchasesdk/b</smali>
+    <smali>mm/sms/purchasesdk/f</smali>
     <asset>dynamic2.rsb.smf</asset>
     <asset>init.rsb.smf</asset>
     <asset>dark.rsb.tag.smf</asset>
@@ -15639,59 +16484,121 @@
     <asset>EGAME_103.dat</asset>
   </apk>
   <apk id="com.Phantom.huoying.wdj">
-    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a crosswalk based app."/>
+    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="天天忍者" file="4adc5b04326644ba1eaba34d9f6d603a.apk" size="50.4MB" launchableactivity="com.ifreeteam.unityplugin.Platform" versioncode="7" versionname="1.4.8" sdkversion="8" targetsdkversion="17"/>
     <smali>android/support/v4</smali>
+    <smali>android/support/v4/view</smali>
+    <smali>android/support/v4/database</smali>
+    <smali>android/support/v4/text</smali>
+    <smali>android/support/v4/content</smali>
+    <smali>android/support/v4/app</smali>
+    <smali>android/support/v4/net</smali>
+    <smali>android/support/v4/util</smali>
+    <smali>android/support/v4/widget</smali>
+    <smali>android/support/v4/accessibilityservice</smali>
+    <smali>android/support/v4/internal</smali>
+    <smali>android/support/v4/os</smali>
+    <smali>android/support/v4/hardware</smali>
+    <smali>android/support/v4/media</smali>
+    <smali>android/support/v4/graphics</smali>
     <smali>gnu/trove/decorator</smali>
     <smali>at/spardat/xma</smali>
+    <smali>at/spardat/xma/xdelta</smali>
     <smali>cn/sharesdk/tencent</smali>
+    <smali>cn/sharesdk/tencent/qq</smali>
+    <smali>cn/sharesdk/tencent/weibo</smali>
+    <smali>cn/sharesdk/tencent/qzone</smali>
     <smali>cn/sharesdk/yixin</smali>
+    <smali>cn/sharesdk/yixin/utils</smali>
+    <smali>cn/sharesdk/yixin/friends</smali>
+    <smali>cn/sharesdk/yixin/moments</smali>
     <smali>cn/sharesdk/pinterest</smali>
     <smali>cn/sharesdk/evernote</smali>
     <smali>cn/sharesdk/onekeyshare</smali>
     <smali>cn/sharesdk/facebook</smali>
     <smali>cn/sharesdk/kaixin</smali>
     <smali>cn/sharesdk/framework</smali>
+    <smali>cn/sharesdk/framework/authorize</smali>
+    <smali>cn/sharesdk/framework/a</smali>
+    <smali>cn/sharesdk/framework/utils</smali>
+    <smali>cn/sharesdk/framework/b</smali>
     <smali>cn/sharesdk/sohu</smali>
+    <smali>cn/sharesdk/sohu/microblog</smali>
+    <smali>cn/sharesdk/sohu/suishenkan</smali>
     <smali>cn/sharesdk/google</smali>
     <smali>cn/sharesdk/sina</smali>
+    <smali>cn/sharesdk/sina/weibo</smali>
     <smali>cn/sharesdk/douban</smali>
     <smali>cn/sharesdk/system</smali>
+    <smali>cn/sharesdk/system/text</smali>
+    <smali>cn/sharesdk/system/email</smali>
     <smali>cn/sharesdk/foursquare</smali>
     <smali>cn/sharesdk/youdao</smali>
     <smali>cn/sharesdk/unity3d</smali>
     <smali>cn/sharesdk/mingdao</smali>
     <smali>cn/sharesdk/vkontakte</smali>
     <smali>cn/sharesdk/netease</smali>
+    <smali>cn/sharesdk/netease/microblog</smali>
     <smali>cn/sharesdk/renren</smali>
     <smali>cn/sharesdk/linkedin</smali>
     <smali>cn/sharesdk/dropbox</smali>
     <smali>cn/sharesdk/tumblr</smali>
     <smali>cn/sharesdk/wechat</smali>
+    <smali>cn/sharesdk/wechat/favorite</smali>
+    <smali>cn/sharesdk/wechat/utils</smali>
+    <smali>cn/sharesdk/wechat/friends</smali>
+    <smali>cn/sharesdk/wechat/moments</smali>
     <smali>cn/sharesdk/instagram</smali>
     <smali>cn/sharesdk/twitter</smali>
     <smali>cn/sharesdk/flickr</smali>
     <smali>net/appplus/protocols</smali>
     <smali>net/appplus/sdk</smali>
+    <smali>net/appplus/sdk/shareplus</smali>
+    <smali>net/appplus/sdk/listener</smali>
     <smali>com/ifree/unity</smali>
+    <smali>com/ifree/unity/commonutilityplugin</smali>
     <smali>com/tencent/stat</smali>
+    <smali>com/tencent/stat/a</smali>
+    <smali>com/tencent/stat/common</smali>
     <smali>com/aipai/recnow</smali>
     <smali>com/sina/sso</smali>
     <smali>com/jakewharton/disklrucache</smali>
     <smali>com/unity3d/player</smali>
     <smali>com/ifreeteam/unity</smali>
+    <smali>com/ifreeteam/unity/pushreceiver</smali>
+    <smali>com/ifreeteam/unity/sinaweibo</smali>
     <smali>com/ifreeteam/wdjunityplugin</smali>
     <smali>com/ifreeteam/unityactivity</smali>
     <smali>com/ifreeteam/unityplugin</smali>
     <smali>com/Phantom/huoying</smali>
+    <smali>com/Phantom/huoying/wdj</smali>
     <smali>com/umeng/common</smali>
+    <smali>com/umeng/common/a</smali>
+    <smali>com/umeng/common/net</smali>
+    <smali>com/umeng/common/util</smali>
     <smali>com/umeng/newxp</smali>
+    <smali>com/umeng/newxp/view</smali>
+    <smali>com/umeng/newxp/a</smali>
+    <smali>com/umeng/newxp/net</smali>
+    <smali>com/umeng/newxp/common</smali>
+    <smali>com/umeng/newxp/controller</smali>
     <smali>com/umeng/fb</smali>
+    <smali>com/umeng/fb/a</smali>
+    <smali>com/umeng/fb/c</smali>
+    <smali>com/umeng/fb/model</smali>
+    <smali>com/umeng/fb/b</smali>
     <smali>com/umeng/analytics</smali>
+    <smali>com/umeng/analytics/a</smali>
+    <smali>com/umeng/analytics/onlineconfig</smali>
+    <smali>com/umeng/analytics/game</smali>
     <smali>com/umeng/update</smali>
     <smali>com/wandoujia/mariosdk</smali>
+    <smali>com/wandoujia/mariosdk/plugin</smali>
     <smali>com/wandoujia/pluginframework</smali>
+    <smali>com/wandoujia/pluginframework/config</smali>
+    <smali>com/wandoujia/pluginframework/a</smali>
     <smali>com/nothome/delta</smali>
+    <smali>com/nothome/delta/text</smali>
     <smali>com/sim/core</smali>
     <smali>appplus/sharep/h</smali>
     <smali>appplus/sharep/e</smali>
@@ -15704,10 +16611,12 @@
     <smali>appplus/sharep/j</smali>
     <smali>appplus/sharep/b</smali>
     <smali>appplus/sharep/org</smali>
+    <smali>appplus/sharep/org/acra</smali>
     <smali>appplus/sharep/f</smali>
     <smali>m/framework/network</smali>
     <smali>m/framework/utils</smali>
     <smali>m/framework/ui</smali>
+    <smali>m/framework/ui/widget</smali>
     <asset>ShareSDK.xml</asset>
     <asset>config.cfg</asset>
     <asset>wdjsdk.inf</asset>
@@ -17789,74 +18698,229 @@
     <asset>unity_builtin_extra</asset>
   </apk>
   <apk id="com.kiloo.subwaysurf">
-    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a crosswalk based app."/>
+    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="地铁跑酷" file="c349393dd0a2f831b90f9c3adfa02e1d.apk" size="38.1MB" launchableactivity="com.kiloo.subwaysurf.RRAndroidPluginActivity" versioncode="69" versionname="2.27.0" sdkversion="10" targetsdkversion="18"/>
     <smali>cn/play/dserv</smali>
     <smali>cn/egame/terminal</smali>
+    <smali>cn/egame/terminal/paysdk</smali>
+    <smali>cn/egame/terminal/sdk</smali>
     <smali>com/s1/a</smali>
+    <smali>com/s1/a/a</smali>
     <smali>com/s1/d</smali>
+    <smali>com/s1/d/a</smali>
     <smali>com/s1/c</smali>
     <smali>com/s1/lib</smali>
+    <smali>com/s1/lib/config</smali>
+    <smali>com/s1/lib/a</smali>
+    <smali>com/s1/lib/d</smali>
+    <smali>com/s1/lib/c</smali>
+    <smali>com/s1/lib/internal</smali>
+    <smali>com/s1/lib/plugin</smali>
+    <smali>com/s1/lib/b</smali>
     <smali>com/s1/b</smali>
+    <smali>com/s1/b/a</smali>
     <smali>com/cmsc/cmmusic</smali>
+    <smali>com/cmsc/cmmusic/init</smali>
     <smali>com/qq/jce</smali>
+    <smali>com/qq/jce/wup</smali>
     <smali>com/qq/taf</smali>
+    <smali>com/qq/taf/jce</smali>
     <smali>com/InAppPurchase/util</smali>
     <smali>com/tendcloud/tenddata</smali>
+    <smali>com/tendcloud/tenddata/game</smali>
     <smali>com/android/vending</smali>
+    <smali>com/android/vending/billing</smali>
     <smali>com/android/coll</smali>
+    <smali>com/android/coll/a</smali>
+    <smali>com/android/coll/c</smali>
+    <smali>com/android/coll/model</smali>
+    <smali>com/android/coll/b</smali>
     <smali>com/ta/utdid2</smali>
+    <smali>com/ta/utdid2/device</smali>
+    <smali>com/ta/utdid2/android</smali>
+    <smali>com/ta/utdid2/core</smali>
     <smali>com/tencent/a</smali>
+    <smali>com/tencent/a/a</smali>
+    <smali>com/tencent/a/b</smali>
     <smali>com/tencent/connect</smali>
+    <smali>com/tencent/connect/auth</smali>
+    <smali>com/tencent/connect/a</smali>
+    <smali>com/tencent/connect/avatar</smali>
+    <smali>com/tencent/connect/common</smali>
+    <smali>com/tencent/connect/dataprovider</smali>
+    <smali>com/tencent/connect/share</smali>
     <smali>com/tencent/open</smali>
+    <smali>com/tencent/open/a</smali>
+    <smali>com/tencent/open/b</smali>
     <smali>com/tencent/beacon</smali>
+    <smali>com/tencent/beacon/e</smali>
+    <smali>com/tencent/beacon/a</smali>
+    <smali>com/tencent/beacon/d</smali>
+    <smali>com/tencent/beacon/upload</smali>
+    <smali>com/tencent/beacon/heatmap</smali>
+    <smali>com/tencent/beacon/c</smali>
+    <smali>com/tencent/beacon/applog</smali>
+    <smali>com/tencent/beacon/event</smali>
+    <smali>com/tencent/beacon/b</smali>
     <smali>com/tencent/agsdk</smali>
+    <smali>com/tencent/agsdk/framework</smali>
+    <smali>com/tencent/agsdk/module</smali>
+    <smali>com/tencent/agsdk/libware</smali>
+    <smali>com/tencent/agsdk/api</smali>
     <smali>com/tencent/stat</smali>
+    <smali>com/tencent/stat/a</smali>
+    <smali>com/tencent/stat/common</smali>
     <smali>com/tencent/weiyun</smali>
     <smali>com/tencent/tauth</smali>
     <smali>com/tencent/smtt</smali>
+    <smali>com/tencent/smtt/export</smali>
+    <smali>com/tencent/smtt/sdk</smali>
+    <smali>com/tencent/smtt/utils</smali>
     <smali>com/tencent/mm</smali>
+    <smali>com/tencent/mm/a</smali>
+    <smali>com/tencent/mm/sdk</smali>
     <smali>com/tencent/utils</smali>
     <smali>com/tencent/feedback</smali>
+    <smali>com/tencent/feedback/upload</smali>
+    <smali>com/tencent/feedback/anr</smali>
+    <smali>com/tencent/feedback/common</smali>
+    <smali>com/tencent/feedback/eup</smali>
     <smali>com/tencent/wpa</smali>
     <smali>com/tencent/t</smali>
     <smali>com/tencent/mid</smali>
+    <smali>com/tencent/mid/a</smali>
+    <smali>com/tencent/mid/util</smali>
+    <smali>com/tencent/mid/b</smali>
+    <smali>com/tencent/mid/api</smali>
     <smali>com/tencent/b</smali>
+    <smali>com/tencent/b/a</smali>
+    <smali>com/tencent/b/c</smali>
+    <smali>com/tencent/b/b</smali>
     <smali>com/tencent/qzone</smali>
     <smali>com/a/a</smali>
     <smali>com/mobgi/android</smali>
+    <smali>com/mobgi/android/service</smali>
+    <smali>com/mobgi/android/ad</smali>
     <smali>com/mobgi/a</smali>
+    <smali>com/mobgi/a/a</smali>
     <smali>com/mobgi/d</smali>
+    <smali>com/mobgi/d/a</smali>
+    <smali>com/mobgi/d/c</smali>
+    <smali>com/mobgi/d/b</smali>
     <smali>com/mobgi/c</smali>
+    <smali>com/mobgi/c/a</smali>
     <smali>com/mobgi/lib</smali>
+    <smali>com/mobgi/lib/config</smali>
+    <smali>com/mobgi/lib/a</smali>
+    <smali>com/mobgi/lib/d</smali>
+    <smali>com/mobgi/lib/c</smali>
+    <smali>com/mobgi/lib/internal</smali>
+    <smali>com/mobgi/lib/b</smali>
     <smali>com/mobgi/b</smali>
+    <smali>com/mobgi/b/a</smali>
     <smali>com/dsstate/a</smali>
     <smali>com/dsstate/track</smali>
+    <smali>com/dsstate/track/a</smali>
+    <smali>com/dsstate/track/b</smali>
     <smali>com/alipay/android</smali>
+    <smali>com/alipay/android/app</smali>
     <smali>com/alipay/sdk</smali>
+    <smali>com/alipay/sdk/protocol</smali>
+    <smali>com/alipay/sdk/auth</smali>
+    <smali>com/alipay/sdk/app</smali>
+    <smali>com/alipay/sdk/net</smali>
+    <smali>com/alipay/sdk/util</smali>
+    <smali>com/alipay/sdk/widget</smali>
+    <smali>com/alipay/sdk/data</smali>
+    <smali>com/alipay/sdk/exception</smali>
+    <smali>com/alipay/sdk/sys</smali>
+    <smali>com/alipay/sdk/cons</smali>
+    <smali>com/alipay/sdk/encrypt</smali>
+    <smali>com/alipay/sdk/tid</smali>
     <smali>com/alipay/mobilesecuritysdk</smali>
+    <smali>com/alipay/mobilesecuritysdk/datainfo</smali>
+    <smali>com/alipay/mobilesecuritysdk/util</smali>
+    <smali>com/alipay/mobilesecuritysdk/face</smali>
+    <smali>com/alipay/mobilesecuritysdk/deviceID</smali>
+    <smali>com/alipay/mobilesecuritysdk/constant</smali>
+    <smali>com/alipay/mobilesecuritysdk/model</smali>
     <smali>com/ut/device</smali>
     <smali>com/google/protobuf</smali>
     <smali>com/skynetpay/android</smali>
+    <smali>com/skynetpay/android/payment</smali>
+    <smali>com/skynetpay/android/standard</smali>
+    <smali>com/skynetpay/android/impl</smali>
     <smali>com/skynetpay/a</smali>
+    <smali>com/skynetpay/a/a</smali>
     <smali>com/skynetpay/d</smali>
+    <smali>com/skynetpay/d/a</smali>
     <smali>com/skynetpay/c</smali>
     <smali>com/skynetpay/lib</smali>
+    <smali>com/skynetpay/lib/config</smali>
+    <smali>com/skynetpay/lib/e</smali>
+    <smali>com/skynetpay/lib/a</smali>
+    <smali>com/skynetpay/lib/d</smali>
+    <smali>com/skynetpay/lib/c</smali>
+    <smali>com/skynetpay/lib/internal</smali>
+    <smali>com/skynetpay/lib/bean</smali>
+    <smali>com/skynetpay/lib/plugin</smali>
+    <smali>com/skynetpay/lib/b</smali>
     <smali>com/skynetpay/b</smali>
+    <smali>com/skynetpay/b/a</smali>
     <smali>com/sms/purchasesdk</smali>
+    <smali>com/sms/purchasesdk/view</smali>
     <smali>com/umpay/huafubao</smali>
+    <smali>com/umpay/huafubao/e</smali>
+    <smali>com/umpay/huafubao/a</smali>
+    <smali>com/umpay/huafubao/d</smali>
+    <smali>com/umpay/huafubao/util</smali>
+    <smali>com/umpay/huafubao/c</smali>
+    <smali>com/umpay/huafubao/ui</smali>
+    <smali>com/umpay/huafubao/b</smali>
+    <smali>com/umpay/huafubao/receivers</smali>
     <smali>com/skynet/android</smali>
+    <smali>com/skynet/android/sns</smali>
+    <smali>com/skynet/android/dk</smali>
+    <smali>com/skynet/android/tencent</smali>
+    <smali>com/skynet/android/user</smali>
+    <smali>com/skynet/android/payment</smali>
+    <smali>com/skynet/android/activity</smali>
+    <smali>com/skynet/android/weixin</smali>
+    <smali>com/skynet/android/notice</smali>
+    <smali>com/skynet/android/game</smali>
+    <smali>com/skynet/android/qihoo</smali>
+    <smali>com/skynet/android/impl</smali>
     <smali>com/unity3d/player</smali>
     <smali>com/wow/shell</smali>
     <smali>com/idreamsky/push</smali>
+    <smali>com/idreamsky/push/broadcast</smali>
+    <smali>com/idreamsky/push/service</smali>
+    <smali>com/idreamsky/push/a</smali>
+    <smali>com/idreamsky/push/d</smali>
+    <smali>com/idreamsky/push/c</smali>
+    <smali>com/idreamsky/push/model</smali>
+    <smali>com/idreamsky/push/b</smali>
     <smali>com/unicom/dcLoader</smali>
     <smali>com/kiloo/subwaysurf</smali>
+    <smali>com/kiloo/subwaysurf/wxapi</smali>
     <smali>com/kiloo/inapppurchase</smali>
     <smali>com/kiloo/unityutilities</smali>
     <smali>com/kiloo/unityplugins</smali>
+    <smali>com/kiloo/unityplugins/localnotifications</smali>
     <smali>mm/sms/purchasesdk</smali>
+    <smali>mm/sms/purchasesdk/fingerprint</smali>
+    <smali>mm/sms/purchasesdk/e</smali>
+    <smali>mm/sms/purchasesdk/a</smali>
+    <smali>mm/sms/purchasesdk/d</smali>
+    <smali>mm/sms/purchasesdk/c</smali>
+    <smali>mm/sms/purchasesdk/sms</smali>
+    <smali>mm/sms/purchasesdk/b</smali>
+    <smali>mm/sms/purchasesdk/f</smali>
     <smali>mqq/a/a</smali>
+    <smali>mqq/a/a/a</smali>
+    <smali>mqq/a/a/b</smali>
     <smali>org/agoo/ut</smali>
+    <smali>org/agoo/ut/device</smali>
     <asset>egame_ds.dat</asset>
     <asset>libmegbpp_02.02.09_01.so</asset>
     <asset>Config.xml</asset>
@@ -18326,29 +19390,61 @@
     <asset>EGAME_103.dat</asset>
   </apk>
   <apk id="com.netease.ldxy.wdj">
-    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a crosswalk based app."/>
+    <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="乱斗西游" file="b3e2dbe1f16c62601d04a4fabe3074c1.apk" size="174.2MB" launchableactivity="com.netease.ldxy.wdj.Launcher" versioncode="13" versionname="1.0.13" sdkversion="9" targetsdkversion="19"/>
     <smali>android/support/v4</smali>
+    <smali>android/support/v4/view</smali>
+    <smali>android/support/v4/database</smali>
+    <smali>android/support/v4/text</smali>
+    <smali>android/support/v4/content</smali>
+    <smali>android/support/v4/app</smali>
+    <smali>android/support/v4/net</smali>
+    <smali>android/support/v4/util</smali>
+    <smali>android/support/v4/widget</smali>
+    <smali>android/support/v4/accessibilityservice</smali>
+    <smali>android/support/v4/internal</smali>
+    <smali>android/support/v4/os</smali>
+    <smali>android/support/v4/hardware</smali>
+    <smali>android/support/v4/media</smali>
+    <smali>android/support/v4/graphics</smali>
     <smali>android/net/http</smali>
     <smali>gnu/trove/decorator</smali>
     <smali>at/spardat/xma</smali>
+    <smali>at/spardat/xma/xdelta</smali>
     <smali>com/weibo/sdk</smali>
+    <smali>com/weibo/sdk/android</smali>
     <smali>com/tencent/mm</smali>
+    <smali>com/tencent/mm/a</smali>
+    <smali>com/tencent/mm/sdk</smali>
     <smali>com/sina/weibo</smali>
+    <smali>com/sina/weibo/sdk</smali>
     <smali>com/sina/sso</smali>
     <smali>com/jakewharton/disklrucache</smali>
     <smali>com/netease/ntunisdk</smali>
+    <smali>com/netease/ntunisdk/base</smali>
     <smali>com/netease/ldxy</smali>
+    <smali>com/netease/ldxy/wdj</smali>
     <smali>com/netease/neox</smali>
     <smali>com/netease/cc</smali>
+    <smali>com/netease/cc/gamevideo</smali>
+    <smali>com/netease/cc/record</smali>
     <smali>com/netease/push</smali>
     <smali>com/wandoujia/mariosdk</smali>
+    <smali>com/wandoujia/mariosdk/plugin</smali>
     <smali>com/wandoujia/pluginframework</smali>
+    <smali>com/wandoujia/pluginframework/config</smali>
+    <smali>com/wandoujia/pluginframework/a</smali>
     <smali>com/nothome/delta</smali>
+    <smali>com/nothome/delta/text</smali>
     <smali>com/sim/core</smali>
     <smali>org/apache/http</smali>
+    <smali>org/apache/http/entity</smali>
     <smali>im/yixin/algorithm</smali>
     <smali>im/yixin/sdk</smali>
+    <smali>im/yixin/sdk/http</smali>
+    <smali>im/yixin/sdk/util</smali>
+    <smali>im/yixin/sdk/channel</smali>
+    <smali>im/yixin/sdk/api</smali>
     <asset>wandoujia_data</asset>
     <asset>wdjsdk.inf</asset>
     <asset>mario-sdk-plugin.apk</asset>
@@ -18373,10 +19469,13 @@
     <asset>hero_43.fsb</asset>
   </apk>
   <apk id="com.mojang.minecraftpe">
-    <crosswalk iscrosswalk="" mode="" architecture="" webview="" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a crosswalk based app."/>
+    <crosswalk iscrosswalk="" mode="" architecture="" webview="" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="Minecraft - Pocket Edition" file="xxetscom.mojang.minecraftpenda.apk" size="13.6MB" launchableactivity="com.mojang.minecraftpe.MainActivity" versioncode="740100501" versionname="0.10.5" sdkversion="11" targetsdkversion="19"/>
     <smali>com/mojang/android</smali>
+    <smali>com/mojang/android/net</smali>
     <smali>com/mojang/minecraftpe</smali>
+    <smali>com/mojang/minecraftpe/platforms</smali>
+    <smali>com/mojang/minecraftpe/input</smali>
     <asset>texture_cutout.fragment</asset>
     <asset>renderchunk.vertex</asset>
     <asset>current_color.fragment</asset>

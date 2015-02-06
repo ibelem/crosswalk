@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type="text/xsl" href="apk-analyser-result.xsl"?>
-<apks datetime="2015-02-05 16:39:34" note="Top apps downloaded from wandoujia.com. Decompile failed for QQ and Sogou IME apps.">
+<apks datetime="2015-02-06 16:39:52">
   <apk id="com.eg.android.AlipayGphone">
     <crosswalk iscrosswalk="" mode="" architecture="" webview="yes webkit" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="支付宝钱包" file="b1e3f5f8abc03f29793dec24b49aaf4e.apk" size="32.4MB" launchableactivity="com.eg.android.AlipayGphone.AlipayLogin" versioncode="73" versionname="8.5.3.012601" sdkversion="9" targetsdkversion="19"/>
-    <smali>android</smali>
-    <smali>android/content</smali>
     <smali>android/content/pm</smali>
-    <smali>android/support</smali>
     <smali>android/support/annotation</smali>
     <smali>android/support/v13</smali>
     <smali>android/support/v13/app</smali>
@@ -27,19 +24,14 @@
     <smali>android/support/v4/hardware</smali>
     <smali>android/support/v4/media</smali>
     <smali>android/support/v4/graphics</smali>
-    <smali>android/net</smali>
+    <smali>android/webkit</smali>
     <smali>android/net/http</smali>
-    <smali>android/util</smali>
-    <smali>com</smali>
-    <smali>com/ta</smali>
     <smali>com/ta/utdid2</smali>
     <smali>com/ta/utdid2/device</smali>
     <smali>com/ta/utdid2/android</smali>
     <smali>com/ta/utdid2/core</smali>
-    <smali>com/qihoo360</smali>
     <smali>com/qihoo360/contacts</smali>
     <smali>com/qihoo360/contacts/service</smali>
-    <smali>com/alipay</smali>
     <smali>com/alipay/liveservice</smali>
     <smali>com/alipay/liveservice/common</smali>
     <smali>com/alipay/publiccore</smali>
@@ -227,23 +219,17 @@
     <smali>com/alipay/aggrbillinfo</smali>
     <smali>com/alipay/aggrbillinfo/common</smali>
     <smali>com/alipay/aggrbillinfo/biz</smali>
-    <smali>com/eg</smali>
     <smali>com/eg/android</smali>
     <smali>com/eg/android/AlipayGphone</smali>
-    <smali>com/ut</smali>
     <smali>com/ut/device</smali>
     <smali>com/ut/secbody</smali>
-    <smali>com/amap</smali>
     <smali>com/amap/api</smali>
     <smali>com/amap/api/location</smali>
-    <smali>com/akazam</smali>
     <smali>com/akazam/api</smali>
     <smali>com/akazam/api/ctwifi</smali>
-    <smali>com/ali</smali>
     <smali>com/ali/user</smali>
     <smali>com/ali/user/alipay</smali>
     <smali>com/ali/user/mobile</smali>
-    <smali>com/taobao</smali>
     <smali>com/taobao/securityjni</smali>
     <smali>com/taobao/securityjni/tools</smali>
     <smali>com/taobao/securityjni/wraper</smali>
@@ -261,22 +247,15 @@
     <smali>com/taobao/mteam/ibeacon</smali>
     <smali>com/taobao/wireless</smali>
     <smali>com/taobao/wireless/security</smali>
-    <smali>com/aps</smali>
-    <smali>com/alibaba</smali>
     <smali>com/alibaba/fastjson</smali>
     <smali>com/alibaba/fastjson/parser</smali>
     <smali>com/alibaba/fastjson/util</smali>
     <smali>com/alibaba/fastjson/annotation</smali>
     <smali>com/alibaba/fastjson/serializer</smali>
-    <smali>HttpUtils</smali>
-    <smali>org</smali>
-    <smali>org/agoo</smali>
     <smali>org/agoo/ut</smali>
     <smali>org/agoo/ut/device</smali>
-    <smali>org/ccil</smali>
     <smali>org/ccil/cowan</smali>
     <smali>org/ccil/cowan/tagsoup</smali>
-    <smali>org/aspectj</smali>
     <smali>org/aspectj/runtime</smali>
     <smali>org/aspectj/runtime/reflect</smali>
     <smali>org/aspectj/runtime/internal</smali>
@@ -286,7 +265,6 @@
     <smali>org/aspectj/lang/annotation</smali>
     <smali>org/aspectj/lang/reflect</smali>
     <smali>org/aspectj/lang/internal</smali>
-    <smali>org/rome</smali>
     <smali>org/rome/android</smali>
     <smali>org/rome/android/ipp</smali>
     <asset>verisign.cer</asset>
@@ -327,10 +305,6 @@
   <apk id="com.UCMobile">
     <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="UC浏览器" file="e6ad530d237107c2de57a786ce43ca3b.apk" size="17.4MB" launchableactivity="com.UCMobile.main.UCMobile" versioncode="157" versionname="10.1.3" sdkversion="8" targetsdkversion="8"/>
-    <smali>a</smali>
-    <smali>a/a</smali>
-    <smali>com</smali>
-    <smali>com/uc</smali>
     <smali>com/uc/h</smali>
     <smali>com/uc/h/a</smali>
     <smali>com/uc/customview</smali>
@@ -493,22 +467,18 @@
     <smali>com/uc/b/b</smali>
     <smali>com/uc/b/f</smali>
     <smali>com/uc/f</smali>
-    <smali>com/ta</smali>
     <smali>com/ta/utdid2</smali>
     <smali>com/ta/utdid2/device</smali>
     <smali>com/ta/utdid2/android</smali>
     <smali>com/ta/utdid2/aid</smali>
     <smali>com/ta/utdid2/core</smali>
-    <smali>com/tencent</smali>
     <smali>com/tencent/mm</smali>
     <smali>com/tencent/mm/algorithm</smali>
     <smali>com/tencent/mm/sdk</smali>
-    <smali>com/a</smali>
     <smali>com/a/a</smali>
     <smali>com/a/a/a</smali>
     <smali>com/a/a/c</smali>
     <smali>com/a/a/b</smali>
-    <smali>com/UCMobile</smali>
     <smali>com/UCMobile/ScreenshotsGraffiti</smali>
     <smali>com/UCMobile/shellassetsres</smali>
     <smali>com/UCMobile/service</smali>
@@ -542,31 +512,20 @@
     <smali>com/UCMobile/b/a</smali>
     <smali>com/UCMobile/receivers</smali>
     <smali>com/UCMobile/listener</smali>
-    <smali>com/alipay</smali>
     <smali>com/alipay/mobile</smali>
     <smali>com/alipay/mobile/command</smali>
-    <smali>com/ut</smali>
     <smali>com/ut/device</smali>
-    <smali>com/google</smali>
     <smali>com/google/android</smali>
     <smali>com/google/android/apps</smali>
-    <smali>com/amap</smali>
     <smali>com/amap/api</smali>
     <smali>com/amap/api/location</smali>
-    <smali>com/ucweb</smali>
     <smali>com/ucweb/message</smali>
     <smali>com/ucweb/a</smali>
-    <smali>com/aps</smali>
-    <smali>io</smali>
-    <smali>io/vov</smali>
     <smali>io/vov/vitamio</smali>
     <smali>io/vov/vitamio/widget</smali>
     <smali>io/vov/vitamio/utils</smali>
     <smali>io/vov/vitamio/activity</smali>
     <smali>io/vov/vitamio/provider</smali>
-    <smali>b</smali>
-    <smali>org</smali>
-    <smali>org/android</smali>
     <smali>org/android/agoo</smali>
     <smali>org/android/agoo/service</smali>
     <smali>org/android/agoo/net</smali>
@@ -1351,8 +1310,6 @@
   <apk id="com.youku.phone">
     <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="优酷" file="81b088b171f393ade5cf3f6810bcdec4.apk" size="22.7MB" launchableactivity="com.youku.phone.ActivityWelcome" versioncode="68" versionname="4.5" sdkversion="14" targetsdkversion="19"/>
-    <smali>android</smali>
-    <smali>android/support</smali>
     <smali>android/support/annotation</smali>
     <smali>android/support/v13</smali>
     <smali>android/support/v13/app</smali>
@@ -1380,8 +1337,6 @@
     <smali>android/support/v4/media</smali>
     <smali>android/support/v4/graphics</smali>
     <smali>android/support/multidex</smali>
-    <smali>cn</smali>
-    <smali>cn/com</smali>
     <smali>cn/com/admaster</smali>
     <smali>cn/com/admaster/signature</smali>
     <smali>cn/com/admaster/verify</smali>
@@ -1390,8 +1345,6 @@
     <smali>cn/com/iresearch</smali>
     <smali>cn/com/iresearch/mapptracker</smali>
     <smali>cn/com/iresearch/mvideotracker</smali>
-    <smali>cn/mmachina</smali>
-    <smali>cn/yunzhisheng</smali>
     <smali>cn/yunzhisheng/casr</smali>
     <smali>cn/yunzhisheng/vui</smali>
     <smali>cn/yunzhisheng/vui/util</smali>
@@ -1411,7 +1364,6 @@
     <smali>cn/yunzhisheng/asr/mix</smali>
     <smali>cn/yunzhisheng/proguard</smali>
     <smali>cn/yunzhisheng/preference</smali>
-    <smali>cn/domob</smali>
     <smali>cn/domob/android</smali>
     <smali>cn/domob/android/e</smali>
     <smali>cn/domob/android/a</smali>
@@ -1420,22 +1372,17 @@
     <smali>cn/domob/android/ads</smali>
     <smali>cn/domob/android/b</smali>
     <smali>cn/domob/android/f</smali>
-    <smali>com</smali>
-    <smali>com/ta</smali>
     <smali>com/ta/utdid2</smali>
     <smali>com/ta/utdid2/device</smali>
     <smali>com/ta/utdid2/android</smali>
     <smali>com/ta/utdid2/core</smali>
-    <smali>com/tencent</smali>
     <smali>com/tencent/mm</smali>
     <smali>com/tencent/mm/a</smali>
     <smali>com/tencent/mm/sdk</smali>
-    <smali>com/zijunlin</smali>
     <smali>com/zijunlin/Zxing</smali>
     <smali>com/zijunlin/Zxing/view</smali>
     <smali>com/zijunlin/Zxing/decoding</smali>
     <smali>com/zijunlin/Zxing/camera</smali>
-    <smali>com/punchbox</smali>
     <smali>com/punchbox/util</smali>
     <smali>com/punchbox/engine</smali>
     <smali>com/punchbox/report</smali>
@@ -1460,10 +1407,8 @@
     <smali>com/punchbox/v4/f</smali>
     <smali>com/punchbox/listener</smali>
     <smali>com/punchbox/response</smali>
-    <smali>com/alimm</smali>
     <smali>com/alimm/ad</smali>
     <smali>com/alimm/ad/mobile</smali>
-    <smali>com/alipay</smali>
     <smali>com/alipay/android</smali>
     <smali>com/alipay/android/app</smali>
     <smali>com/alipay/sdk</smali>
@@ -1489,9 +1434,7 @@
     <smali>com/alipay/mobilesecuritysdk/model</smali>
     <smali>com/alipay/mobile</smali>
     <smali>com/alipay/mobile/command</smali>
-    <smali>com/ut</smali>
     <smali>com/ut/device</smali>
-    <smali>com/google</smali>
     <smali>com/google/zxing</smali>
     <smali>com/google/zxing/qrcode</smali>
     <smali>com/google/zxing/common</smali>
@@ -1500,16 +1443,12 @@
     <smali>com/google/zxing/oned</smali>
     <smali>com/google/zxing/datamatrix</smali>
     <smali>com/google/zxing/pdf417</smali>
-    <smali>com/decapi</smali>
-    <smali>com/nostra13</smali>
     <smali>com/nostra13/universalimageloader</smali>
     <smali>com/nostra13/universalimageloader/cache</smali>
     <smali>com/nostra13/universalimageloader/core</smali>
     <smali>com/nostra13/universalimageloader/utils</smali>
-    <smali>com/amap</smali>
     <smali>com/amap/api</smali>
     <smali>com/amap/api/location</smali>
-    <smali>com/youku</smali>
     <smali>com/youku/dlna</smali>
     <smali>com/youku/config</smali>
     <smali>com/youku/android</smali>
@@ -1623,7 +1562,6 @@
     <smali>com/youku/analytics/utils</smali>
     <smali>com/youku/statistics</smali>
     <smali>com/youku/libmanager</smali>
-    <smali>com/comscore</smali>
     <smali>com/comscore/android</smali>
     <smali>com/comscore/metrics</smali>
     <smali>com/comscore/applications</smali>
@@ -1631,18 +1569,13 @@
     <smali>com/comscore/utils</smali>
     <smali>com/comscore/analytics</smali>
     <smali>com/comscore/measurement</smali>
-    <smali>com/luajava</smali>
-    <smali>com/crashlytics</smali>
     <smali>com/crashlytics/android</smali>
     <smali>com/crashlytics/android/internal</smali>
-    <smali>com/loopj</smali>
     <smali>com/loopj/android</smali>
     <smali>com/loopj/android/http</smali>
-    <smali>com/fima</smali>
     <smali>com/fima/cardsui</smali>
     <smali>com/fima/cardsui/views</smali>
     <smali>com/fima/cardsui/objects</smali>
-    <smali>com/taobao</smali>
     <smali>com/taobao/tae</smali>
     <smali>com/taobao/tae/sdk</smali>
     <smali>com/taobao/dp</smali>
@@ -1656,12 +1589,9 @@
     <smali>com/taobao/dp/b</smali>
     <smali>com/taobao/wireless</smali>
     <smali>com/taobao/wireless/security</smali>
-    <smali>com/mobisage</smali>
     <smali>com/mobisage/android</smali>
-    <smali>com/handmark</smali>
     <smali>com/handmark/pulltorefresh</smali>
     <smali>com/handmark/pulltorefresh/library</smali>
-    <smali>com/youdo</smali>
     <smali>com/youdo/calendar</smali>
     <smali>com/youdo/view</smali>
     <smali>com/youdo/location</smali>
@@ -1682,13 +1612,10 @@
     <smali>com/youdo/controller/ad</smali>
     <smali>com/youdo/controller/listeners</smali>
     <smali>com/youdo/controller/model</smali>
-    <smali>com/aps</smali>
-    <smali>com/nineoldandroids</smali>
     <smali>com/nineoldandroids/view</smali>
     <smali>com/nineoldandroids/view/animation</smali>
     <smali>com/nineoldandroids/util</smali>
     <smali>com/nineoldandroids/animation</smali>
-    <smali>com/alibaba</smali>
     <smali>com/alibaba/fastjson</smali>
     <smali>com/alibaba/fastjson/parser</smali>
     <smali>com/alibaba/fastjson/util</smali>
@@ -1708,43 +1635,26 @@
     <smali>com/alibaba/cchannel/utils</smali>
     <smali>com/alibaba/cchannel/push</smali>
     <smali>com/alibaba/cchannel/security</smali>
-    <smali>com/v7</smali>
     <smali>com/v7/widget</smali>
-    <smali>com/baseproject</smali>
     <smali>com/baseproject/image</smali>
     <smali>com/baseproject/network</smali>
     <smali>com/baseproject/utils</smali>
-    <smali>com/unicom</smali>
     <smali>com/unicom/iap</smali>
     <smali>com/unicom/iap/dataengine</smali>
     <smali>com/unicom/iap/sdk</smali>
     <smali>com/unicom/iap/utils</smali>
     <smali>com/unicom/iap/dialog</smali>
     <smali>com/unicom/iap/bean</smali>
-    <smali>tv</smali>
-    <smali>tv/cjump</smali>
     <smali>tv/cjump/jni</smali>
-    <smali>HttpUtils</smali>
-    <smali>master</smali>
-    <smali>master/flame</smali>
     <smali>master/flame/danmaku</smali>
     <smali>master/flame/danmaku/danmaku</smali>
     <smali>master/flame/danmaku/ui</smali>
     <smali>master/flame/danmaku/controller</smali>
-    <smali>naga</smali>
-    <smali>naga/a</smali>
-    <smali>naga/exception</smali>
-    <smali>naga/b</smali>
-    <smali>org</smali>
-    <smali>org/openad</smali>
     <smali>org/openad/common</smali>
     <smali>org/openad/common/util</smali>
     <smali>org/openad/common/factories</smali>
-    <smali>org/openudid</smali>
-    <smali>org/eclipse</smali>
     <smali>org/eclipse/paho</smali>
     <smali>org/eclipse/paho/client</smali>
-    <smali>org/java_websocket</smali>
     <smali>org/java_websocket/util</smali>
     <smali>org/java_websocket/framing</smali>
     <smali>org/java_websocket/client</smali>
@@ -1767,9 +1677,6 @@
   <apk id="com.qzone">
     <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="QQ空间" file="d15faab3c939ce350bdf08592717ee36.apk" size="18.0MB" launchableactivity="com.tencent.sc.activity.SplashActivity" versioncode="80" versionname="5.0.2.188" sdkversion="9" targetsdkversion="16"/>
-    <smali>NS_MOBILE_USERLOGO_TIMESTAMP</smali>
-    <smali>android</smali>
-    <smali>android/support</smali>
     <smali>android/support/v4</smali>
     <smali>android/support/v4/view</smali>
     <smali>android/support/v4/content</smali>
@@ -1777,8 +1684,6 @@
     <smali>android/support/v4/util</smali>
     <smali>android/support/v4/widget</smali>
     <smali>android/support/v4/os</smali>
-    <smali>oicq</smali>
-    <smali>oicq/wlogin_sdk</smali>
     <smali>oicq/wlogin_sdk/request</smali>
     <smali>oicq/wlogin_sdk/sharemem</smali>
     <smali>oicq/wlogin_sdk/tools</smali>
@@ -1788,21 +1693,11 @@
     <smali>oicq/wlogin_sdk/report</smali>
     <smali>oicq/wlogin_sdk/devicelock</smali>
     <smali>oicq/wlogin_sdk/tlv_type</smali>
-    <smali>MobileReadQzone</smali>
-    <smali>LBS_V2_PROTOCOL</smali>
-    <smali>NS_MOBILE_COMM</smali>
-    <smali>NS_GAMEBAR</smali>
-    <smali>NS_MOBILE_AD_BANNER</smali>
-    <smali>NS_OPENID2UIN</smali>
-    <smali>MobileAuthQzone</smali>
-    <smali>com</smali>
-    <smali>com/qq</smali>
     <smali>com/qq/jce</smali>
     <smali>com/qq/jce/wup</smali>
     <smali>com/qq/taf</smali>
     <smali>com/qq/taf/jce</smali>
     <smali>com/qq/taf/cnst</smali>
-    <smali>com/qzonex</smali>
     <smali>com/qzonex/component</smali>
     <smali>com/qzonex/component/protocol</smali>
     <smali>com/qzonex/component/resdownload</smali>
@@ -1911,7 +1806,6 @@
     <smali>com/qzonex/module/plugin</smali>
     <smali>com/qzonex/module/upgrade</smali>
     <smali>com/qzonex/module/birthsplash</smali>
-    <smali>com/tencent</smali>
     <smali>com/tencent/h</smali>
     <smali>com/tencent/h/task</smali>
     <smali>com/tencent/h/util</smali>
@@ -2005,59 +1899,10 @@
     <smali>com/tencent/base/os</smali>
     <smali>com/tencent/base/dalvik</smali>
     <smali>com/tencent/base/debug</smali>
-    <smali>com/qzone</smali>
     <smali>com/qzone/ui</smali>
     <smali>com/qzone/ui/global</smali>
-    <smali>BOSSStrategyCenter</smali>
-    <smali>BOSSStrategyCenter/cnst</smali>
-    <smali>NS_MOBILE_QBOSS_PROTO</smali>
-    <smali>NS_MOBILE_QBOSS_PROTO/cnst</smali>
-    <smali>NS_MOBILE_SUPPORT</smali>
-    <smali>NS_MOBILE_CLIENT_UPDATE</smali>
-    <smali>QuanPhotoUpload</smali>
-    <smali>NS_VipReminderSvrProto</smali>
-    <smali>NS_VipReminderSvrProto/cnst</smali>
-    <smali>NS_UNDEAL_COUNT</smali>
-    <smali>NS_UNDEAL_COUNT/cnst</smali>
-    <smali>WUP_SECRET_UGC</smali>
-    <smali>MOBILE_SOREN</smali>
-    <smali>MOBILE_SOREN/cnst</smali>
-    <smali>NS_MOBILE_FANS_PUB</smali>
-    <smali>c</smali>
-    <smali>c/t</smali>
     <smali>c/t/m</smali>
     <smali>c/t/m/g</smali>
-    <smali>NS_MOBILE_CMD</smali>
-    <smali>NS_MOBILE_CMD/cnst</smali>
-    <smali>UnitTest</smali>
-    <smali>NS_MOBILE_WIDGET</smali>
-    <smali>NS_MOBILE_EXTRA</smali>
-    <smali>NS_MOBILE_EXTRA/cnst</smali>
-    <smali>QMF_SERVICE</smali>
-    <smali>Sound</smali>
-    <smali>wns_proxy</smali>
-    <smali>NS_MOBILE_MAIN_PAGE_GAME</smali>
-    <smali>NS_MOBILE_INVTRSTQZONE</smali>
-    <smali>ADV_REPORT</smali>
-    <smali>NS_MOBILE_MUSIC</smali>
-    <smali>Ns_Mobile_Vip_Svr</smali>
-    <smali>Ns_Mobile_Vip_Svr/cnst</smali>
-    <smali>NS_MOBILE_FEEDS</smali>
-    <smali>NS_MOBILE_FEEDS/cnst</smali>
-    <smali>NS_MOBILE_VIDEO</smali>
-    <smali>QMF_PROTOCAL</smali>
-    <smali>NS_MOBILE_PHOTO</smali>
-    <smali>NS_MOBILE_COVER_DATE</smali>
-    <smali>NS_MOBILE_COVER_DATE/cnst</smali>
-    <smali>NS_MOBILE_OPERATION</smali>
-    <smali>NS_MOBILE_OPERATION/cnst</smali>
-    <smali>NS_MOBILE_MAIN_PAGE</smali>
-    <smali>NS_MOBILE_MAIN_PAGE/cnst</smali>
-    <smali>NS_MOBILE_CUSTOM</smali>
-    <smali>NS_MOBILE_CUSTOM/cnst</smali>
-    <smali>NS_MOBILE_TEMPLATE_GIFT</smali>
-    <smali>NS_GAMEBAR_GAME</smali>
-    <smali>NS_GAMEBAR_GAME/cnst</smali>
     <asset>Countrys.xml</asset>
     <asset>qzone_help.html</asset>
     <asset>qua.ini</asset>
@@ -2097,8 +1942,6 @@
   <apk id="com.tencent.qqmusic">
     <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="QQ音乐" file="2cbf63c93661fda21815d38678afaf2c.apk" size="12.6MB" launchableactivity="com.tencent.qqmusic.activity.AppStarterActivity" versioncode="184" versionname="4.9.0.13" sdkversion="8" targetsdkversion="15"/>
-    <smali>android</smali>
-    <smali>android/support</smali>
     <smali>android/support/v4</smali>
     <smali>android/support/v4/view</smali>
     <smali>android/support/v4/database</smali>
@@ -2109,10 +1952,6 @@
     <smali>android/support/v4/widget</smali>
     <smali>android/support/v4/accessibilityservice</smali>
     <smali>android/support/v4/os</smali>
-    <smali>android/os</smali>
-    <smali>android/media</smali>
-    <smali>oicq</smali>
-    <smali>oicq/wlogin_sdk</smali>
     <smali>oicq/wlogin_sdk/request</smali>
     <smali>oicq/wlogin_sdk/sharemem</smali>
     <smali>oicq/wlogin_sdk/tools</smali>
@@ -2122,19 +1961,11 @@
     <smali>oicq/wlogin_sdk/report</smali>
     <smali>oicq/wlogin_sdk/devicelock</smali>
     <smali>oicq/wlogin_sdk/tlv_type</smali>
-    <smali>tencent</smali>
-    <smali>tencent/com</smali>
     <smali>tencent/com/cftutils</smali>
-    <smali>cn</smali>
-    <smali>cn/com</smali>
     <smali>cn/com/mma</smali>
     <smali>cn/com/mma/mobile</smali>
-    <smali>cn/mmachina</smali>
-    <smali>cn/thinkit</smali>
     <smali>cn/thinkit/libtmfe</smali>
     <smali>cn/thinkit/libtmfe/test</smali>
-    <smali>com</smali>
-    <smali>com/qq</smali>
     <smali>com/qq/wx</smali>
     <smali>com/qq/wx/net</smali>
     <smali>com/qq/wx/voice</smali>
@@ -2142,7 +1973,6 @@
     <smali>com/qq/e/mobsdk</smali>
     <smali>com/qq/taf</smali>
     <smali>com/qq/taf/jce</smali>
-    <smali>com/tencent</smali>
     <smali>com/tencent/httpproxy</smali>
     <smali>com/tencent/image</smali>
     <smali>com/tencent/image/a</smali>
@@ -2276,15 +2106,12 @@
     <smali>com/tencent/tmassistantsdk/b</smali>
     <smali>com/tencent/tmassistantsdk/selfUpdateSDK</smali>
     <smali>com/tencent/tmassistantsdk/f</smali>
-    <smali>com/sina</smali>
     <smali>com/sina/weibo</smali>
     <smali>com/sina/weibo/sdk</smali>
     <smali>com/sina/sso</smali>
-    <smali>com/soso</smali>
     <smali>com/soso/network</smali>
     <smali>com/soso/audio</smali>
     <smali>com/soso/utils</smali>
-    <smali>com/pay</smali>
     <smali>com/pay/image</smali>
     <smali>com/pay/image/cache</smali>
     <smali>com/pay/broadcast</smali>
@@ -2315,24 +2142,17 @@
     <smali>com/pay/ui/payWeb</smali>
     <smali>com/pay/tool</smali>
     <smali>com/pay/api</smali>
-    <smali>com/loopj</smali>
     <smali>com/loopj/android</smali>
     <smali>com/loopj/android/http</smali>
-    <smali>com/tenpay</smali>
     <smali>com/tenpay/a</smali>
     <smali>com/tenpay/a/a</smali>
     <smali>com/tenpay/a/c</smali>
     <smali>com/tenpay/a/b</smali>
     <smali>com/tenpay/tenpayplugin</smali>
     <smali>com/tenpay/tenpayplugin/view</smali>
-    <smali>com/paylogin</smali>
     <smali>com/paylogin/sdk</smali>
-    <smali>com/ibm</smali>
     <smali>com/ibm/icu</smali>
     <smali>com/ibm/icu/text</smali>
-    <smali>log</smali>
-    <smali>pi</smali>
-    <smali>pi/android</smali>
     <asset>qqmusic.ini</asset>
     <asset>WebViewJavaScriptBridge.js</asset>
     <asset>sfd.ser</asset>
@@ -2358,8 +2178,6 @@
   <apk id="com.autoconnectwifi.app">
     <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="WiFi连网神器" file="b69130cc285b03918afd0047dad8aed7.apk" size="2.6MB" launchableactivity="com.autoconnectwifi.app.activity.CampaignActivity" versioncode="25" versionname="2.9.1" sdkversion="9" targetsdkversion="21"/>
-    <smali>android</smali>
-    <smali>android/support</smali>
     <smali>android/support/v7</smali>
     <smali>android/support/v7/app</smali>
     <smali>android/support/v7/appcompat</smali>
@@ -2381,26 +2199,15 @@
     <smali>android/support/v4/hardware</smali>
     <smali>android/support/v4/media</smali>
     <smali>android/support/v4/graphics</smali>
-    <smali>android/media</smali>
-    <smali>u</smali>
-    <smali>u/aly</smali>
-    <smali>u/fb</smali>
-    <smali>u/upd</smali>
-    <smali>net</smali>
-    <smali>net/htmlparser</smali>
     <smali>net/htmlparser/jericho</smali>
     <smali>net/htmlparser/jericho/nodoc</smali>
-    <smali>com</smali>
-    <smali>com/android</smali>
     <smali>com/android/volley</smali>
     <smali>com/android/volley/toolbox</smali>
-    <smali>com/tencent</smali>
     <smali>com/tencent/wxop</smali>
     <smali>com/tencent/wxop/stat</smali>
     <smali>com/tencent/mm</smali>
     <smali>com/tencent/mm/a</smali>
     <smali>com/tencent/mm/sdk</smali>
-    <smali>com/facebook</smali>
     <smali>com/facebook/crypto</smali>
     <smali>com/facebook/crypto/keychain</smali>
     <smali>com/facebook/crypto/cipher</smali>
@@ -2408,11 +2215,8 @@
     <smali>com/facebook/crypto/util</smali>
     <smali>com/facebook/crypto/streams</smali>
     <smali>com/facebook/crypto/exception</smali>
-    <smali>com/twmacinta</smali>
     <smali>com/twmacinta/util</smali>
-    <smali>com/squareup</smali>
     <smali>com/squareup/wire</smali>
-    <smali>com/bw</smali>
     <smali>com/bw/wftapi</smali>
     <smali>com/bw/wftapi/http</smali>
     <smali>com/bw/wftapi/supplier</smali>
@@ -2421,7 +2225,6 @@
     <smali>com/bw/wftapi/manager</smali>
     <smali>com/bw/wftapi/callback</smali>
     <smali>com/bw/wftapi/db</smali>
-    <smali>com/j256</smali>
     <smali>com/j256/ormlite</smali>
     <smali>com/j256/ormlite/android</smali>
     <smali>com/j256/ormlite/logger</smali>
@@ -2432,12 +2235,10 @@
     <smali>com/j256/ormlite/table</smali>
     <smali>com/j256/ormlite/field</smali>
     <smali>com/j256/ormlite/db</smali>
-    <smali>com/freewan</smali>
     <smali>com/freewan/proto</smali>
     <smali>com/freewan/proto/req</smali>
     <smali>com/freewan/proto/resp</smali>
     <smali>com/freewan/proto/enc</smali>
-    <smali>com/autoconnectwifi</smali>
     <smali>com/autoconnectwifi/app</smali>
     <smali>com/autoconnectwifi/app/view</smali>
     <smali>com/autoconnectwifi/app/location</smali>
@@ -2451,9 +2252,7 @@
     <smali>com/autoconnectwifi/app/activity</smali>
     <smali>com/autoconnectwifi/app/controller</smali>
     <smali>com/autoconnectwifi/app/receiver</smali>
-    <smali>com/baidu</smali>
     <smali>com/baidu/location</smali>
-    <smali>com/umeng</smali>
     <smali>com/umeng/fb</smali>
     <smali>com/umeng/fb/model</smali>
     <smali>com/umeng/analytics</smali>
@@ -2463,7 +2262,6 @@
     <smali>com/umeng/update</smali>
     <smali>com/umeng/update/net</smali>
     <smali>com/umeng/update/util</smali>
-    <smali>com/wandoujia</smali>
     <smali>com/wandoujia/image</smali>
     <smali>com/wandoujia/image/view</smali>
     <smali>com/wandoujia/p4</smali>
@@ -2512,17 +2310,11 @@
     <smali>com/wandoujia/comm</smali>
     <smali>com/wandoujia/comm/tcp</smali>
     <smali>com/wandoujia/comm/ftp</smali>
-    <smali>o</smali>
-    <smali>butterknife</smali>
-    <smali>butterknife/internal</smali>
-    <smali>org</smali>
-    <smali>org/jboss</smali>
     <smali>org/jboss/netty</smali>
     <smali>org/jboss/netty/logging</smali>
     <smali>org/jboss/netty/util</smali>
     <smali>org/jboss/netty/channel</smali>
     <smali>org/jboss/netty/handler</smali>
-    <smali>org/littleshoot</smali>
     <smali>org/littleshoot/proxy</smali>
     <asset>channel.mf</asset>
     <asset>passwd.txt</asset>
@@ -2531,8 +2323,6 @@
   <apk id="com.qihoo360.mobilesafe">
     <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name=" 360卫士" file="c2075436020ff8000c4e77d241dbbf61.apk" size="16.7MB" launchableactivity="com.qihoo360.mobilesafe.ui.index.AppEnterActivity" versioncode="233" versionname="5.4.5" sdkversion="8" targetsdkversion="16"/>
-    <smali>android</smali>
-    <smali>android/support</smali>
     <smali>android/support/v4</smali>
     <smali>android/support/v4/view</smali>
     <smali>android/support/v4/database</smali>
@@ -2543,12 +2333,8 @@
     <smali>android/support/v4/widget</smali>
     <smali>android/support/v4/accessibilityservice</smali>
     <smali>android/support/v4/os</smali>
-    <smali>net</smali>
-    <smali>net/jarlehansen</smali>
     <smali>net/jarlehansen/protobuf</smali>
     <smali>net/jarlehansen/protobuf/javame</smali>
-    <smali>com</smali>
-    <smali>com/qihoo360</smali>
     <smali>com/qihoo360/contacts</smali>
     <smali>com/qihoo360/contacts/predators</smali>
     <smali>com/qihoo360/contacts/services</smali>
@@ -2644,13 +2430,10 @@
     <smali>com/qihoo360/accounts/sso</smali>
     <smali>com/qihoo360/accounts/api</smali>
     <smali>com/qihoo360/accounts/base</smali>
-    <smali>com/hy114</smali>
     <smali>com/hy114/SDK</smali>
     <smali>com/hy114/SDK/entity</smali>
-    <smali>com/mapbar</smali>
     <smali>com/mapbar/android</smali>
     <smali>com/mapbar/android/location</smali>
-    <smali>com/qihoo</smali>
     <smali>com/qihoo/antivirus</smali>
     <smali>com/qihoo/antivirus/shield</smali>
     <smali>com/qihoo/antivirus/app</smali>
@@ -2676,9 +2459,6 @@
     <smali>com/qihoo/security/engine</smali>
     <smali>com/qihoo/security/env</smali>
     <smali>com/qihoo/alliance</smali>
-    <smali>webview</smali>
-    <smali>org</smali>
-    <smali>org/apache</smali>
     <smali>org/apache/http</smali>
     <smali>org/apache/http/entity</smali>
     <asset>app.prop</asset>
@@ -2945,8 +2725,6 @@
   <apk id="com.mt.mtxx.mtxx">
     <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="MeituPic" file="88aee745616033b1d34c70052e5020a0.apk" size="40.9MB" launchableactivity="com.mt.mtxx.mtxx.TopViewActivity" versioncode="400" versionname="4.0.0" sdkversion="9" targetsdkversion="15"/>
-    <smali>android</smali>
-    <smali>android/support</smali>
     <smali>android/support/annotation</smali>
     <smali>android/support/v7</smali>
     <smali>android/support/v7/widget</smali>
@@ -2968,10 +2746,6 @@
     <smali>android/support/v4/provider</smali>
     <smali>android/support/v4/speech</smali>
     <smali>android/support/v4/graphics</smali>
-    <smali>u</smali>
-    <smali>u/aly</smali>
-    <smali>com</smali>
-    <smali>com/tencent</smali>
     <smali>com/tencent/open</smali>
     <smali>com/tencent/open/a</smali>
     <smali>com/tencent/qc</smali>
@@ -2981,15 +2755,12 @@
     <smali>com/tencent/mm</smali>
     <smali>com/tencent/mm/a</smali>
     <smali>com/tencent/mm/sdk</smali>
-    <smali>com/third</smali>
     <smali>com/third/zhou</smali>
     <smali>com/third/zhou/updatelib</smali>
-    <smali>com/a</smali>
     <smali>com/a/a</smali>
     <smali>com/a/a/a</smali>
     <smali>com/a/a/c</smali>
     <smali>com/a/a/b</smali>
-    <smali>com/mt</smali>
     <smali>com/mt/core</smali>
     <smali>com/mt/util</smali>
     <smali>com/mt/util/a</smali>
@@ -3008,29 +2779,23 @@
     <smali>com/mt/mtxx/mtxx</smali>
     <smali>com/mt/mtxx/helper</smali>
     <smali>com/mt/mtxx/b</smali>
-    <smali>com/google</smali>
     <smali>com/google/gson</smali>
     <smali>com/google/gson/a</smali>
     <smali>com/google/gson/stream</smali>
     <smali>com/google/gson/internal</smali>
     <smali>com/google/gson/b</smali>
-    <smali>com/sina</smali>
     <smali>com/sina/weibo</smali>
     <smali>com/sina/weibo/sdk</smali>
     <smali>com/sina/a</smali>
-    <smali>com/nostra13</smali>
     <smali>com/nostra13/universalimageloader</smali>
     <smali>com/nostra13/universalimageloader/a</smali>
     <smali>com/nostra13/universalimageloader/core</smali>
     <smali>com/nostra13/universalimageloader/b</smali>
-    <smali>com/flurry</smali>
     <smali>com/flurry/android</smali>
     <smali>com/flurry/android/impl</smali>
     <smali>com/flurry/sdk</smali>
-    <smali>com/mtxx</smali>
     <smali>com/mtxx/particle</smali>
     <smali>com/mtxx/particle/kernel</smali>
-    <smali>com/meitu</smali>
     <smali>com/meitu/pintu</smali>
     <smali>com/meitu/pintu/view</smali>
     <smali>com/meitu/pintu/joint</smali>
@@ -3121,7 +2886,6 @@
     <smali>com/meitu/account</smali>
     <smali>com/meitu/f</smali>
     <smali>com/meitu/f/a</smali>
-    <smali>com/taobao</smali>
     <smali>com/taobao/newxp</smali>
     <smali>com/taobao/newxp/view</smali>
     <smali>com/taobao/newxp/imagecache</smali>
@@ -3133,23 +2897,13 @@
     <smali>com/taobao/munion</smali>
     <smali>com/taobao/munion/view</smali>
     <smali>com/taobao/munion/base</smali>
-    <smali>com/baidu</smali>
     <smali>com/baidu/location</smali>
     <smali>com/baidu/pcs</smali>
     <smali>com/baidu/a</smali>
-    <smali>com/umeng</smali>
     <smali>com/umeng/analytics</smali>
     <smali>com/umeng/analytics/social</smali>
     <smali>com/umeng/analytics/a</smali>
-    <smali>de</smali>
-    <smali>de/greenrobot</smali>
     <smali>de/greenrobot/event</smali>
-    <smali>twitter4j</smali>
-    <smali>twitter4j/auth</smali>
-    <smali>twitter4j/util</smali>
-    <smali>twitter4j/management</smali>
-    <smali>twitter4j/conf</smali>
-    <smali>twitter4j/internal</smali>
     <smali>twitter4j/internal/http</smali>
     <smali>twitter4j/internal/logging</smali>
     <smali>twitter4j/internal/util</smali>
@@ -3157,10 +2911,6 @@
     <smali>twitter4j/internal/json</smali>
     <smali>twitter4j/internal/org</smali>
     <smali>twitter4j/internal/org/json</smali>
-    <smali>twitter4j/json</smali>
-    <smali>twitter4j/api</smali>
-    <smali>org</smali>
-    <smali>org/apache</smali>
     <smali>org/apache/http</smali>
     <smali>org/apache/http/entity</smali>
     <smali>org/apache/commons</smali>
@@ -3543,8 +3293,6 @@
   <apk id="com.taobao.taobao">
     <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="手机淘宝" file="6bcf63c8fd45ef0f624cdf21a3a80787.apk" size="30.2MB" launchableactivity="com.taobao.tao.welcome.Welcome" versioncode="114" versionname="5.2.4" sdkversion="14" targetsdkversion="18"/>
-    <smali>mtopsdk</smali>
-    <smali>mtopsdk/mtop</smali>
     <smali>mtopsdk/mtop/cache</smali>
     <smali>mtopsdk/mtop/cache/config</smali>
     <smali>mtopsdk/mtop/cache/handler</smali>
@@ -3573,18 +3321,12 @@
     <smali>mtopsdk/mtop/unit</smali>
     <smali>mtopsdk/mtop/deviceid</smali>
     <smali>mtopsdk/mtop/deviceid/domain</smali>
-    <smali>mtopsdk/ncache</smali>
     <smali>mtopsdk/ncache/a</smali>
-    <smali>mtopsdk/common</smali>
     <smali>mtopsdk/common/util</smali>
     <smali>mtopsdk/common/ut</smali>
     <smali>mtopsdk/common/ut/a</smali>
-    <smali>mtopsdk/xstate</smali>
     <smali>mtopsdk/xstate/a</smali>
     <smali>mtopsdk/xstate/aidl</smali>
-    <smali>mtopsdk/security</smali>
-    <smali>android</smali>
-    <smali>android/support</smali>
     <smali>android/support/view</smali>
     <smali>android/support/view/animation</smali>
     <smali>android/support/app</smali>
@@ -3619,7 +3361,6 @@
     <smali>android/support/v4/graphics</smali>
     <smali>android/support/graphics</smali>
     <smali>android/support/graphics/drawable</smali>
-    <smali>android/taobao</smali>
     <smali>android/taobao/cache</smali>
     <smali>android/taobao/view</smali>
     <smali>android/taobao/task</smali>
@@ -3698,39 +3439,25 @@
     <smali>android/taobao/deviceid</smali>
     <smali>android/taobao/httpresponsecache</smali>
     <smali>android/taobao/httpresponsecache/compat</smali>
-    <smali>android/alics</smali>
     <smali>android/alics/spdudns</smali>
-    <smali>e</smali>
-    <smali>a</smali>
-    <smali>a/a</smali>
-    <smali>d</smali>
-    <smali>com</smali>
-    <smali>com/spdu</smali>
     <smali>com/spdu/util</smali>
     <smali>com/spdu/httpdns</smali>
     <smali>com/spdu/httpdns/util</smali>
     <smali>com/spdu/client</smali>
-    <smali>com/android</smali>
     <smali>com/android/volley</smali>
     <smali>com/android/volley/toolbox</smali>
     <smali>com/android/internal</smali>
     <smali>com/android/internal/telephony</smali>
-    <smali>com/ta</smali>
     <smali>com/ta/utdid2</smali>
     <smali>com/ta/utdid2/device</smali>
     <smali>com/ta/utdid2/android</smali>
     <smali>com/ta/utdid2/aid</smali>
     <smali>com/ta/utdid2/core</smali>
-    <smali>com/tencent</smali>
     <smali>com/tencent/mm</smali>
     <smali>com/tencent/mm/algorithm</smali>
     <smali>com/tencent/mm/sdk</smali>
-    <smali>com/a</smali>
-    <smali>com/d</smali>
     <smali>com/d/a</smali>
     <smali>com/d/a/a</smali>
-    <smali>com/viewpagerindicator</smali>
-    <smali>com/facebook</smali>
     <smali>com/facebook/crypto</smali>
     <smali>com/facebook/crypto/keychain</smali>
     <smali>com/facebook/crypto/cipher</smali>
@@ -3740,7 +3467,6 @@
     <smali>com/facebook/crypto/exception</smali>
     <smali>com/facebook/proguard</smali>
     <smali>com/facebook/proguard/annotations</smali>
-    <smali>com/alipay</smali>
     <smali>com/alipay/mobilesecuritysdk</smali>
     <smali>com/alipay/mobilesecuritysdk/datainfo</smali>
     <smali>com/alipay/mobilesecuritysdk/a</smali>
@@ -3750,9 +3476,7 @@
     <smali>com/alipay/mobilesecuritysdk/b</smali>
     <smali>com/alipay/mobile</smali>
     <smali>com/alipay/mobile/quinox</smali>
-    <smali>com/qupai</smali>
     <smali>com/qupai/common</smali>
-    <smali>com/ut</smali>
     <smali>com/ut/device</smali>
     <smali>com/ut/a</smali>
     <smali>com/ut/a/a</smali>
@@ -3777,17 +3501,12 @@
     <smali>com/ut/share/business</smali>
     <smali>com/ut/b</smali>
     <smali>com/ut/secbody</smali>
-    <smali>com/google</smali>
     <smali>com/google/webp</smali>
-    <smali>com/data</smali>
     <smali>com/data/carrier</smali>
-    <smali>com/amap</smali>
     <smali>com/amap/api</smali>
     <smali>com/amap/api/location</smali>
-    <smali>com/squareup</smali>
     <smali>com/squareup/okhttp</smali>
     <smali>com/squareup/okhttp/internal</smali>
-    <smali>com/laiwang</smali>
     <smali>com/laiwang/sdk</smali>
     <smali>com/laiwang/sdk/message</smali>
     <smali>com/laiwang/sdk/openapi</smali>
@@ -3795,14 +3514,11 @@
     <smali>com/laiwang/sdk/channel</smali>
     <smali>com/laiwang/sdk/utils</smali>
     <smali>com/laiwang/sdk/receiver</smali>
-    <smali>com/example</smali>
     <smali>com/example/okhttptest</smali>
-    <smali>com/etao</smali>
     <smali>com/etao/imagesearch</smali>
     <smali>com/etao/imagesearch/component</smali>
     <smali>com/etao/a</smali>
     <smali>com/etao/a/a</smali>
-    <smali>com/taobao</smali>
     <smali>com/taobao/calendar</smali>
     <smali>com/taobao/calendar/aidl</smali>
     <smali>com/taobao/h</smali>
@@ -4050,16 +3766,12 @@
     <smali>com/taobao/wireless/dapk</smali>
     <smali>com/taobao/wireless/security</smali>
     <smali>com/taobao/wireless/tbShortUrl</smali>
-    <smali>com/aps</smali>
-    <smali>com/nineoldandroids</smali>
     <smali>com/nineoldandroids/view</smali>
     <smali>com/nineoldandroids/view/animation</smali>
     <smali>com/nineoldandroids/util</smali>
     <smali>com/nineoldandroids/animation</smali>
-    <smali>com/yunos</smali>
     <smali>com/yunos/baseservice</smali>
     <smali>com/yunos/baseservice/cmns_client</smali>
-    <smali>com/alibaba</smali>
     <smali>com/alibaba/a</smali>
     <smali>com/alibaba/a/a</smali>
     <smali>com/alibaba/fastjson</smali>
@@ -4073,21 +3785,12 @@
     <smali>com/alibaba/mobileim/sdk</smali>
     <smali>com/alibaba/wireless</smali>
     <smali>com/alibaba/wireless/security</smali>
-    <smali>com/spdc</smali>
     <smali>com/spdc/client</smali>
-    <smali>mtop</smali>
-    <smali>mtop/sys</smali>
     <smali>mtop/sys/newDeviceId</smali>
-    <smali>c</smali>
-    <smali>mtopclass</smali>
-    <smali>mtopclass/com</smali>
     <smali>mtopclass/com/tao</smali>
     <smali>mtopclass/com/tao/mtop</smali>
-    <smali>anetwork</smali>
-    <smali>anetwork/network</smali>
     <smali>anetwork/network/cache</smali>
     <smali>anetwork/network/a</smali>
-    <smali>anetwork/channel</smali>
     <smali>anetwork/channel/degrade</smali>
     <smali>anetwork/channel/degrade/util</smali>
     <smali>anetwork/channel/task</smali>
@@ -4109,11 +3812,6 @@
     <smali>anetwork/channel/aidl/ssl</smali>
     <smali>anetwork/channel/aidl/adapter</smali>
     <smali>anetwork/channel/policy</smali>
-    <smali>javax</smali>
-    <smali>javax/annotation</smali>
-    <smali>b</smali>
-    <smali>org</smali>
-    <smali>org/android</smali>
     <smali>org/android/agoo</smali>
     <smali>org/android/agoo/message</smali>
     <smali>org/android/agoo/service</smali>
@@ -4134,15 +3832,12 @@
     <smali>org/android/du</smali>
     <smali>org/android/du/a</smali>
     <smali>org/android/du/b</smali>
-    <smali>org/rome</smali>
     <smali>org/rome/android</smali>
     <smali>org/rome/android/ipp</smali>
-    <smali>org/osgi</smali>
     <smali>org/osgi/service</smali>
     <smali>org/osgi/service/startlevel</smali>
     <smali>org/osgi/service/packageadmin</smali>
     <smali>org/osgi/framework</smali>
-    <smali>org/usertrack</smali>
     <smali>org/usertrack/android</smali>
     <smali>org/usertrack/android/utils</smali>
     <asset>verisign.cer</asset>
@@ -4157,8 +3852,6 @@
   <apk id="com.storm.smart">
     <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="暴风影音" file="6b6eb83ce5297aacd16aaf3e061ed413.apk" size="13.4MB" launchableactivity="com.storm.smart.LogoActivity" versioncode="5042" versionname="5.0.42" sdkversion="8" targetsdkversion="18"/>
-    <smali>android</smali>
-    <smali>android/support</smali>
     <smali>android/support/annotation</smali>
     <smali>android/support/v4</smali>
     <smali>android/support/v4/view</smali>
@@ -4178,23 +3871,15 @@
     <smali>android/support/v4/provider</smali>
     <smali>android/support/v4/speech</smali>
     <smali>android/support/v4/graphics</smali>
-    <smali>android/net</smali>
     <smali>android/net/http</smali>
-    <smali>cn</smali>
-    <smali>cn/com</smali>
     <smali>cn/com/mma</smali>
     <smali>cn/com/mma/mobile</smali>
     <smali>cn/com/iresearch</smali>
     <smali>cn/com/iresearch/mapptracker</smali>
-    <smali>cn/mmachina</smali>
-    <smali>a</smali>
-    <smali>a/a</smali>
     <smali>a/a/a</smali>
     <smali>a/a/a/a</smali>
     <smali>a/a/a/c</smali>
     <smali>a/a/a/b</smali>
-    <smali>com</smali>
-    <smali>com/storm</smali>
     <smali>com/storm/smart</smali>
     <smali>com/storm/smart/h</smali>
     <smali>com/storm/smart/view</smali>
@@ -4240,10 +3925,8 @@
     <smali>com/storm/bfprotocol</smali>
     <smali>com/storm/bfprotocol/core</smali>
     <smali>com/storm/bfprotocol/listener</smali>
-    <smali>com/weibo</smali>
     <smali>com/weibo/sdk</smali>
     <smali>com/weibo/sdk/android</smali>
-    <smali>com/iflytek</smali>
     <smali>com/iflytek/common</smali>
     <smali>com/iflytek/common/a</smali>
     <smali>com/iflytek/common/c</smali>
@@ -4259,7 +3942,6 @@
     <smali>com/iflytek/msc</smali>
     <smali>com/iflytek/speech</smali>
     <smali>com/iflytek/speech/aidl</smali>
-    <smali>com/tencent</smali>
     <smali>com/tencent/weibo</smali>
     <smali>com/tencent/weibo/oauthv1</smali>
     <smali>com/tencent/weibo/constants</smali>
@@ -4272,7 +3954,6 @@
     <smali>com/tencent/mm</smali>
     <smali>com/tencent/mm/algorithm</smali>
     <smali>com/tencent/mm/sdk</smali>
-    <smali>com/xiaomi</smali>
     <smali>com/xiaomi/e</smali>
     <smali>com/xiaomi/e/e</smali>
     <smali>com/xiaomi/e/a</smali>
@@ -4295,7 +3976,6 @@
     <smali>com/xiaomi/b/a</smali>
     <smali>com/xiaomi/f</smali>
     <smali>com/xiaomi/f/a</smali>
-    <smali>com/bfgame</smali>
     <smali>com/bfgame/app</smali>
     <smali>com/bfgame/app/procotol</smali>
     <smali>com/bfgame/app/net</smali>
@@ -4307,12 +3987,10 @@
     <smali>com/bfgame/app/activity</smali>
     <smali>com/bfgame/app/db</smali>
     <smali>com/bfgame/app/base</smali>
-    <smali>com/a</smali>
     <smali>com/a/a</smali>
     <smali>com/a/c</smali>
     <smali>com/a/c/a</smali>
     <smali>com/a/b</smali>
-    <smali>com/google</smali>
     <smali>com/google/zxing</smali>
     <smali>com/google/zxing/aztec</smali>
     <smali>com/google/zxing/qrcode</smali>
@@ -4328,14 +4006,11 @@
     <smali>com/google/gson/annotations</smali>
     <smali>com/google/gson/stream</smali>
     <smali>com/google/gson/internal</smali>
-    <smali>com/c</smali>
     <smali>com/c/a</smali>
-    <smali>com/nostra13</smali>
     <smali>com/nostra13/universalimageloader</smali>
     <smali>com/nostra13/universalimageloader/cache</smali>
     <smali>com/nostra13/universalimageloader/core</smali>
     <smali>com/nostra13/universalimageloader/utils</smali>
-    <smali>com/igexin</smali>
     <smali>com/igexin/a</smali>
     <smali>com/igexin/a/a</smali>
     <smali>com/igexin/a/b</smali>
@@ -4360,7 +4035,6 @@
     <smali>com/igexin/push/c</smali>
     <smali>com/igexin/push/b</smali>
     <smali>com/igexin/push/f</smali>
-    <smali>com/taobao</smali>
     <smali>com/taobao/newxp</smali>
     <smali>com/taobao/newxp/view</smali>
     <smali>com/taobao/newxp/imagecache</smali>
@@ -4375,7 +4049,6 @@
     <smali>com/taobao/munion/exception</smali>
     <smali>com/taobao/munion/controller</smali>
     <smali>com/taobao/munion/base</smali>
-    <smali>com/umeng</smali>
     <smali>com/umeng/message</smali>
     <smali>com/umeng/message/proguard</smali>
     <smali>com/umeng/message/tag</smali>
@@ -4390,36 +4063,20 @@
     <smali>com/umeng/analytics</smali>
     <smali>com/umeng/analytics/social</smali>
     <smali>com/umeng/analytics/onlineconfig</smali>
-    <smali>com/b</smali>
     <smali>com/b/a</smali>
     <smali>com/b/a/a</smali>
-    <smali>bsh</smali>
-    <smali>bsh/collection</smali>
-    <smali>bsh/classpath</smali>
-    <smali>bsh/util</smali>
-    <smali>bsh/reflect</smali>
-    <smali>bsh/servlet</smali>
-    <smali>bsh/commands</smali>
-    <smali>bsh/org</smali>
     <smali>bsh/org/objectweb</smali>
     <smali>bsh/org/objectweb/asm</smali>
-    <smali>b</smali>
-    <smali>b/a</smali>
-    <smali>org</smali>
-    <smali>org/agoo</smali>
     <smali>org/agoo/ut</smali>
     <smali>org/agoo/ut/device</smali>
-    <smali>org/android</smali>
     <smali>org/android/agoo</smali>
     <smali>org/android/agoo/service</smali>
     <smali>org/android/agoo/net</smali>
     <smali>org/android/agoo/client</smali>
     <smali>org/android/agoo/proc</smali>
     <smali>org/android/agoo/helper</smali>
-    <smali>org/apache</smali>
     <smali>org/apache/http</smali>
     <smali>org/apache/http/entity</smali>
-    <smali>org/json</smali>
     <smali>org/json/simple</smali>
     <smali>org/json/simple/parser</smali>
     <asset>sdkconfig.xml</asset>
@@ -4437,9 +4094,6 @@
   <apk id="com.snda.wifilocating">
     <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="WiFi Master" file="02344e5242dea56258b48277cf3964c6.apk" size="7.4MB" launchableactivity="com.snda.wifilocating.ui.activity.WelcomeActivity" versioncode="632" versionname="3.2.2" sdkversion="8" targetsdkversion=""/>
-    <smali>android</smali>
-    <smali>android/a</smali>
-    <smali>android/support</smali>
     <smali>android/support/v7</smali>
     <smali>android/support/v7/view</smali>
     <smali>android/support/v7/app</smali>
@@ -4463,27 +4117,19 @@
     <smali>android/support/v4/hardware</smali>
     <smali>android/support/v4/media</smali>
     <smali>android/support/v4/graphics</smali>
-    <smali>android/os</smali>
-    <smali>fr</smali>
-    <smali>fr/castorflex</smali>
     <smali>fr/castorflex/android</smali>
     <smali>fr/castorflex/android/smoothprogressbar</smali>
-    <smali>com</smali>
-    <smali>com/android</smali>
     <smali>com/android/browser</smali>
     <smali>com/android/browser/view</smali>
     <smali>com/android/browser/a</smali>
     <smali>com/android/browser/preferences</smali>
     <smali>com/android/browser/b</smali>
-    <smali>com/tencent</smali>
     <smali>com/tencent/mm</smali>
     <smali>com/tencent/mm/algorithm</smali>
     <smali>com/tencent/mm/sdk</smali>
     <smali>com/tencent/mm/platformtools</smali>
-    <smali>com/a</smali>
     <smali>com/a/a</smali>
     <smali>com/a/a/a</smali>
-    <smali>com/snda</smali>
     <smali>com/snda/a</smali>
     <smali>com/snda/a/a</smali>
     <smali>com/snda/wifilocating</smali>
@@ -4506,7 +4152,6 @@
     <smali>com/snda/wifilocating/f</smali>
     <smali>com/snda/woa</smali>
     <smali>com/snda/woa/android</smali>
-    <smali>com/lantern</smali>
     <smali>com/lantern/wifilocating</smali>
     <smali>com/lantern/wifilocating/a</smali>
     <smali>com/lantern/wifilocating/common</smali>
@@ -4516,18 +4161,14 @@
     <smali>com/lantern/coop/a</smali>
     <smali>com/lantern/coop/utils</smali>
     <smali>com/lantern/coop/b</smali>
-    <smali>com/google</smali>
     <smali>com/google/android</smali>
     <smali>com/google/android/gms</smali>
-    <smali>com/jeremyfeinstein</smali>
     <smali>com/jeremyfeinstein/slidingmenu</smali>
     <smali>com/jeremyfeinstein/slidingmenu/lib</smali>
-    <smali>com/nostra13</smali>
     <smali>com/nostra13/universalimageloader</smali>
     <smali>com/nostra13/universalimageloader/cache</smali>
     <smali>com/nostra13/universalimageloader/core</smali>
     <smali>com/nostra13/universalimageloader/utils</smali>
-    <smali>com/j256</smali>
     <smali>com/j256/ormlite</smali>
     <smali>com/j256/ormlite/android</smali>
     <smali>com/j256/ormlite/logger</smali>
@@ -4538,13 +4179,10 @@
     <smali>com/j256/ormlite/table</smali>
     <smali>com/j256/ormlite/field</smali>
     <smali>com/j256/ormlite/db</smali>
-    <smali>com/loopj</smali>
     <smali>com/loopj/android</smali>
     <smali>com/loopj/android/http</smali>
-    <smali>com/akazam</smali>
     <smali>com/akazam/api</smali>
     <smali>com/akazam/api/ctwifi</smali>
-    <smali>com/baidu</smali>
     <smali>com/baidu/location</smali>
     <smali>com/baidu/android</smali>
     <smali>com/baidu/android/bbalbs</smali>
@@ -4564,7 +4202,6 @@
     <smali>com/baidu/vi</smali>
     <smali>com/baidu/mobads</smali>
     <smali>com/baidu/mobads/a</smali>
-    <smali>com/alibaba</smali>
     <smali>com/alibaba/fastjson</smali>
     <smali>com/alibaba/fastjson/parser</smali>
     <smali>com/alibaba/fastjson/support</smali>
@@ -4572,14 +4209,8 @@
     <smali>com/alibaba/fastjson/annotation</smali>
     <smali>com/alibaba/fastjson/asm</smali>
     <smali>com/alibaba/fastjson/serializer</smali>
-    <smali>vi</smali>
-    <smali>vi/com</smali>
     <smali>vi/com/gdi</smali>
     <smali>vi/com/gdi/bgl</smali>
-    <smali>geak</smali>
-    <smali>geak/sync</smali>
-    <smali>org</smali>
-    <smali>org/achartengine</smali>
     <smali>org/achartengine/tools</smali>
     <smali>org/achartengine/util</smali>
     <smali>org/achartengine/chart</smali>
@@ -4630,8 +4261,6 @@
   <apk id="com.kugou.android">
     <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="酷狗音乐" file="04c8cf8a302fcf05c0a60cfa8bda8ee2.apk" size="20.1MB" launchableactivity="com.kugou.android.app.splash.SplashActivity" versioncode="7136" versionname="7.1.3" sdkversion="9" targetsdkversion="19"/>
-    <smali>android</smali>
-    <smali>android/support</smali>
     <smali>android/support/v4</smali>
     <smali>android/support/v4/view</smali>
     <smali>android/support/v4/text</smali>
@@ -4642,17 +4271,11 @@
     <smali>android/support/v4/widget</smali>
     <smali>android/support/v4/os</smali>
     <smali>android/support/v4/graphics</smali>
-    <smali>cn</smali>
-    <smali>cn/com</smali>
     <smali>cn/com/mma</smali>
     <smali>cn/com/mma/mobile</smali>
-    <smali>cn/mmachina</smali>
-    <smali>com</smali>
-    <smali>com/tencent</smali>
     <smali>com/tencent/mm</smali>
     <smali>com/tencent/mm/algorithm</smali>
     <smali>com/tencent/mm/sdk</smali>
-    <smali>com/kugou</smali>
     <smali>com/kugou/android</smali>
     <smali>com/kugou/android/useraccount</smali>
     <smali>com/kugou/android/chinanet</smali>
@@ -4747,13 +4370,8 @@
     <smali>com/kugou/game/ui</smali>
     <smali>com/kugou/game/b</smali>
     <smali>com/kugou/game/base</smali>
-    <smali>com/baidu</smali>
     <smali>com/baidu/location</smali>
-    <smali>de</smali>
-    <smali>de/greenrobot</smali>
     <smali>de/greenrobot/event</smali>
-    <smali>io</smali>
-    <smali>io/vov</smali>
     <smali>io/vov/a</smali>
     <smali>io/vov/vitamio</smali>
     <smali>io/vov/vitamio/widget</smali>
@@ -4787,12 +4405,8 @@
   <apk id="com.qiyi.video">
     <crosswalk iscrosswalk="" mode="" architecture="" webview="yes webkit" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="爱奇艺视频" file="9bac6db2fdff36d83d757b2ce2573f41.apk" size="14.7MB" launchableactivity="com.qiyi.video.WelcomeActivity" versioncode="80600" versionname="6.0" sdkversion="9" targetsdkversion="14"/>
-    <smali>android</smali>
-    <smali>android/content</smali>
     <smali>android/content/pm</smali>
-    <smali>android/a</smali>
     <smali>android/a/test</smali>
-    <smali>android/support</smali>
     <smali>android/support/v4</smali>
     <smali>android/support/v4/view</smali>
     <smali>android/support/v4/a</smali>
@@ -4800,26 +4414,16 @@
     <smali>android/support/v4/widget</smali>
     <smali>android/support/v4/c</smali>
     <smali>android/support/v4/b</smali>
-    <smali>android/net</smali>
+    <smali>android/webkit</smali>
     <smali>android/net/http</smali>
-    <smali>cn</smali>
-    <smali>cn/com</smali>
     <smali>cn/com/mma</smali>
     <smali>cn/com/mma/mobile</smali>
     <smali>cn/com/iresearch</smali>
     <smali>cn/com/iresearch/mapptracker</smali>
     <smali>cn/com/iresearch/mvideotracker</smali>
-    <smali>cn/mmachina</smali>
-    <smali>a</smali>
-    <smali>a/a</smali>
     <smali>a/a/a</smali>
-    <smali>d</smali>
-    <smali>d/a</smali>
     <smali>d/a/a</smali>
     <smali>d/a/a/a</smali>
-    <smali>hessian</smali>
-    <smali>com</smali>
-    <smali>com/iqiyi</smali>
     <smali>com/iqiyi/a</smali>
     <smali>com/iqiyi/a/a</smali>
     <smali>com/iqiyi/a/b</smali>
@@ -4835,17 +4439,13 @@
     <smali>com/iqiyi/player/nativemediaplayer</smali>
     <smali>com/iqiyi/sso</smali>
     <smali>com/iqiyi/sso/sdk</smali>
-    <smali>com/android</smali>
     <smali>com/android/iqiyi</smali>
     <smali>com/android/iqiyi/sdk</smali>
-    <smali>com/qimo</smali>
     <smali>com/qimo/video</smali>
     <smali>com/qimo/video/dlna</smali>
-    <smali>com/tencent</smali>
     <smali>com/tencent/mm</smali>
     <smali>com/tencent/mm/a</smali>
     <smali>com/tencent/mm/sdk</smali>
-    <smali>com/xiaomi</smali>
     <smali>com/xiaomi/a</smali>
     <smali>com/xiaomi/a/a</smali>
     <smali>com/xiaomi/mipush</smali>
@@ -4854,11 +4454,9 @@
     <smali>com/xiaomi/push/service</smali>
     <smali>com/xiaomi/b</smali>
     <smali>com/xiaomi/b/a</smali>
-    <smali>com/a</smali>
     <smali>com/a/a</smali>
     <smali>com/a/a/a</smali>
     <smali>com/a/a/b</smali>
-    <smali>com/qiyi</smali>
     <smali>com/qiyi/a</smali>
     <smali>com/qiyi/a/a</smali>
     <smali>com/qiyi/a/b</smali>
@@ -4872,7 +4470,6 @@
     <smali>com/qiyi/b</smali>
     <smali>com/qiyi/b/a</smali>
     <smali>com/qiyi/b/b</smali>
-    <smali>com/alipay</smali>
     <smali>com/alipay/android</smali>
     <smali>com/alipay/android/app</smali>
     <smali>com/alipay/a</smali>
@@ -4892,16 +4489,13 @@
     <smali>com/alipay/sdk/j</smali>
     <smali>com/alipay/sdk/b</smali>
     <smali>com/alipay/sdk/f</smali>
-    <smali>com/c</smali>
     <smali>com/c/a</smali>
     <smali>com/c/a/a</smali>
     <smali>com/c/a/c</smali>
     <smali>com/c/a/b</smali>
-    <smali>com/sdk</smali>
     <smali>com/sdk/communication</smali>
     <smali>com/sdk/a</smali>
     <smali>com/sdk/b</smali>
-    <smali>com/comscore</smali>
     <smali>com/comscore/android</smali>
     <smali>com/comscore/android/id</smali>
     <smali>com/comscore/metrics</smali>
@@ -4912,7 +4506,6 @@
     <smali>com/comscore/utils/id</smali>
     <smali>com/comscore/analytics</smali>
     <smali>com/comscore/measurement</smali>
-    <smali>com/baidu</smali>
     <smali>com/baidu/location</smali>
     <smali>com/baidu/android</smali>
     <smali>com/baidu/android/systemmonitor</smali>
@@ -4942,12 +4535,8 @@
     <smali>com/baidu/kirin/c</smali>
     <smali>com/baidu/kirin/objects</smali>
     <smali>com/baidu/kirin/b</smali>
-    <smali>com/media</smali>
     <smali>com/media/ffmpeg</smali>
-    <smali>com/b</smali>
     <smali>com/b/a</smali>
-    <smali>tv</smali>
-    <smali>tv/pps</smali>
     <smali>tv/pps/appstore</smali>
     <smali>tv/pps/appstore/a</smali>
     <smali>tv/pps/appstore/gamedownload</smali>
@@ -4960,10 +4549,6 @@
     <smali>tv/pps/mobile</smali>
     <smali>tv/pps/mobile/player</smali>
     <smali>tv/pps/mobile/emsbitplayer</smali>
-    <smali>c</smali>
-    <smali>b</smali>
-    <smali>org</smali>
-    <smali>org/iqiyi</smali>
     <smali>org/iqiyi/video</smali>
     <smali>org/iqiyi/video/h</smali>
     <smali>org/iqiyi/video/view</smali>
@@ -4985,9 +4570,7 @@
     <smali>org/iqiyi/video/j</smali>
     <smali>org/iqiyi/video/b</smali>
     <smali>org/iqiyi/video/f</smali>
-    <smali>org/a</smali>
     <smali>org/a/a</smali>
-    <smali>org/apache</smali>
     <smali>org/apache/http</smali>
     <smali>org/apache/http/protocol</smali>
     <smali>org/apache/http/message</smali>
@@ -5004,7 +4587,6 @@
     <smali>org/apache/thrift/protocol</smali>
     <smali>org/apache/thrift/transport</smali>
     <smali>org/apache/thrift/meta_data</smali>
-    <smali>org/qiyi</smali>
     <smali>org/qiyi/android</smali>
     <smali>org/qiyi/android/hardwaredecode</smali>
     <smali>org/qiyi/android/a</smali>
@@ -5031,10 +4613,8 @@
     <smali>org/qiyi/pluginlibrary/plugin</smali>
     <smali>org/qiyi/pluginlibrary/api</smali>
     <smali>org/qiyi/pluginlibrary/listener</smali>
-    <smali>org/eclipse</smali>
     <smali>org/eclipse/paho</smali>
     <smali>org/eclipse/paho/client</smali>
-    <smali>org/cybergarage</smali>
     <smali>org/cybergarage/upnp</smali>
     <smali>org/cybergarage/upnp/device</smali>
     <smali>org/cybergarage/upnp/event</smali>
@@ -5064,8 +4644,6 @@
   <apk id="com.immomo.momo">
     <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="陌陌" file="68fc45939b3eb6e4d104c5c5df9a5492.apk" size="15.7MB" launchableactivity="com.immomo.momo.android.activity.WelcomeActivity" versioncode="263" versionname="5.7" sdkversion="9" targetsdkversion="19"/>
-    <smali>android</smali>
-    <smali>android/support</smali>
     <smali>android/support/a</smali>
     <smali>android/support/v4</smali>
     <smali>android/support/v4/view</smali>
@@ -5073,12 +4651,9 @@
     <smali>android/support/v4/k</smali>
     <smali>android/support/v4/widget</smali>
     <smali>android/support/v4/b</smali>
-    <smali>com</smali>
-    <smali>com/ccit</smali>
     <smali>com/ccit/SecureCredential</smali>
     <smali>com/ccit/SecureCredential/agent</smali>
     <smali>com/ccit/SecureCredential/CoreComponent</smali>
-    <smali>com/tencent</smali>
     <smali>com/tencent/connect</smali>
     <smali>com/tencent/connect/common</smali>
     <smali>com/tencent/connect/b</smali>
@@ -5087,13 +4662,10 @@
     <smali>com/tencent/mm/sdk</smali>
     <smali>com/tencent/b</smali>
     <smali>com/tencent/b/d</smali>
-    <smali>com/d</smali>
     <smali>com/d/a</smali>
-    <smali>com/unionpay</smali>
     <smali>com/unionpay/uppay</smali>
     <smali>com/unionpay/mobile</smali>
     <smali>com/unionpay/mobile/android</smali>
-    <smali>com/immomo</smali>
     <smali>com/immomo/momo</smali>
     <smali>com/immomo/momo/protocol</smali>
     <smali>com/immomo/momo/android</smali>
@@ -5106,7 +4678,6 @@
     <smali>com/immomo/momo/account</smali>
     <smali>com/immomo/a</smali>
     <smali>com/immomo/a/a</smali>
-    <smali>com/alipay</smali>
     <smali>com/alipay/sdk</smali>
     <smali>com/alipay/sdk/protocol</smali>
     <smali>com/alipay/sdk/auth</smali>
@@ -5118,19 +4689,16 @@
     <smali>com/alipay/sdk/data</smali>
     <smali>com/alipay/sdk/exception</smali>
     <smali>com/alipay/sdk/sys</smali>
-    <smali>com/amap</smali>
     <smali>com/amap/api</smali>
     <smali>com/amap/api/location</smali>
     <smali>com/amap/api/a</smali>
     <smali>com/amap/api/services</smali>
     <smali>com/amap/api/maps2d</smali>
-    <smali>com/estore</smali>
     <smali>com/estore/sms</smali>
     <smali>com/estore/sms/tools</smali>
     <smali>com/estore/sms/analysis</smali>
     <smali>com/estore/sms/iap</smali>
     <smali>com/estore/sms/web</smali>
-    <smali>com/taobao</smali>
     <smali>com/taobao/newxp</smali>
     <smali>com/taobao/newxp/view</smali>
     <smali>com/taobao/newxp/a</smali>
@@ -5139,15 +4707,10 @@
     <smali>com/taobao/newxp/controller</smali>
     <smali>com/taobao/munion</smali>
     <smali>com/taobao/munion/base</smali>
-    <smali>com/baidu</smali>
     <smali>com/baidu/location</smali>
-    <smali>com/handmark</smali>
     <smali>com/handmark/pulltorefresh</smali>
     <smali>com/handmark/pulltorefresh/library</smali>
-    <smali>com/unicom</smali>
     <smali>com/unicom/dcLoader</smali>
-    <smali>safiap</smali>
-    <smali>safiap/framework</smali>
     <smali>safiap/framework/a</smali>
     <smali>safiap/framework/util</smali>
     <smali>safiap/framework/sdk</smali>
@@ -5155,28 +4718,16 @@
     <smali>safiap/framework/sdk/b</smali>
     <smali>safiap/framework/ui</smali>
     <smali>safiap/framework/ui/res</smali>
-    <smali>c</smali>
-    <smali>c/a</smali>
-    <smali>antistatic</smali>
-    <smali>antistatic/spinnerwheel</smali>
     <smali>antistatic/spinnerwheel/a</smali>
-    <smali>mm</smali>
-    <smali>mm/purchasesdk</smali>
     <smali>mm/purchasesdk/fingerprint</smali>
     <smali>mm/purchasesdk/iapservice</smali>
     <smali>mm/purchasesdk/core</smali>
     <smali>mm/purchasesdk/core/protocol</smali>
     <smali>mm/purchasesdk/core/utils</smali>
     <smali>mm/purchasesdk/sdk</smali>
-    <smali>b</smali>
-    <smali>b/a</smali>
     <smali>b/a/a</smali>
     <smali>b/a/a/a</smali>
-    <smali>org</smali>
-    <smali>org/kobjects</smali>
     <smali>org/kobjects/base64</smali>
-    <smali>pl</smali>
-    <smali>pl/droidsonroids</smali>
     <smali>pl/droidsonroids/gif</smali>
     <asset>traceroute</asset>
     <asset>ap1.data</asset>
@@ -5218,9 +4769,6 @@
   <apk id="com.tencent.ttpic">
     <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="天天P图" file="14b0b4d1c96acd8d196259e5f5218b2b.apk" size="28.0MB" launchableactivity="com.tencent.ttpic.module.MainActivity" versioncode="230" versionname="2.3.0.800" sdkversion="10" targetsdkversion="19"/>
-    <smali>strategy</smali>
-    <smali>android</smali>
-    <smali>android/support</smali>
     <smali>android/support/annotation</smali>
     <smali>android/support/v7</smali>
     <smali>android/support/v7/view</smali>
@@ -5245,8 +4793,6 @@
     <smali>android/support/v4/hardware</smali>
     <smali>android/support/v4/media</smali>
     <smali>android/support/v4/graphics</smali>
-    <smali>oicq</smali>
-    <smali>oicq/wlogin_sdk</smali>
     <smali>oicq/wlogin_sdk/request</smali>
     <smali>oicq/wlogin_sdk/sharemem</smali>
     <smali>oicq/wlogin_sdk/tools</smali>
@@ -5255,20 +4801,13 @@
     <smali>oicq/wlogin_sdk/report</smali>
     <smali>oicq/wlogin_sdk/devicelock</smali>
     <smali>oicq/wlogin_sdk/tlv_type</smali>
-    <smali>it</smali>
-    <smali>it/sephiroth</smali>
     <smali>it/sephiroth/android</smali>
     <smali>it/sephiroth/android/library</smali>
-    <smali>AndroidClientInterface</smali>
-    <smali>com</smali>
-    <smali>com/qq</smali>
     <smali>com/qq/jce</smali>
     <smali>com/qq/jce/wup</smali>
     <smali>com/qq/taf</smali>
     <smali>com/qq/taf/jce</smali>
-    <smali>com/jess</smali>
     <smali>com/jess/ui</smali>
-    <smali>com/tencent</smali>
     <smali>com/tencent/view</smali>
     <smali>com/tencent/view/raw</smali>
     <smali>com/tencent/android</smali>
@@ -5326,34 +4865,19 @@
     <smali>com/tencent/camerasdk/data</smali>
     <smali>com/tencent/camerasdk/ui</smali>
     <smali>com/tencent/camerasdk/b</smali>
-    <smali>com/a</smali>
     <smali>com/a/a</smali>
     <smali>com/a/c</smali>
     <smali>com/a/c/a</smali>
     <smali>com/a/b</smali>
-    <smali>com/microrapid</smali>
     <smali>com/microrapid/opencv</smali>
     <smali>com/microrapid/face</smali>
     <smali>com/microrapid/lensFlare</smali>
-    <smali>com/google</smali>
     <smali>com/google/webp</smali>
-    <smali>com/micro</smali>
     <smali>com/micro/filter</smali>
     <smali>com/micro/filter/a</smali>
-    <smali>DCClientInterface</smali>
-    <smali>common</smali>
-    <smali>LBSClientInterfaceV2</smali>
-    <smali>exceptionupload</smali>
-    <smali>qimei</smali>
-    <smali>face_style</smali>
-    <smali>mqq</smali>
-    <smali>mqq/a</smali>
     <smali>mqq/a/a</smali>
     <smali>mqq/a/a/a</smali>
     <smali>mqq/a/a/b</smali>
-    <smali>userinfo</smali>
-    <smali>PituClientInterface</smali>
-    <smali>CommonClientInterface</smali>
     <asset>com.tencent.open.config.json</asset>
     <asset>encrypt_phone_attrs_config.dat</asset>
     <asset>pack_rouge.dat</asset>
@@ -5997,8 +5521,6 @@
   <apk id="com.sina.weibo">
     <crosswalk iscrosswalk="" mode="" architecture="" webview="yes webkit" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="Weibo" file="weibo_1761.apk" size="34.8MB" launchableactivity="com.sina.weibo.SplashActivity" versioncode="1761" versionname="5.1.0" sdkversion="4" targetsdkversion="14"/>
-    <smali>android</smali>
-    <smali>android/support</smali>
     <smali>android/support/v4</smali>
     <smali>android/support/v4/view</smali>
     <smali>android/support/v4/database</smali>
@@ -6009,17 +5531,11 @@
     <smali>android/support/v4/widget</smali>
     <smali>android/support/v4/accessibilityservice</smali>
     <smali>android/support/v4/os</smali>
-    <smali>android/net</smali>
+    <smali>android/webkit</smali>
     <smali>android/net/http</smali>
-    <smali>android/annotation</smali>
-    <smali>android/telephony</smali>
     <smali>android/telephony/cdma</smali>
-    <smali>android/nfc</smali>
-    <smali>com</smali>
-    <smali>com/mobeta</smali>
     <smali>com/mobeta/android</smali>
     <smali>com/mobeta/android/dslv</smali>
-    <smali>com/iflytek</smali>
     <smali>com/iflytek/a</smali>
     <smali>com/iflytek/msc</smali>
     <smali>com/iflytek/msc/a</smali>
@@ -6030,14 +5546,11 @@
     <smali>com/iflytek/ui/a</smali>
     <smali>com/iflytek/ui/b</smali>
     <smali>com/iflytek/speech</smali>
-    <smali>com/tencent</smali>
     <smali>com/tencent/tauth</smali>
-    <smali>com/alipay</smali>
     <smali>com/alipay/android</smali>
     <smali>com/alipay/android/app</smali>
     <smali>com/alipay/mobile</smali>
     <smali>com/alipay/mobile/command</smali>
-    <smali>com/sina</smali>
     <smali>com/sina/deviceidjnisdk</smali>
     <smali>com/sina/weibo</smali>
     <smali>com/sina/weibo/h</smali>
@@ -6119,12 +5632,9 @@
     <smali>com/sina/push/model</smali>
     <smali>com/sina/push/response</smali>
     <smali>com/sina/b</smali>
-    <smali>com/squareup</smali>
     <smali>com/squareup/otto</smali>
-    <smali>com/yolu</smali>
     <smali>com/yolu/wbc</smali>
     <smali>com/yolu/wbc/sdk</smali>
-    <smali>com/taobao</smali>
     <smali>com/taobao/tae</smali>
     <smali>com/taobao/tae/sdk</smali>
     <smali>com/taobao/dp</smali>
@@ -6138,11 +5648,8 @@
     <smali>com/taobao/dp/b</smali>
     <smali>com/taobao/wireless</smali>
     <smali>com/taobao/wireless/security</smali>
-    <smali>org</smali>
-    <smali>org/apache</smali>
     <smali>org/apache/http</smali>
     <smali>org/apache/http/entity</smali>
-    <smali>org/osgi</smali>
     <smali>org/osgi/framework</smali>
     <asset>html_h_scorll_detect.js</asset>
     <asset>wbjs.js</asset>
@@ -6214,31 +5721,13 @@
   <apk id="com.sankuai.meituan">
     <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name=" 美团团购 " file="40e2ec2e47962b5ef459a1abd27828b7.apk" size="9.9MB" launchableactivity="com.sankuai.meituan.activity.Welcome" versioncode="221" versionname="5.2.1" sdkversion="8" targetsdkversion="19"/>
-    <smali>h</smali>
-    <smali>roboguice</smali>
-    <smali>roboguice/config</smali>
-    <smali>roboguice/service</smali>
     <smali>roboguice/service/event</smali>
-    <smali>roboguice/content</smali>
-    <smali>roboguice/adapter</smali>
-    <smali>roboguice/util</smali>
-    <smali>roboguice/fragment</smali>
-    <smali>roboguice/event</smali>
     <smali>roboguice/event/eventListener</smali>
     <smali>roboguice/event/eventListener/factory</smali>
     <smali>roboguice/event/eventListener/javaassist</smali>
     <smali>roboguice/event/javaassist</smali>
-    <smali>roboguice/test</smali>
     <smali>roboguice/test/shadow</smali>
-    <smali>roboguice/activity</smali>
     <smali>roboguice/activity/event</smali>
-    <smali>roboguice/receiver</smali>
-    <smali>roboguice/inject</smali>
-    <smali>r</smali>
-    <smali>r/a</smali>
-    <smali>s</smali>
-    <smali>android</smali>
-    <smali>android/support</smali>
     <smali>android/support/a</smali>
     <smali>android/support/v7</smali>
     <smali>android/support/v7/a</smali>
@@ -6255,24 +5744,13 @@
     <smali>android/support/v4/widget</smali>
     <smali>android/support/v4/c</smali>
     <smali>android/support/v4/b</smali>
-    <smali>e</smali>
-    <smali>e/a</smali>
     <smali>e/a/a</smali>
-    <smali>w</smali>
-    <smali>w/a</smali>
     <smali>w/a/a</smali>
     <smali>w/a/a/a</smali>
-    <smali>u</smali>
-    <smali>d</smali>
-    <smali>g</smali>
-    <smali>k</smali>
-    <smali>com</smali>
-    <smali>com/e</smali>
     <smali>com/e/a</smali>
     <smali>com/e/a/a</smali>
     <smali>com/e/a/c</smali>
     <smali>com/e/a/b</smali>
-    <smali>com/tencent</smali>
     <smali>com/tencent/connect</smali>
     <smali>com/tencent/connect/common</smali>
     <smali>com/tencent/connect/b</smali>
@@ -6285,13 +5763,9 @@
     <smali>com/tencent/b</smali>
     <smali>com/tencent/b/a</smali>
     <smali>com/tencent/b/b</smali>
-    <smali>com/d</smali>
     <smali>com/d/a</smali>
-    <smali>com/viewpagerindicator</smali>
-    <smali>com/g</smali>
     <smali>com/g/a</smali>
     <smali>com/g/a/a</smali>
-    <smali>com/sankuai</smali>
     <smali>com/sankuai/common</smali>
     <smali>com/sankuai/common/a</smali>
     <smali>com/sankuai/common/net</smali>
@@ -6369,8 +5843,6 @@
     <smali>com/sankuai/mtmp/receiver</smali>
     <smali>com/sankuai/mtmp/b</smali>
     <smali>com/sankuai/mtmp/f</smali>
-    <smali>com/makeramen</smali>
-    <smali>com/alipay</smali>
     <smali>com/alipay/android</smali>
     <smali>com/alipay/android/app</smali>
     <smali>com/alipay/android/mini</smali>
@@ -6378,7 +5850,6 @@
     <smali>com/alipay/trobot/external</smali>
     <smali>com/alipay/test</smali>
     <smali>com/alipay/test/ui</smali>
-    <smali>com/google</smali>
     <smali>com/google/zxing</smali>
     <smali>com/google/zxing/e</smali>
     <smali>com/google/zxing/a</smali>
@@ -6401,23 +5872,18 @@
     <smali>com/google/inject/spi</smali>
     <smali>com/google/inject/matcher</smali>
     <smali>com/google/inject/name</smali>
-    <smali>com/actionbarsherlock</smali>
     <smali>com/actionbarsherlock/internal</smali>
     <smali>com/actionbarsherlock/internal/widget</smali>
-    <smali>com/squareup</smali>
     <smali>com/squareup/a</smali>
     <smali>com/squareup/a/a</smali>
     <smali>com/squareup/picasso</smali>
     <smali>com/squareup/b</smali>
-    <smali>com/flurry</smali>
     <smali>com/flurry/android</smali>
     <smali>com/flurry/sdk</smali>
-    <smali>com/umpay</smali>
     <smali>com/umpay/creditcard</smali>
     <smali>com/umpay/creditcard/android</smali>
     <smali>com/umpay/paysdk</smali>
     <smali>com/umpay/paysdk/meituan</smali>
-    <smali>com/meituan</smali>
     <smali>com/meituan/android</smali>
     <smali>com/meituan/android/hotel</smali>
     <smali>com/meituan/android/group</smali>
@@ -6427,33 +5893,17 @@
     <smali>com/meituan/android/travel</smali>
     <smali>com/meituan/android/base</smali>
     <smali>com/meituan/adview</smali>
-    <smali>com/tenpay</smali>
     <smali>com/tenpay/android</smali>
     <smali>com/tenpay/android/a</smali>
     <smali>com/tenpay/android/oneclickpay</smali>
     <smali>com/tenpay/android/jni</smali>
-    <smali>com/handmark</smali>
     <smali>com/handmark/pulltorefresh</smali>
     <smali>com/handmark/pulltorefresh/library</smali>
-    <smali>com/b</smali>
     <smali>com/b/a</smali>
-    <smali>com/f</smali>
-    <smali>i</smali>
-    <smali>o</smali>
-    <smali>q</smali>
-    <smali>l</smali>
-    <smali>l/a</smali>
-    <smali>t</smali>
-    <smali>j</smali>
-    <smali>b</smali>
-    <smali>org</smali>
-    <smali>org/apache</smali>
     <smali>org/apache/commons</smali>
     <smali>org/apache/commons/lang3</smali>
-    <smali>org/rome</smali>
     <smali>org/rome/android</smali>
     <smali>org/rome/android/ipp</smali>
-    <smali>f</smali>
     <asset>tbl.pvr</asset>
     <asset>tyl.pvr</asset>
     <asset>cities.json</asset>
@@ -6487,10 +5937,7 @@
   <apk id="com.tencent.mm">
     <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="WeChat" file="c26387352cd302dbf0b8a7372ae65ebf.apk" size="35.7MB" launchableactivity="com.tencent.mm.ui.LauncherUI" versioncode="540" versionname="6.1.0.57_r1024329" sdkversion="10" targetsdkversion="16"/>
-    <smali>android</smali>
-    <smali>android/content</smali>
     <smali>android/content/pm</smali>
-    <smali>android/support</smali>
     <smali>android/support/v7</smali>
     <smali>android/support/v7/a</smali>
     <smali>android/support/v7/app</smali>
@@ -6504,31 +5951,22 @@
     <smali>android/support/v4/widget</smali>
     <smali>android/support/v4/c</smali>
     <smali>android/support/v4/b</smali>
-    <smali>oicq</smali>
-    <smali>oicq/wlogin_sdk</smali>
     <smali>oicq/wlogin_sdk/sharemem</smali>
     <smali>oicq/wlogin_sdk/tools</smali>
     <smali>oicq/wlogin_sdk/a</smali>
     <smali>oicq/wlogin_sdk/b</smali>
-    <smali>a</smali>
-    <smali>a/a</smali>
     <smali>a/a/a</smali>
     <smali>a/a/a/a</smali>
     <smali>a/a/a/c</smali>
     <smali>a/a/a/b</smali>
-    <smali>com</smali>
-    <smali>com/jg</smali>
-    <smali>com/qq</smali>
     <smali>com/qq/a</smali>
     <smali>com/qq/a/a</smali>
     <smali>com/qq/taf</smali>
     <smali>com/qq/taf/jce</smali>
-    <smali>com/android</smali>
     <smali>com/android/a</smali>
     <smali>com/android/a/a</smali>
     <smali>com/android/internal</smali>
     <smali>com/android/internal/telephony</smali>
-    <smali>com/tencent</smali>
     <smali>com/tencent/map</smali>
     <smali>com/tencent/map/location</smali>
     <smali>com/tencent/map/a</smali>
@@ -6636,9 +6074,6 @@
     <smali>com/tencent/tmassistantsdk/storage</smali>
     <smali>com/tencent/tmassistantsdk/openSDK</smali>
     <smali>com/tencent/tmassistantsdk/aidl</smali>
-    <smali>MTT</smali>
-    <smali>b</smali>
-    <smali>b/a</smali>
     <smali>b/a/e</smali>
     <smali>b/a/a</smali>
     <smali>b/a/a/a</smali>
@@ -6703,8 +6138,6 @@
   <apk id="com.tencent.qqlive">
     <crosswalk iscrosswalk="" mode="" architecture="" webview="yes" chromium="" coreinternal="" cordova="" intelxdk="" note="Not a Crosswalk based app."/>
     <app name="腾讯视频" file="e1a954c733c8e5976fc35810d073421f.apk" size="18.7MB" launchableactivity="com.tencent.qqlive.activity.WelcomeActivity" versioncode="6182" versionname="3.8.0.6182" sdkversion="9" targetsdkversion="9"/>
-    <smali>android</smali>
-    <smali>android/support</smali>
     <smali>android/support/v4</smali>
     <smali>android/support/v4/view</smali>
     <smali>android/support/v4/content</smali>
@@ -6712,10 +6145,7 @@
     <smali>android/support/v4/app</smali>
     <smali>android/support/v4/c</smali>
     <smali>android/support/v4/b</smali>
-    <smali>android/os</smali>
     <smali>android/os/storage</smali>
-    <smali>oicq</smali>
-    <smali>oicq/wlogin_sdk</smali>
     <smali>oicq/wlogin_sdk/request</smali>
     <smali>oicq/wlogin_sdk/sharemem</smali>
     <smali>oicq/wlogin_sdk/tools</smali>
@@ -6725,24 +6155,15 @@
     <smali>oicq/wlogin_sdk/report</smali>
     <smali>oicq/wlogin_sdk/devicelock</smali>
     <smali>oicq/wlogin_sdk/tlv_type</smali>
-    <smali>tencent</smali>
-    <smali>tencent/com</smali>
     <smali>tencent/com/cftutils</smali>
-    <smali>cn</smali>
-    <smali>cn/com</smali>
     <smali>cn/com/a</smali>
     <smali>cn/com/a/a</smali>
     <smali>cn/com/iresearch</smali>
     <smali>cn/com/iresearch/mapptracker</smali>
-    <smali>cn/mmachina</smali>
-    <smali>a</smali>
-    <smali>com</smali>
-    <smali>com/qq</smali>
     <smali>com/qq/jce</smali>
     <smali>com/qq/jce/wup</smali>
     <smali>com/qq/taf</smali>
     <smali>com/qq/taf/jce</smali>
-    <smali>com/tencent</smali>
     <smali>com/tencent/httpproxy</smali>
     <smali>com/tencent/image</smali>
     <smali>com/tencent/image/util</smali>
@@ -6861,7 +6282,6 @@
     <smali>com/tencent/tmassistantsdk/selfUpdateSDK</smali>
     <smali>com/tencent/tmassistantsdk/f</smali>
     <smali>com/tencent/update</smali>
-    <smali>com/pay</smali>
     <smali>com/pay/image</smali>
     <smali>com/pay/image/cache</smali>
     <smali>com/pay/broadcast</smali>
@@ -6892,21 +6312,13 @@
     <smali>com/pay/ui/payWeb</smali>
     <smali>com/pay/tool</smali>
     <smali>com/pay/api</smali>
-    <smali>com/tenpay</smali>
     <smali>com/tenpay/a</smali>
     <smali>com/tenpay/a/a</smali>
     <smali>com/tenpay/a/c</smali>
     <smali>com/tenpay/a/b</smali>
     <smali>com/tenpay/tenpayplugin</smali>
     <smali>com/tenpay/tenpayplugin/view</smali>
-    <smali>com/paylogin</smali>
     <smali>com/paylogin/sdk</smali>
-    <smali>vspi</smali>
-    <smali>log</smali>
-    <smali>pi</smali>
-    <smali>pi/android</smali>
-    <smali>org</smali>
-    <smali>org/cybergarage</smali>
     <smali>org/cybergarage/upnp</smali>
     <smali>org/cybergarage/upnp/device</smali>
     <smali>org/cybergarage/upnp/event</smali>
