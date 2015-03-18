@@ -1,38 +1,248 @@
 
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html>
 <head>
 	<title>Crosswalk Community (crosswalk-help) Indicators</title>
 	<meta charset="utf-8" >
 	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<meta content="width=device-width, initial-scale=1.0, minimum-scale=0.2, maximum-scale=3.0, user-scalable=yes" name="viewport" />
-	<link href="home-css/home.css" rel="stylesheet" type="text/css">
+    <meta http-equiv='X-UA-Compatible' content='IE=10' />
+    <meta name='author' content='Belem'>
+    <meta content='width=device-width, initial-scale=1.0, minimum-scale=0.2, maximum-scale=3.0, user-scalable=yes' name='viewport' />
+    <link rel='stylesheet' href='static/style.css' />
+    <script type='text/javascript' src='static/jquery-1.11.1.min.js'></script>
 </head>
-
-<body>
  
-	<header>
-		<h1>[ T ]</h1>
-	</header>
-	<nav></nav>
+ 
+  <body>
+    <div id='wrapper'>
+        <header>Crosswalk Community (crosswalk-help) Indicator</header>
+        <div id='bar'></div>
+        <!--<nav>
+            <ul>
+                <li><a href='/' id='lkhome'>Crosswalk Nightly Reports</a></li>
+                <li><a href='/cordova' id='lkCordova'>Cordova Nightly Reports</a></li>
+                <li><a href='/device'>Device Management</a></li>
+            </ul>
 
-	<section>    
-		<article>
-			<a href="community">community</a>
+            <ul class='rnav'>
+                <li><a href='/report' id='lkreport'>Fullpass Reports</a></li>
+            </ul>
+        </nav>
+        -->
 
-			<h4>APK Analyser</h4>
-			<ul>
-				<li><a href="t/apkanalyser/test_app_2015-02-05.xml">test_app_2015-02-05.xml</a></li>
-				<li><a href="t/apkanalyser/china_top_app_2015-02-05.xml">china_top_app_2015-02-05.xml</a></li>
-				<li><a href="t/apkanalyser/china_top_game_2015-02-05.xml">china_top_game_2015-02-05.xml</a></li>
-				<li><a href="t/apkanalyser/crosswalk_top_app_2015-02-05.xml">crosswalk_top_app_2015-02-05.xml</a></li>
-			</ul>
-		</article>	
-		<aside></aside>
-	</section>  
+         <script type="text/javascript">
+			$(function () {
+			    $('#container').highcharts({
+			        chart: {
+			            zoomType: 'xy'
+			        },
+			        title: {
+			            text: 'Crosswalk Community (crosswalk-help) Indicator',
+			            x: -20
+			        },
+			        subtitle: {
+			            text: '',
+			            x: -20
+			        },
+			        xAxis: [{
+			            categories: ['2015.01', '2015.02', '2015.03.17'],
+			            crosshair: true
+			        }],
+			        yAxis: [{ // Primary yAxis
+			            labels: {
+			                format: '{value}%',
+			            },
+			            title: {
+			                text: 'Rate',
 
-	<footer>
-		&copy;2015 Crosswalk QA
-	</footer>
-</body>
+                                min: 0,
+                                max: 100,
+                                plotLines: [{
+                                    value: 0,
+                                    width: 1,
+                                }]
+			            }
+			        }, { // Secondary yAxis
+			            title: {
+			                text: 'Number',
+			                style: {
+			                    color: Highcharts.getOptions().colors[0]
+			                }
+			            },
+			            labels: {
+			                format: '',
+			                style: {
+			                    color: Highcharts.getOptions().colors[0]
+			                }
+			            },
+			            opposite: true
+			        }],
+			        tooltip: {
+			            shared: true
+			        },
+			        legend: {
+			            layout: 'vertical',
+			            align: 'right',
+			            verticalAlign: 'middle',
+			            borderWidth: 0
+			        },
+			         plotOptions: {
+						column: {
+						stacking: 'normal',
+						dataLabels: {
+						enabled: false,
+						style: {
+						color: Highcharts.getOptions().colors[2],
+						}
+						}
+						},
+						spline: {
+						dataLabels: {
+						enabled: true,
+						distance: 5,
+						style: {
+						color: Highcharts.getOptions().colors[0],
+						textShadow: '0px 1px 0px ' + Highcharts.getOptions().colors[0],
+						},
+						formatter: function() {
+						return this.y + '%';
+						}
+						}
+						}
+						},
+			        series: [ {
+			            name: 'No Reply',
+			            type: 'column',
+			            yAxis: 1,
+			            data: [7,10,1],
+			            tooltip: {
+			                valueSuffix: ''
+			            },
+			            stack: 'resolution',
+			            color: Highcharts.getOptions().colors[5],
+			        },
+					{
+			            name: 'Resolved',
+			            type: 'column',
+			            yAxis: 1,
+			            data: [16,25,12],
+			            tooltip: {
+			                valueSuffix: ''
+			            },
+			            stack: 'resolution',
+			            color: Highcharts.getOptions().colors[9],
+			        },
+
+					{
+			            name: 'Replied by QA',
+			            type: 'column',
+			            yAxis: 1,
+			            data: [6,5,4],
+			            tooltip: {
+			                valueSuffix: ''
+			            },
+			            stack: 'qa',
+			            color: Highcharts.getOptions().colors[10],
+			        },
+			        {
+			            name: 'Replied by Developer',
+			            type: 'column',
+			            yAxis: 1,
+			            data: [10,22,8],
+			            tooltip: {
+			                valueSuffix: ''
+			            },
+			            stack: 'qa',
+			            color: Highcharts.getOptions().colors[3],
+			        },
+ 					{
+			            name: 'Issues pushed to Developer by QA',
+			            type: 'column',
+			            yAxis: 1,
+			            data: [4, 6, 0],
+			            tooltip: {
+			                valueSuffix: ''
+			            },
+			            stack: 'askdev',
+			            color: '#34495e',
+			        },
+			        {
+			            name: 'Resolve Rate',
+			            type: 'spline',
+			            data: [69.6, 71.4, 92.3],
+			            tooltip: {
+			                valueSuffix: '%'
+			            },
+			            color: '#1abc9c'
+			        }]
+			    });
+			});
+            </script>
+            <div id="container" style="max-width: 800px; height: 360px; margin: 20px auto"></div>
+
+            <table class="reports">
+                <tbody><tr>
+                    <th>Month</th>
+                    <th>Total</th>
+                    <th>Topics of help</th>
+                    <th>Resolved</th>
+                    <th>No reply</th>
+                    <th>Resolve rate</th>
+                    <th>Reply by QA</th>
+                    <th>Reply by dev</th>
+                    <th>Push to dev by QA</th>
+                    <th>Track in bug</th>
+                    <th>Track in feature</th>
+                </tr>
+                 <tr>
+                 	<td>2015.01</td>
+                    <td>26</td>
+                    <td>23</td>
+                    <td>16</td>
+                    <td>7</td>
+                    <td>69.6%</td>
+                    <td>6</td>
+                    <td>10</td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                	<td>2012.02</td>
+                    <td>36</td>
+                    <td>35</td>
+                    <td>25</td>
+                    <td>10</td>
+                    <td>71.4%</td>
+                    <td>5</td>
+                    <td>22</td>
+                    <td>6</td>
+                    <td>4</td>
+                    <td>0</td>
+
+                </tr>               
+                <tr>
+                	<td>2015.03.17</td>
+                    <td>13</td>
+                    <td>13</td>
+                    <td>12</td>
+                    <td>1</td>
+                    <td>92.3%</td>
+                    <td>4</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>3</td>
+                    <td>1</td>
+
+                </tr>
+            </tbody>
+            </table>
+        <footer>
+            2015 Crosswalk QA
+        </footer>
+    </div>
+        <script type='text/javascript' src='static/highcharts/js/highcharts.js'></script>
+        <script type='text/javascript' src='static/highcharts/js/modules/exporting.js'></script>
+        <script type='text/javascript' src='static/ui.js'></script>
+  </body>
 </html>
