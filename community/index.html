@@ -46,7 +46,7 @@
 			            x: -20
 			        },
 			        xAxis: [{
-			            categories: ['2015.01', '2015.02', '2015.03.17'],
+			            categories: ['2015.01', '2015.02', '2015.03', '2015.04.28'],
 			            crosshair: true
 			        }],
 			        yAxis: [{ // Primary yAxis
@@ -115,7 +115,7 @@
 			            name: 'Open',
 			            type: 'column',
 			            yAxis: 1,
-			            data: [7,10,1],
+			            data: [7,10,0,0],
 			            tooltip: {
 			                valueSuffix: ''
 			            },
@@ -126,7 +126,7 @@
 			            name: 'Resolved',
 			            type: 'column',
 			            yAxis: 1,
-			            data: [16,25,12],
+			            data: [16,25,22,16],
 			            tooltip: {
 			                valueSuffix: ''
 			            },
@@ -137,7 +137,7 @@
 			        {
 			            name: 'Resolve rate',
 			            type: 'spline',
-			            data: [69.6, 71.4, 92.3],
+			            data: [69.6, 71.4, 100,100],
 			            tooltip: {
 			                valueSuffix: '%'
 			            },
@@ -163,7 +163,7 @@
 			            x: -20
 			        },
 			        xAxis: [{
-			            categories: ['2015.01', '2015.02', '2015.03.17'],
+			            categories: ['2015.01', '2015.02', '2015.03', '2015.04.28'],
 			            crosshair: true
 			        }],
 			        yAxis: [{ // Primary yAxis
@@ -232,7 +232,7 @@
 			            name: 'Open',
 			            type: 'column',
 			            yAxis: 1,
-			            data: [7,10,1],
+			            data: [7,10,0,0],
 			            tooltip: {
 			                valueSuffix: ''
 			            },
@@ -243,7 +243,7 @@
 			            name: 'Resolved',
 			            type: 'column',
 			            yAxis: 1,
-			            data: [16,25,12],
+			            data: [16,25,22,16],
 			            tooltip: {
 			                valueSuffix: ''
 			            },
@@ -255,7 +255,7 @@
 			            name: 'Replied by QA',
 			            type: 'column',
 			            yAxis: 1,
-			            data: [6,5,4],
+			            data: [6,5,6,5],
 			            tooltip: {
 			                valueSuffix: ''
 			            },
@@ -266,7 +266,7 @@
 			            name: 'Replied by dev',
 			            type: 'column',
 			            yAxis: 1,
-			            data: [10,22,8],
+			            data: [10,22,16,11],
 			            tooltip: {
 			                valueSuffix: ''
 			            },
@@ -277,7 +277,7 @@
 			            name: 'Pushed to dev by QA',
 			            type: 'column',
 			            yAxis: 1,
-			            data: [4, 6, 0],
+			            data: [4, 6, 0,1],
 			            tooltip: {
 			                valueSuffix: ''
 			            },
@@ -287,7 +287,7 @@
 			        {
 			            name: 'Resolve rate',
 			            type: 'spline',
-			            data: [69.6, 71.4, 92.3],
+			            data: [69.6, 71.4, 100, 100],
 			            tooltip: {
 			                valueSuffix: '%'
 			            },
@@ -331,14 +331,24 @@
 
                 </tr>               
                 <tr>
-                	<td>2015.03.17</td>
-                    <td>13</td>
-                    <td>13</td>
-                    <td>12</td>
-                    <td>1</td>
-                    <td>92.3%</td>
+                	<td>2015.03</td>
+                    <td>22</td>
+                    <td>22</td>
+                    <td>22</td>
+                    <td>0</td>
+                    <td>100%</td>
                     <td>3</td>
                     <td>1</td>
+                </tr>
+                <tr>
+                	<td>2015.04.28</td>
+                    <td>16</td>
+                    <td>16</td>
+                    <td>16</td>
+                    <td>0</td>
+                    <td>100%</td>
+                    <td>3</td>
+                    <td>0</td>
                 </tr>
             </tbody>
             </table>
@@ -353,7 +363,6 @@
                     <th>QA replied</th>
                     <th>Push dev by QA</th>
                     <th>QA involved (reply + push)</th>
-                    <th>QA influence rate (involed/help topics)</th>
                 </tr>
                  <tr>
                  	<td>2015.01</td>
@@ -362,7 +371,6 @@
                     <td>6</td>
                     <td>4</td>
                     <td>10</td>
-                    <td>43.4%</td>
                 </tr>
                 <tr>
                 	<td>2015.02</td>
@@ -371,16 +379,22 @@
                     <td>5</td>
                     <td>6</td>
                     <td>11</td>
-                    <td>31.4%</td>
                 </tr>               
                 <tr>
-                	<td>2015.03.17</td>
-                    <td>13</td>
-                    <td>8</td>
-                    <td>4</td>
+                	<td>2015.03</td>
+                    <td>22</td>
+                    <td>16</td>
+                    <td>6</td>
                     <td>0</td>
-                    <td>4</td>
-                    <td>30.7%</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                	<td>2015.04.28</td>
+                    <td>16</td>
+                    <td>11</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td>6</td>
                 </tr>
             </tbody>
             </table>
