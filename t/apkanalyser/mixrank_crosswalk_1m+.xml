@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type="text/xsl" href="apk-analyser-result.xsl"?>
-<apks datetime="2015-12-11 16:29:43">
+<apks datetime="2015-12-11 16:29:43 | Downloaded by ECS2-7B / x86 / 5.1.1 ">
   <apk id="com.interpark.ebook.wvga22">
     <crosswalk iscrosswalk="yes" mode="embedded" architecture="arm" webview="" chromium="yes" coreinternal="yes" cordova="" xwalkwebvieweg="" intelxdk="" note=""/>
     <app name="인터파크 eBook" file="com.interpark.ebook.wvga22---==---2.8.3.apk" size="53.0MB" launchableactivity="com.interpark.ebook.wvga22.ActEBook" versioncode="134" versionname="2.8.3" sdkversion="14" targetsdkversion="19"/>
