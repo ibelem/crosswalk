@@ -6,7 +6,7 @@
 
 <html>
   <head>
-    <title>Crosswalk APK Analysed Result</title>
+    <title>Crosswalk APK Analyzer Report</title>
     <meta charset='utf-8'/>
     <meta http-equiv='X-UA-Compatible' content='IE=10' />
     <meta name='author' content='Belem, belem.zhang@intel.com' />
