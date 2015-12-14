@@ -61,7 +61,7 @@
   </head>
   <body>
     <div id='wrapper'>
-      <header>Crosswalk APK Analysed Result</header>
+      <header>Crosswalk APK Analyzer Report</header>
       <div>Total APKs: <xsl:value-of select="count(apks/apk)"/></div>
       <div id='toggle'>expand all</div>
       <table class="reports">
