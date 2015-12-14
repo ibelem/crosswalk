@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type="text/xsl" href="apk-analyser-result.xsl"?>
-<apks datetime="2015-12-14 09:40:51">
+<apks datetime="2015-12-14 09:40:51 | Downloaded by ECS2-7B / x86 / 5.1.1 ">
   <apk id="com.stepout">
     <crosswalk iscrosswalk="yes" mode="embedded" architecture="x86" webview="" chromium="yes" coreinternal="yes" cordova="yes" xwalkwebvieweg="yes" intelxdk="" note=""/>
     <app name="Stepout" file="com.stepout---==---3.2.apk" size="24.5MB" launchableactivity="com.stepout.MainActivity" versioncode="1664" versionname="3.2" sdkversion="14" targetsdkversion="21"/>
