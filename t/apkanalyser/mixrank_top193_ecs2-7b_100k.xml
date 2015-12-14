@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type="text/xsl" href="apk-analyser-result.xsl"?>
-<apks datetime="2015-12-14 14:52:13 | Downloaded by ECS2-7B / x86 / 5.1.1 ">
+<apks datetime="2015-12-14 14:52:13 | Downloaded by ECS2-7B / x86 / 5.1.1 | Failed to download 3 apps: com.onoapps.cal4u kr.co.medialog.ucomic com.aeriamobile.android.xmen">
   <apk id="com.elfgames.letsspell">
     <crosswalk iscrosswalk="yes" mode="embedded" architecture="arm" webview="" chromium="yes" coreinternal="yes" cordova="yes" xwalkwebvieweg="" intelxdk="" note=""/>
     <app name="Lets Spell" file="com.elfgames.letsspell---==---1.5.apk" size="30.2MB" launchableactivity="com.elfgames.letsspell.LetsSpell" versioncode="20008" versionname="1.5" sdkversion="14" targetsdkversion="19"/>
