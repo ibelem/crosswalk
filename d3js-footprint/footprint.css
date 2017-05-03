@@ -1,14 +1,11 @@
 #tooltip {
-    border: 1px solid #777;
     font-family: "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
 }
 
 #tooltip label {
-    font-style: italic;
-    font-size: 70%;
+    font-size: 90%;
     display: block;
     float: left;
-    font-weight: bold;
 }
 
 .counties {
